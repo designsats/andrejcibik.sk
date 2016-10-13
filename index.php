@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-	</head>
+
+	<?php include('views/common/head.php') ?>
+
 	<body>
-		yupiiiii
+
+
+
+		<ul class="navigation">
+	    <li><a href="#home">Home</a></li>
+	    <li><a href="#contact">Contact</a></li>
+    </ul>
+
+		<div id="body-content">
+
+		</div>
+
+		<?php include('views/common/footer.php') ?>
+
 	</body>
 </html>
