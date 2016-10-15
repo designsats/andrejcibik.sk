@@ -2,10 +2,10 @@
   color: white
 
 ::selection
-	background: #c14e7c
+	background: $pink
 
 ::-moz-selection
-  background: #c14e7c
+  background: $pink
 
 ::-moz-selection
 	color: white
@@ -18,3 +18,12 @@ img::-moz-selection
 
 body
   -webkit-tap-highlight-color: rgba(0, 0, 0, .3)
+
+
+::-webkit-scrollbar
+	width: 10px
+	height: 4px
+	background: #fff
+
+::-webkit-scrollbar-thumb
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .0)), to(rgba(0, 0, 0, .2)))

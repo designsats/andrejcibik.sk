@@ -108,7 +108,6 @@ figure {
 }
 
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
@@ -180,8 +179,6 @@ input[type="number"]::-webkit-outer-spin-button {
 
 input[type="search"] {
   -webkit-appearance: textfield;
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
 
@@ -224,9 +221,21 @@ th {
   padding: 0;
 }
 
+ul {
+  margin: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: white;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
   font-family: "Open Sans", Helvetica, sans-serif;
   color: #544f51;
@@ -234,8 +243,16 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+::-moz-selection {
+  color: white;
+}
+
 ::selection {
   color: white;
+}
+
+::-moz-selection {
+  background: #c14e7c;
 }
 
 ::selection {
@@ -244,6 +261,14 @@ body {
 
 ::-moz-selection {
   background: #c14e7c;
+}
+
+::-moz-selection {
+  color: white;
+}
+
+img::-moz-selection {
+  background: transparent;
 }
 
 img::selection {
@@ -258,14 +283,23 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
 }
 
-a {
-  color: #0074D9;
-  text-decoration: none;
-  outline: 0;
+::-webkit-scrollbar {
+  width: 10px;
+  height: 4px;
+  background: #fff;
 }
 
-a:hover, a:focus {
-  color: #40a6ff;
+::-webkit-scrollbar-thumb {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.2)));
+}
+
+a {
+  text-decoration: none;
+  color: #544f51;
+}
+
+a:hover {
+  color: #c14e7c;
 }
 
 .gigantic, .huge, .large, .bigger, .big,
@@ -367,3 +401,161 @@ input[type="button"]:focus {
   border-color: #888;
   outline: 0;
 }
+
+.navigation {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 150px;
+  z-index: 9;
+}
+
+.navigation .menu {
+  position: absolute;
+  top: -106px;
+  top-right: -126px;
+  -webkit-transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 100vh;
+}
+
+.navigation .menu .item {
+  display: inline-block;
+  padding-right: 30px;
+  padding-left: 30px;
+  line-height: 150px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #888;
+  transition: all .4s;
+}
+
+.navigation .menu .item:hover, .navigation .menu .item.active {
+  color: #c14e7c;
+}
+
+.navigation .indicator {
+  width: 8px;
+  height: 93px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #e96443;
+  background: linear-gradient(to bottom, #e96443 0%, #c14e7c 100%);
+}
+
+/* GREY FIXED LINES */
+.lines-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.lines-overlay .line {
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  background: black;
+  opacity: .05;
+}
+
+.lines-overlay .line-1 {
+  left: 16.66vw;
+}
+
+.lines-overlay .line-2 {
+  left: 33.33vw;
+}
+
+.lines-overlay .line-3 {
+  left: 49.99vw;
+}
+
+.lines-overlay .line-4 {
+  left: 66.66vw;
+}
+
+.lines-overlay .line-5 {
+  left: 83.33vw;
+}
+
+/* LOGO */
+.logo {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 16.66vw;
+  height: 120px;
+  z-index: 9;
+}
+
+.logo:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all .6s;
+  background: linear-gradient(160deg, rgba(36, 18, 58, 0.15) 0%, rgba(36, 18, 58, 0) 50%);
+  opacity: 0;
+  z-index: -1;
+}
+
+.logo:hover:before {
+  opacity: 1;
+}
+
+.social-links {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+}
+
+.social-links .item {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  color: #888;
+}
+
+.social-links .item:hover {
+  color: #c14e7c;
+}
+
+/* MOUSE MOVE START */
+.page-bg {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.page-bg .mouse-move-el {
+  width: 50vw;
+  height: 50vw;
+}
+
+/* MOUSE MOVE END */

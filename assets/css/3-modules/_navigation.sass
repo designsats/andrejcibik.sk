@@ -1,0 +1,40 @@
+
+.navigation
+	position: fixed
+	right: 0
+	top: 0
+	height: 100vh
+	width: 150px
+	z-index: 9
+
+	.menu
+		position: absolute
+		top: -106px
+    right: -126px
+		transform-origin: bottom left
+		transform: rotate(90deg)
+		width: 100vh
+
+		.item
+			display: inline-block
+			padding-right: 30px
+			padding-left: 30px
+			line-height: 150px
+			font-size: 18px
+			font-weight: 400
+			color: #888
+			transition: all .4s
+
+			&:hover,
+			&.active
+				color: $pink
+
+
+	.indicator
+		width: 8px
+		height: 93px
+		position: absolute
+		right: 0
+		top: 0
+		background: rgba(233,100,67,1)
+		background: linear-gradient(to bottom, rgba(233,100,67,1) 0%, rgba(193,78,124,1) 100%)

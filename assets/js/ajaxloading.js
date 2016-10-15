@@ -3,7 +3,8 @@ var default_content="";
 $(document).ready(function(){
 
 	checkURL();
-	$('.navigation a').click(function (e){
+
+	$('.ajaxlink').click(function (e){
 
 		checkURL(this.hash);
 
@@ -18,8 +19,7 @@ $(document).ready(function(){
 
 var lasturl="";
 
-function checkURL(hash)
-{
+function checkURL(hash) {
 	if(!hash) hash=window.location.hash;
 
 	if(hash != lasturl)
@@ -35,8 +35,7 @@ function checkURL(hash)
 }
 
 
-function loadPage(url)
-{
+function loadPage(url) {
 	url=url.replace('#','');
 
 	$.ajax({
@@ -45,7 +44,7 @@ function loadPage(url)
 		data: 'page='+url,
 		dataType: "html",
 		success: function(msg){
-			
+
 			if(parseInt(msg)!=0)
 			{
 				$('#body-content').html(msg);

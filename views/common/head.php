@@ -16,13 +16,22 @@
 
 	<meta name="theme-color" content="#fff">
 
-  <link rel="shortcut icon" href="favicon.ico">
+	<!-- FavIcon -->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png?v=9" />
+
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 
+	<link rel="stylesheet" href="assets/font/icon-font.css" />
   <link rel="stylesheet" href="assets/css/main.css" />
 
 	<script src="assets/js/jquery-2.1.4.min.js"></script>
 	<script src="assets/js/ajaxloading.js" type="text/javascript"></script>
 
 </head>
+
+<script type="text/javascript">
+	$(function(){
+		document.title =  defaultTitle + ' ' + customTitle;
+	});
+</script>

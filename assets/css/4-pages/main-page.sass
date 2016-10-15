@@ -1,0 +1,94 @@
+
+/* GREY FIXED LINES */
+.lines-overlay
+	position: fixed
+	top: 0
+	left: 0
+	width: 100vw
+	height: 100%
+	pointer-events: none
+	z-index: 10
+
+	.line
+		width: 1px
+		height: 100%
+		position: absolute
+		background: black
+		opacity: .05
+
+	.line-1
+		left: 16.66vw
+
+	.line-2
+		left: 33.33vw
+
+	.line-3
+		left: 49.99vw
+
+	.line-4
+		left: 66.66vw
+
+	.line-5
+		left: 83.33vw
+
+/* LOGO */
+.logo
+	display: inline-flex
+	justify-content: center
+	align-items: center
+	position: fixed
+	top: 0
+	left: 0
+	width: 16.66vw
+	height: 120px
+	z-index: 9
+
+	&:before
+		content: ''
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 0
+		right: 0
+		transition: all .6s
+		background: linear-gradient(160deg, rgba(36,18,58,0.15) 0%, rgba(36,18,58,0) 50%)
+		opacity: 0
+		z-index: -1
+
+	&:hover:before
+		opacity: 1
+
+
+
+.social-links
+	position: absolute
+	bottom: 30px
+	left: 0
+	width: 100%
+
+	.item
+		display: block
+		text-align: center
+		padding: 10px 0
+		color: #888
+
+		&:hover
+			color: $pink
+
+/* MOUSE MOVE START */
+.page-bg
+	z-index: -1
+	position: fixed
+	top: 0
+	left: 0
+	width: 100vw
+	height: 100vh
+	overflow: hidden
+
+	.mouse-move-el
+		width: 50vw
+		height: 50vw
+		//background-image: -webkit-radial-gradient(center center, rgba(36, 18, 58, .04) 10px,  rgba(36, 18, 58, 0) 70%), -webkit-radial-gradient(center center,  rgba(36, 18, 58, .05) 8px,  rgba(36, 18, 58, 0) 40%)
+
+
+/* MOUSE MOVE END */
