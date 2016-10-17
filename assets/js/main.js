@@ -55,6 +55,7 @@ $(document).ready(function() {
 	} /* changeIndicator END */
 
 	menuItem.click(function(){
+		$("html, body").animate({ scrollTop: 0 }, 0);
 		menuItem.removeClass('active')
 		$(this).addClass('active');
 	});
@@ -69,8 +70,38 @@ $(document).ready(function() {
 			x = e.pageX - elWidth / 2,
 	    y = e.pageY - elWidth / 2;
 
-		//el.css('transform', 'translate3d(' + x + 'px,' + y + 'px,0)');
+		el.css('transform', 'translate3d(' + x + 'px,' + y + 'px,0)');
 	});
 // MOUSE REACTION -
+
+
+// SMOOTH SCROLL +
+	// docs https://greensock.com/docs/#/HTML5/GSAP/Plugins/ScrollToPlugin/
+	$(function(){
+
+		var $window = $(window);
+
+		var scrollTime = .5;
+		var scrollDistance = 200;
+
+		$window.on("mousewheel DOMMouseScroll", function(event){
+
+			event.preventDefault();
+
+			var delta = event.originalEvent.wheelDelta/120 || -event.originalEvent.detail/3;
+			var scrollTop = $window.scrollTop();
+			var finalScroll = scrollTop - parseInt(delta*scrollDistance);
+
+			TweenMax.to($window, scrollTime, {
+				scrollTo : { y: finalScroll, autoKill:true },
+					ease: Power1.easeOut,
+					autoKill: true,
+					overwrite: 5
+				});
+
+		});
+
+});
+// SMOOTH SCROLL -
 
 });

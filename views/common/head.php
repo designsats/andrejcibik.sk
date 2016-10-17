@@ -14,7 +14,7 @@
 
 	<title></title>
 
-	<meta name="theme-color" content="#fff">
+	<meta name="theme-color" content="#d25764">
 
 	<!-- FavIcon -->
 	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png?v=9" />
@@ -25,6 +25,7 @@
 	<link rel="stylesheet" href="assets/font/icon-font.css" />
   <link rel="stylesheet" href="assets/css/main.css" />
 
+
 	<script src="assets/js/jquery-2.1.4.min.js"></script>
 	<script src="assets/js/ajaxloading.js" type="text/javascript"></script>
 
@@ -32,6 +33,6 @@
 
 <script type="text/javascript">
 	$(function(){
-		document.title =  defaultTitle + ' ' + customTitle;
-	});
+		document.title =  defaultTitle + ' ' + 'Dizajnér & Frontend developer';
+	})
 </script>

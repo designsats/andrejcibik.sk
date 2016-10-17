@@ -235,10 +235,10 @@ ul li {
 
 body {
   background-color: white;
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 18px;
+  line-height: 1.8;
   font-family: "Open Sans", Helvetica, sans-serif;
-  color: #544f51;
+  color: rgba(95, 95, 95, 0.9);
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
 }
@@ -252,15 +252,15 @@ body {
 }
 
 ::-moz-selection {
-  background: #c14e7c;
+  background: #d25764;
 }
 
 ::selection {
-  background: #c14e7c;
+  background: #d25764;
 }
 
 ::-moz-selection {
-  background: #c14e7c;
+  background: #d25764;
 }
 
 ::-moz-selection {
@@ -295,7 +295,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #544f51;
+  color: rgba(95, 95, 95, 0.9);
 }
 
 a:hover {
@@ -431,7 +431,7 @@ input[type="button"]:focus {
   line-height: 150px;
   font-size: 18px;
   font-weight: 400;
-  color: #888;
+  color: rgba(95, 95, 95, 0.9);
   transition: all .4s;
 }
 
@@ -535,7 +535,8 @@ input[type="button"]:focus {
   display: block;
   text-align: center;
   padding: 10px 0;
-  color: #888;
+  color: rgba(95, 95, 95, 0.9);
+  transition: all .3s;
 }
 
 .social-links .item:hover {
@@ -559,3 +560,7 @@ input[type="button"]:focus {
 }
 
 /* MOUSE MOVE END */
+#body-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
