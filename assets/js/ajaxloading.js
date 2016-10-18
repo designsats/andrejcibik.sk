@@ -38,17 +38,21 @@ function checkURL(hash) {
 function loadPage(url) {
 	url=url.replace('#','');
 
+	$('.load-cont').addClass('show');
+
 	$.ajax({
 		type: "POST",
 		url: "load_page.php",
 		data: 'page='+url,
 		dataType: "html",
-		success: function(msg){
 
+		success: function(msg){
 			if(parseInt(msg)!=0)
 			{
-				$('#body-content').html(msg);
-				$('#loading').css('visibility','hidden');
+				setTimeout(function(){
+					$('.load-cont').removeClass('show');
+					$('#body-content').html(msg);
+				}, 1000);
 			}
 		}
 

@@ -19,7 +19,7 @@
 			<span class="indicator"></span>
 
 			<div class="menu">
-				<a href="#home" class="item ajaxlink active">práce</a>
+				<a href="#home" class="item active">práce</a>
 			  <a href="#contact" class="item ajaxlink">o mne & kontakt</a>
 			</div>
 
@@ -31,6 +31,7 @@
 
 		</nav> <!-- NAVIGATION END -->
 
+		<?php include('views/common/header.php') ?>
 
 		<div class="page-bg">
 			<div class="mouse-move-el"></div>

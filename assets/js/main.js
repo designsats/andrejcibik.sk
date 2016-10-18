@@ -26,6 +26,25 @@ $(document).ready(function() {
 // GLOBAL VARS +
 
 
+// INACTIVE TAB TITLE +
+	$(function() {
+		var message = "Chýbaš mi :(";
+		var original;
+
+		$(window).focus(function() {
+			if (original) {
+				document.title = original;
+			}
+		}).blur(function() {
+			var title = $('title').text();
+			if (title != message) {
+					original = title;
+			}
+			document.title = message;
+		});
+	});
+// INACTIVE TAB TITLE -
+
 // MAIN MENU INDICATOR +
 	var menuItem = $('.menu .item');
 	var	menuIndicator = $('.navigation .indicator');

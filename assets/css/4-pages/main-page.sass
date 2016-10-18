@@ -1,5 +1,5 @@
 
-/* GREY FIXED LINES */
+/* GREY FIXED LINES START */
 .lines-overlay
 	position: fixed
 	top: 0
@@ -11,25 +11,42 @@
 
 	.line
 		width: 1px
-		height: 100%
 		position: absolute
 		background: black
-		opacity: .05
+		animation-fill-mode: forwards
+		height: 100%
+		opacity: .08
+		animation: lines 1.5s
 
 	.line-1
 		left: 16.66vw
 
 	.line-2
 		left: 33.33vw
+		animation-delay: .1s
 
 	.line-3
 		left: 49.99vw
+		animation-delay: .3s
 
 	.line-4
 		left: 66.66vw
+		animation-delay: .5s
 
 	.line-5
 		left: 83.33vw
+		animation-delay: .7s
+
+@keyframes lines
+	0%
+		height: 0
+		opacity: .2
+	100%
+		height: 100%
+		opacity: .08
+
+/* GREY FIXED LINES END */
+
 
 /* LOGO */
 .logo
@@ -39,7 +56,7 @@
 	position: fixed
 	top: 0
 	left: 0
-	width: 16.66vw
+	width: 260px
 	height: 120px
 	z-index: 9
 
@@ -93,6 +110,80 @@
 
 /* MOUSE MOVE END */
 
+
+/* BODY CONTENT START */
+
 #body-content
-	max-width: 700px
 	margin: 0 auto
+	padding: 100px 150px
+	z-index: 1
+
+/* BODY CONTENT END */
+
+
+/* PRELOADER & PAGE TRANSITION START */
+
+.preload-cont,.load-cont
+	pointer-events: none
+	opacity: 1
+	position: fixed
+	top: 0
+	bottom: 0
+	left: 0
+	right: 0
+	line-height: 100%
+	z-index: 2
+
+	.wfi
+		position: fixed
+		left: 50%
+		top: 50%
+		transform: translate(-50%,-50%)
+		color: $grey
+		font-weight: 300
+		font-size: 40px
+		opacity: 0
+		z-index: 3
+		transition: all .6s
+
+	.layer
+		background: #fff
+		z-index: 1
+		position: absolute
+		top: 0
+		left: 0
+		height: 100vw
+		width: 100vw
+		box-shadow: 0 3px 40px rgba(0, 0, 0, .1)
+
+
+.preload-cont
+	.layer
+		animation: preloadSite 1.5s
+		animation-fill-mode: forwards
+		animation-delay: 1s
+
+
+@keyframes preloadSite
+	0%
+		transform: translate3d(0,0%,0)
+
+	100%
+		transform: translate3d(0,-100%,0)
+
+
+.load-cont
+	.layer
+		transform: translate3d(0,-100%,0)
+		transition: all .6s
+
+&.show
+	.layer
+		transform: translate3d(0,0%,0)
+
+&.show .wfi
+	opacity: .5
+
+
+
+/* PRELOADER & PAGE TRANSITION END */
