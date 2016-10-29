@@ -184,6 +184,30 @@
 &.show .wfi
 	opacity: .5
 
-
-
 /* PRELOADER & PAGE TRANSITION END */
+
+
+/* RIPPLE EFFECT - START */
+
+.ripple
+  position: relative
+
+.ripple-effect
+	position: absolute
+	border-radius: 50%
+	width: 50px
+	height: 50px
+	background: black
+	pointer-events: none
+	animation: ripple 1s
+
+@keyframes ripple
+	0%
+	  transform: scale(1)
+	  opacity: 0.05
+
+	100%
+	  transform: scale(100)
+	  opacity: 0
+
+/* RIPPLE EFFECT - END */

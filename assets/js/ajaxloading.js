@@ -12,7 +12,6 @@ $(document).ready(function(){
 
 	default_content = $('#body-content').html();
 
-
 	setInterval("checkURL()",250);
 
 });
@@ -20,7 +19,7 @@ $(document).ready(function(){
 var lasturl="";
 
 function checkURL(hash) {
-	if(!hash) hash=window.location.hash;
+	if(!hash) hash = window.location.hash;
 
 	if(hash != lasturl)
 	{

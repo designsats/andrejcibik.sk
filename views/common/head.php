@@ -9,7 +9,7 @@
 	<meta name="format-detection" content="telephone=no">
 
 	<script type="text/javascript">
-		var defaultTitle = 'Andrej Cibík |';
+		var defaultTitle = '| Andrej Cibík';
 	</script>
 
 	<title></title>

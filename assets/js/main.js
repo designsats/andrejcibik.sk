@@ -14,7 +14,6 @@ $(document).ready(function() {
 
 
 // GLOBAL VARS +
-
 	// global scroll var +
 	var wScroll = $(this).scrollTop();
 
@@ -22,13 +21,12 @@ $(document).ready(function() {
 		wScroll = $(this).scrollTop();
 	});
 	// global scroll var -
-
 // GLOBAL VARS +
 
 
 // INACTIVE TAB TITLE +
 	$(function() {
-		var message = "Chýbaš mi :(";
+		var message = "I miss you :(";
 		var original;
 
 		$(window).focus(function() {
@@ -44,6 +42,7 @@ $(document).ready(function() {
 		});
 	});
 // INACTIVE TAB TITLE -
+
 
 // MAIN MENU INDICATOR +
 	var menuItem = $('.menu .item');
@@ -74,9 +73,11 @@ $(document).ready(function() {
 	} /* changeIndicator END */
 
 	menuItem.click(function(){
-		$("html, body").animate({ scrollTop: 0 }, 0);
-		menuItem.removeClass('active')
+		menuItem.removeClass('active');
 		$(this).addClass('active');
+		setTimeout(function(){
+			$("html, body").animate({ scrollTop: 0 }, 0);
+		}, 100);
 	});
 
 // MAIN MENU INDICATOR -
@@ -117,10 +118,41 @@ $(document).ready(function() {
 					autoKill: true,
 					overwrite: 5
 				});
-
 		});
-
-});
+	});
 // SMOOTH SCROLL -
+
+
+// RIPPLE EFFECT +
+	function Ripple() {
+		var ripple = $('.ripple');
+
+		$(ripple).on('click', function(e){
+
+			var $div = $('<div/>'),
+					btnOffset = $(this).offset(),
+					xPos = event.pageX - btnOffset.left,
+					yPos = event.pageY - btnOffset.top;
+
+			$div.addClass('ripple-effect');
+			var $ripple = $(".ripple-effect");
+
+			$ripple.css("height", $(this).height());
+			$ripple.css("width", $(this).height());
+			$div
+				.css({
+					top: yPos - ($ripple.height()/2) - 20,
+					left: xPos - ($ripple.width()/2) - 20,
+					background: $(this).data("ripple-color")
+				})
+				.appendTo($(this));
+
+			window.setTimeout(function(){
+				$div.remove();
+			}, 800);
+		});
+	}
+	Ripple();
+// RIPPLE EFFECT -
 
 });

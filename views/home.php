@@ -1,7 +1,7 @@
 
 <script type="text/javascript">
 	$(function(){
-		document.title =  defaultTitle + ' ' + 'Dizajnér & Frontend developer';
+		document.title = 'Designer & Frontend developer' + ' ' + defaultTitle;
 	});
 </script>
 

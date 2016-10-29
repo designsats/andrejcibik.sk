@@ -19,8 +19,8 @@
 			<span class="indicator"></span>
 
 			<div class="menu">
-				<a href="#home" class="item active">práce</a>
-			  <a href="#contact" class="item ajaxlink">o mne & kontakt</a>
+				<a href="#home" class="item ajaxlink ripple active">works</a>
+			  <a href="#contact" class="item ajaxlink ripple">about & contact</a>
 			</div>
 
 			<div class="social-links">

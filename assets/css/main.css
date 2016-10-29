@@ -689,3 +689,46 @@ input[type="button"]:focus {
 }
 
 /* PRELOADER & PAGE TRANSITION END */
+/* RIPPLE EFFECT - START */
+.ripple {
+  position: relative;
+}
+
+.ripple-effect {
+  position: absolute;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: black;
+  pointer-events: none;
+  -webkit-animation: ripple 1s;
+          animation: ripple 1s;
+}
+
+@-webkit-keyframes ripple {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0.05;
+  }
+  100% {
+    -webkit-transform: scale(100);
+            transform: scale(100);
+    opacity: 0;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0.05;
+  }
+  100% {
+    -webkit-transform: scale(100);
+            transform: scale(100);
+    opacity: 0;
+  }
+}
+
+/* RIPPLE EFFECT - END */
