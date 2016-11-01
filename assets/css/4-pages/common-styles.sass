@@ -45,10 +45,27 @@
 		height: 100%
 		opacity: .08
 
+.width-lt-1280
+	.line-5,.line-4
+		display: none
+
+	.line-1
+		left: 25vw
+
+	.line-2
+		left: 50vw
+
+	.line-3
+		left: 75vw
+
+.width-lt-980
+	.line
+		display: none
+
 /* GREY FIXED LINES END */
 
 
-/* LOGO */
+/* LOGO START */
 .logo
 	display: inline-flex
 	justify-content: center
@@ -75,8 +92,48 @@
 	&:hover:before
 		opacity: 1
 
+.width-lt-980
+	.logo
+		position: absolute
+		left: 0
+		top: 0
+		width: 155px
+		height: 60px
+		z-index: 0
+
+		&:before
+			display: none
+
+		img
+			width: 120px
+
+/* LOGO END */
 
 
+/* HEADER START */
+
+.width-lt-980
+	.header
+		position: fixed
+		top: 0
+		left: 0
+		width: 100%
+		height: 60px
+		z-index: 2
+
+		&:before
+			content: ''
+			position: absolute
+			bottom: 0
+			left: 15px
+			right: 15px
+			height: 1px
+			background: black
+			opacity: .08
+
+/* HEADER END */
+
+/* SOCIAL LINKS START */
 .social-links
 	position: absolute
 	bottom: 30px
@@ -92,6 +149,18 @@
 
 		&:hover
 			color: $pink
+
+.width-lt-980
+	.social-links
+		text-align: center
+
+		.item
+			display: inline-block
+			padding: 23px 20px
+
+
+/* SOCIAL LINKS END */
+
 
 /* MOUSE MOVE START */
 .page-bg
@@ -118,12 +187,17 @@
 	padding: 100px 150px
 	z-index: 1
 
+.width-lt-980
+	#body-content
+		padding: 90px 20px
+
 /* BODY CONTENT END */
 
 
 /* PRELOADER & PAGE TRANSITION START */
 
 .preload-cont,.load-cont
+	//display: none
 	pointer-events: none
 	opacity: 1
 	position: fixed
@@ -152,10 +226,8 @@
 		position: absolute
 		top: 0
 		left: 0
-		height: 100vw
+		height: 100vh
 		width: 100vw
-		box-shadow: 0 3px 40px rgba(0, 0, 0, .1)
-
 
 .preload-cont
 	.layer
@@ -168,8 +240,12 @@
 	0%
 		transform: translate3d(0,0%,0)
 
+	90%
+		box-shadow: 0 3px 40px rgba(0, 0, 0, .1)
+
 	100%
 		transform: translate3d(0,-100%,0)
+		box-shadow: 0 3px 40px rgba(0, 0, 0, 0)
 
 
 .load-cont
@@ -183,6 +259,10 @@
 
 &.show .wfi
 	opacity: .5
+
+.width-lt-980
+	.load-cont
+		display: none
 
 /* PRELOADER & PAGE TRANSITION END */
 

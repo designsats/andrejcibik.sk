@@ -83,6 +83,23 @@ $(document).ready(function() {
 // MAIN MENU INDICATOR -
 
 
+// MOBILE MENU +
+	var header = $('.header'),
+			mobileMenuToggle = header.find('.mobile-menu-toggle');
+
+	mobileMenuToggle.click(function(){
+		$('body').toggleClass('open-menu');
+	});
+
+	$('.navigation .item').click(function(){
+		setTimeout(function(){
+			$('body').removeClass('open-menu');
+		}, 500);
+	});
+
+// MOBILE MENU -
+
+
 // MOUSE REACTION +
 	$('body').mousemove(function(e) {
 		var el = $('.mouse-move-el');

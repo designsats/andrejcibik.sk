@@ -8,6 +8,33 @@
 	<div class="layer"></div>
 </div>
 
+
+<header class="header">
+	<a href="#home" class="ajaxlink logo"><img src="assets/images/logo.svg" alt="Andrej Cibík, Designer \& Developer" /></a>
+
+	<div class="mobile-menu-toggle ripple">
+		<span class="bar bar-1"></span>
+		<span class="bar bar-2"></span>
+	</div>
+
+</header> <!-- HEADER END -->
+
+<nav class="navigation">
+	<span class="indicator"></span>
+
+	<div class="menu">
+		<a href="#home" class="item ajaxlink ripple active">works</a>
+		<a href="#contact" class="item ajaxlink ripple">about & contact</a>
+	</div>
+
+	<div class="social-links">
+		<a href="" class="item icon-email" title="Email"></a>
+		<a href="" class="item icon-facebook" title="Facebook"></a>
+		<a href="" class="item icon-facebook" title="Behnace"></a>
+	</div>
+
+</nav> <!-- NAVIGATION END -->
+
 <script type="text/javascript">
 	$(window).load(function(){
 		$('body').addClass('loaded');
