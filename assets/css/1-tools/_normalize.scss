@@ -239,3 +239,11 @@ ul li {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+:focus {
+	outline:none;
+}
+
+::-moz-focus-inner {
+	border:0;
+}

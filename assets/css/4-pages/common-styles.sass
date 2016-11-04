@@ -19,7 +19,7 @@
 		animation: lines 1.5s
 
 	.line-1
-		left: 16.66vw
+		left: 16.2vw
 
 	.line-2
 		left: 33.33vw
@@ -34,7 +34,7 @@
 		animation-delay: .5s
 
 	.line-5
-		left: 83.33vw
+		left: 82.8vw
 		animation-delay: .7s
 
 @keyframes lines
@@ -171,6 +171,7 @@
 	width: 100vw
 	height: 100vh
 	overflow: hidden
+	transition: background .6s
 
 	.mouse-move-el
 		width: 50vw
@@ -184,11 +185,11 @@
 
 #body-content
 	margin: 0 auto
-	padding: 100px 150px
 	z-index: 1
 
 .width-lt-980
 	#body-content
+		width: 100%
 		padding: 90px 20px
 
 /* BODY CONTENT END */
@@ -235,12 +236,11 @@
 		animation-fill-mode: forwards
 		animation-delay: 1s
 
-
 @keyframes preloadSite
 	0%
 		transform: translate3d(0,0%,0)
 
-	90%
+	95%
 		box-shadow: 0 3px 40px rgba(0, 0, 0, .1)
 
 	100%
@@ -252,6 +252,7 @@
 	.layer
 		transform: translate3d(0,-100%,0)
 		transition: all .6s
+		box-shadow: 0 3px 40px rgba(0, 0, 0, .1)
 
 &.show
 	.layer

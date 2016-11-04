@@ -73,11 +73,17 @@ $(document).ready(function() {
 	} /* changeIndicator END */
 
 	menuItem.click(function(){
+
+		if ($(this).hasClass('active')) {
+				$("html, body").animate({ scrollTop: 0 }, 300);
+		} else {
+			setTimeout(function(){
+				$("html, body").animate({ scrollTop: 0 }, 0);
+			}, 100);
+		}
+
 		menuItem.removeClass('active');
 		$(this).addClass('active');
-		setTimeout(function(){
-			$("html, body").animate({ scrollTop: 0 }, 0);
-		}, 100);
 	});
 
 // MAIN MENU INDICATOR -
@@ -94,9 +100,8 @@ $(document).ready(function() {
 	$('.navigation .item').click(function(){
 		setTimeout(function(){
 			$('body').removeClass('open-menu');
-		}, 500);
+		}, 700);
 	});
-
 // MOBILE MENU -
 
 
@@ -171,5 +176,6 @@ $(document).ready(function() {
 	}
 	Ripple();
 // RIPPLE EFFECT -
+
 
 });

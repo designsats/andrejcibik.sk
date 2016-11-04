@@ -8,6 +8,13 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="format-detection" content="telephone=no">
 
+	<meta property="og:title" content="Andrej Cibík - portfolio" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="Andrejcibik.sk" />
+	<meta property="og:image" content="http://andrejcibik.6f.sk/assets/images/og-image.jpg" />
+	<meta property="og:description" content="Hi nice people. Im Andy." />
+
 	<script type="text/javascript">
 		var defaultTitle = '| Andrej Cibík';
 	</script>
@@ -30,9 +37,3 @@
 	<script src="assets/js/ajaxloading.js" type="text/javascript"></script>
 
 </head>
-
-<script type="text/javascript">
-	$(function(){
-		document.title =  defaultTitle + ' ' + 'Dizajnér & Frontend developer';
-	})
-</script>
