@@ -5,9 +5,7 @@ $(document).ready(function(){
 	checkURL();
 
 	$('.ajaxlink').click(function (e){
-
 		checkURL(this.hash);
-
 	});
 
 	default_content = $('#body-content').html();
@@ -52,6 +50,9 @@ function loadPage(url) {
 					$('.load-cont').removeClass('show');
 					$('#body-content').html(msg);
 				}, 1000);
+
+				// Clear bgColor
+				$('.page-bg').css('background', 'none');
 			}
 		}
 

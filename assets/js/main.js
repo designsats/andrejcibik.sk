@@ -79,7 +79,7 @@ $(document).ready(function() {
 		} else {
 			setTimeout(function(){
 				$("html, body").animate({ scrollTop: 0 }, 0);
-			}, 100);
+			}, 500);
 		}
 
 		menuItem.removeClass('active');

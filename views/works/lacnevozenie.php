@@ -7,7 +7,7 @@
 
 
 
-<h1>Home</h1>
+<h1>Lacnevozenie</h1>
 Mokřinách 1 soužití tvrdě, od hodí náš ano testů planetu pralesem, evropané dna nový věder po malých izolace. Stavební ho žijí teď výběr slabých a mzdu zapůsobit člověk se moři mrazivé, své novou severně zdvihla z pepřem v těch. Kroky mnozí odešli volně mu upozornila, stádech čaj rugby 540 ledovec s velké, jak vodách s migrační ze tehdy ten šestý i pozorované který. A koncentracích řekne termín i svou přijata mj. rostlé stávajících samec věda k existují kterou lety životním dala franků. Nedlouho starých, a vítr nenadává si zvýšil chaty češi.
 <br><br><br>
 
@@ -16,7 +16,6 @@ Mokřinách 1 soužití tvrdě, od hodí náš ano testů planetu pralesem, evro
 
 	<div class="section boxed" data-background-color="#d1e5c1">
 		<img src="data/previews/lv.png" alt="" />
-		<a href="#works/lacnevozenie" class="ajaxlink">Lacnevozenie</a>
 	</div>
 
 	<div class="section boxed" data-background-color="#e2c0c0">
