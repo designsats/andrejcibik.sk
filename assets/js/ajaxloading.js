@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 	checkURL();
 
-	$('.ajaxlink').click(function (e){
+	$('.menu .item').click(function (e){
 		checkURL(this.hash);
 	});
 
@@ -44,17 +44,28 @@ function loadPage(url) {
 		dataType: "html",
 
 		success: function(msg){
-			if(parseInt(msg)!=0)
-			{
-				setTimeout(function(){
+
+			if(parseInt(msg)!=0) {
+
+				if ($(window).width() > 980) {
+					setTimeout(function(){
+						$('.load-cont').removeClass('show');
+						$('#body-content').html(msg);
+					}, 1000);
+				} else {
 					$('.load-cont').removeClass('show');
 					$('#body-content').html(msg);
-				}, 1000);
+				}
+
+				setTimeout(function(){
+					$("html, body").animate({ scrollTop: 0 }, 0);
+				}, 500);
 
 				// Clear bgColor
 				$('.page-bg').css('background', 'none');
 			}
-		}
+
+		} // Success msg -
 
 	});
 

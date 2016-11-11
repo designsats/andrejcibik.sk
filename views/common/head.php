@@ -2,11 +2,12 @@
 	<meta name="author" content="Andrej Cibík">
 	<meta charset="UTF-8">
 	<meta name="description" content="">
-	<meta name="robots" content="index,follow">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="format-detection" content="telephone=no">
+
+	<meta name="robots" content="noindex" />
 
 	<meta property="og:title" content="Andrej Cibík - portfolio" />
 	<meta property="og:type" content="website" />

@@ -10,7 +10,7 @@
 
 
 <header class="header">
-	<a href="#home" class="ajaxlink logo"><img src="assets/images/logo.svg" alt="Andrej Cibík, Designer \& Developer" /></a>
+	<a href="#home" class="logo"><img src="assets/images/logo.svg" alt="Andrej Cibík, Designer \& Developer" /></a>
 
 	<div class="mobile-menu-toggle ripple">
 		<span class="bar bar-1"></span>
@@ -23,8 +23,8 @@
 	<span class="indicator"></span>
 
 	<div class="menu">
-		<a href="#home" class="item ajaxlink ripple active">works</a>
-		<a href="#contact" class="item ajaxlink ripple">about & contact</a>
+		<a href="#home" class="item ripple active">works</a>
+		<a href="#contact" class="item ripple">about & contact</a>
 	</div>
 
 	<div class="social-links">

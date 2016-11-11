@@ -100,7 +100,7 @@ $(document).ready(function() {
 	$('.navigation .item').click(function(){
 		setTimeout(function(){
 			$('body').removeClass('open-menu');
-		}, 700);
+		}, 500);
 	});
 // MOBILE MENU -
 
