@@ -178,4 +178,22 @@ $(document).ready(function() {
 // RIPPLE EFFECT -
 
 
+// FOOTER REAVEAL START +
+	function fHeight() {
+		var footerHeight = $('.footer').height(),
+				bodyContent = $('#body-content');
+		if ( $(window).width() >= 640 ) {
+			bodyContent.css('margin-bottom', footerHeight);
+		} else {
+			bodyContent.css('margin-bottom', 0);
+		}
+	}
+
+	$(window).resize(function(){
+		fHeight();
+	});
+
+	fHeight();
+// FOOTER REAVEAL START -
+
 });

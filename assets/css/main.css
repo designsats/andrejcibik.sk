@@ -311,54 +311,38 @@ a:hover {
   color: #d25764;
 }
 
-.gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  color: #222;
-  font-weight: bold;
+  margin: 0;
 }
 
-.gigantic {
-  font-size: 110px;
-  line-height: 1.09;
-  letter-spacing: -2px;
-}
-
-.huge, h1 {
+h1, .h1 {
   font-size: 68px;
-  line-height: 1.05;
+  line-height: 1.2;
   letter-spacing: -1px;
 }
 
-.large, h2 {
+h2, .h2 {
   font-size: 42px;
   line-height: 1.14;
 }
 
-.bigger, h3 {
+h3, .h3 {
   font-size: 26px;
   line-height: 1.38;
 }
 
-.big, h4 {
+h4, .h4 {
   font-size: 22px;
   line-height: 1.38;
 }
 
-.small, small {
+small {
   font-size: 10px;
   line-height: 1.2;
 }
 
-p {
-  margin: 0 0 20px 0;
-}
-
-em {
-  font-style: italic;
-}
-
 strong {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 hr {
@@ -566,6 +550,30 @@ input[type="button"]:focus {
   max-width: 66.66vw;
 }
 
+.footer {
+  height: 140px;
+  width: 100%;
+  background: #ecedf1;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.footer .author {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  padding: 40px 20px;
+}
+
+.width-lt-640 .footer {
+  position: relative;
+}
+
 /* GREY FIXED LINES START */
 .lines-overlay {
   position: fixed;
@@ -745,7 +753,7 @@ input[type="button"]:focus {
 }
 
 .social-links .item:hover {
-  color: #c14e7c;
+  color: #d25764;
 }
 
 .width-lt-980 .social-links {
@@ -778,7 +786,9 @@ input[type="button"]:focus {
 /* MOUSE MOVE END */
 /* BODY CONTENT START */
 #body-content {
+  background: white;
   margin: 0 auto;
+  box-shadow: 0 3px 40px rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
 
