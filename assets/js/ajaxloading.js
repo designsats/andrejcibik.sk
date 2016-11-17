@@ -54,7 +54,7 @@ function loadPage(url) {
 					}, 1000);
 				} else {
 					$('.load-cont').removeClass('show');
-					$('#body-content').html(msg);
+					$('.body-content').html(msg);
 				}
 
 				setTimeout(function(){

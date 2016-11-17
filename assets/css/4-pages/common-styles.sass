@@ -1,6 +1,11 @@
 
+/* tmp */
+.souhrn
+	display: none
+
 /* GREY FIXED LINES START */
 .lines-overlay
+	display: none
 	position: fixed
 	top: 0
 	left: 0
@@ -36,6 +41,10 @@
 	.line-5
 		left: 82.8vw
 		animation-delay: .7s
+
+.width-gt-980
+	.lines-overlay
+		display: block
 
 @keyframes lines
 	0%
@@ -177,14 +186,14 @@
 
 /* BODY CONTENT START */
 
-#body-content
+.body-content
 	background: white
 	margin: 0 auto
-	box-shadow: 0 3px 40px rgba(0, 0, 0, 0.1)
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1)
 	z-index: 1
 
 .width-lt-980
-	#body-content
+	.body-content
 		width: 100%
 		padding: 90px 20px
 

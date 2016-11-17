@@ -181,7 +181,7 @@ $(document).ready(function() {
 // FOOTER REAVEAL START +
 	function fHeight() {
 		var footerHeight = $('.footer').height(),
-				bodyContent = $('#body-content');
+				bodyContent = $('.body-content');
 		if ( $(window).width() >= 640 ) {
 			bodyContent.css('margin-bottom', footerHeight);
 		} else {

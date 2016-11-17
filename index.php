@@ -19,7 +19,7 @@
 			<div class="mouse-move-el"></div>
 		</div>
 
-		<div id="body-content">
+		<div class="body-content">
 			<?php include('views/home.php') ?>
 		</div> <!-- BODY-CONTENT END -->
 

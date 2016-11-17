@@ -261,15 +261,15 @@ body {
 }
 
 ::-moz-selection {
-  background: #d25764;
+  background: #bf2e48;
 }
 
 ::selection {
-  background: #d25764;
+  background: #bf2e48;
 }
 
 ::-moz-selection {
-  background: #d25764;
+  background: #bf2e48;
 }
 
 ::-moz-selection {
@@ -308,7 +308,7 @@ a {
 }
 
 a:hover {
-  color: #d25764;
+  color: #bf2e48;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -434,7 +434,7 @@ input[type="button"]:focus {
 }
 
 .navigation .menu .item:hover, .navigation .menu .item.active {
-  color: #d25764;
+  color: #bf2e48;
 }
 
 .navigation .indicator {
@@ -574,8 +574,14 @@ input[type="button"]:focus {
   position: relative;
 }
 
+/* tmp */
+.souhrn {
+  display: none;
+}
+
 /* GREY FIXED LINES START */
 .lines-overlay {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -623,6 +629,10 @@ input[type="button"]:focus {
   left: 82.8vw;
   -webkit-animation-delay: .7s;
           animation-delay: .7s;
+}
+
+.width-gt-980 .lines-overlay {
+  display: block;
 }
 
 @-webkit-keyframes lines {
@@ -753,7 +763,7 @@ input[type="button"]:focus {
 }
 
 .social-links .item:hover {
-  color: #d25764;
+  color: #bf2e48;
 }
 
 .width-lt-980 .social-links {
@@ -785,14 +795,14 @@ input[type="button"]:focus {
 
 /* MOUSE MOVE END */
 /* BODY CONTENT START */
-#body-content {
+.body-content {
   background: white;
   margin: 0 auto;
-  box-shadow: 0 3px 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
 
-.width-lt-980 #body-content {
+.width-lt-980 .body-content {
   width: 100%;
   padding: 90px 20px;
 }

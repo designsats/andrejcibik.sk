@@ -22,7 +22,7 @@
 
 	<title></title>
 
-	<meta name="theme-color" content="#d25764">
+	<meta name="theme-color" content="#bf2e48">
 
 	<!-- FavIcon -->
 	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png?v=9" />
