@@ -488,7 +488,7 @@ input[type="button"]:focus {
   -webkit-transform: translate3d(0, -100vh, 0);
           transform: translate3d(0, -100vh, 0);
   transition: all .6s;
-  z-index: 0;
+  z-index: 1;
 }
 
 .width-lt-980 .navigation .indicator {
@@ -609,6 +609,14 @@ input[type="button"]:focus {
 
 .width-lt-640 .footer {
   position: relative;
+}
+
+.gMap {
+  height: 50vh;
+}
+
+.gm-style-cc {
+  visibility: hidden;
 }
 
 /* tmp */
@@ -1006,7 +1014,7 @@ input[type="button"]:focus {
   0% {
     -webkit-transform: scale(1);
             transform: scale(1);
-    opacity: 0.15;
+    opacity: 0.1;
   }
   100% {
     -webkit-transform: scale(100);
@@ -1019,7 +1027,7 @@ input[type="button"]:focus {
   0% {
     -webkit-transform: scale(1);
             transform: scale(1);
-    opacity: 0.15;
+    opacity: 0.1;
   }
   100% {
     -webkit-transform: scale(100);
