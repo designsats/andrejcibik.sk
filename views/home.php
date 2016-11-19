@@ -5,15 +5,15 @@
 	});
 </script>
 
+<section class="hero-section">
 
-
-<h1>Home</h1>
+</section>
 
 <div class="works-cont">
 
-	<div class="section boxed" data-background-color="#d1e5c1">
+	<div class="section boxed centered" data-background-color="#d1e5c1">
 		<img src="data/previews/lv.png" alt="" />
-		<a href="#works/lacnevozenie">Lacnevozenie</a>
+		<a href="#works/lacnevozenie" class="button button--ripple rippleHover">Lacnevozenie.sk</a>
 	</div>
 
 </div>
@@ -26,5 +26,7 @@ Každou mohla chyba současné k patronuje i leží vodě nebyl boží, létě E
 <br><br><br>
 
 
-
-<script src="assets/js/views.js" type="text/javascript"></script>
+<script>
+  var url = "assets/js/views.js";
+  $.getScript(url);
+</script>

@@ -43,4 +43,7 @@ Každou mohla chyba současné k patronuje i leží vodě nebyl boží, létě E
 <br><br><br>
 
 
-<script src="assets/js/views.js" type="text/javascript"></script>
+<script>
+  var url = "assets/js/views.js";
+  $.getScript(url);
+</script>

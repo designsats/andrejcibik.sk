@@ -1,6 +1,26 @@
 
+/* COLORS START */
 
 $pink:  #c14e7c
 $orange:  #e96443
 $grey: rgba(95, 95, 95, .9)
 $red: #bf2e48
+
+/* COLORS END */
+
+
+/* COLOR MIXINS START */
+
+@mixin verticalGad
+	background: rgba(233,100,67,1)
+	background: linear-gradient(to bottom, rgba(233,100,67,1) 0%, rgba(193,78,124,1) 100%)
+
+@mixin horizontalGrad
+	background: rgba(233,100,67,1)
+	background: linear-gradient(to right, rgba(233,100,67,1) 0%, rgba(193,78,124,1) 100%)
+
+@mixin diagonalGrad
+	background: rgba(233,100,67,1)
+	background: linear-gradient(45deg, rgba(233,100,67,1) 0%, rgba(193,78,124,1) 100%)
+
+/* COLOR MIXINS END */

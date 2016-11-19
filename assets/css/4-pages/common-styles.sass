@@ -171,7 +171,7 @@
 	position: fixed
 	top: 0
 	left: 0
-	width: 100vw
+	width: 100%
 	height: 100vh
 	overflow: hidden
 	transition: background .6s
@@ -278,6 +278,10 @@
 .ripple
   position: relative
 
+.rippleHover
+	position: relative
+	overflow: hidden
+
 .ripple-effect
 	position: absolute
 	border-radius: 50%
@@ -285,12 +289,31 @@
 	height: 50px
 	background: black
 	pointer-events: none
-	animation: ripple 1s
+	animation: ripple 1.5s
 
 @keyframes ripple
 	0%
 	  transform: scale(1)
 	  opacity: 0.05
+
+	100%
+	  transform: scale(100)
+	  opacity: 0
+
+.ripple-effect--hover
+	position: absolute
+	border-radius: 50%
+	width: 50px
+	height: 50px
+	background: black
+	pointer-events: none
+	overflow: hidden
+	animation: rippleHover 2.5s
+
+@keyframes rippleHover
+	0%
+	  transform: scale(1)
+	  opacity: 0.15
 
 	100%
 	  transform: scale(100)

@@ -146,11 +146,11 @@ $(document).ready(function() {
 
 
 // RIPPLE EFFECT +
+
 	function Ripple() {
 		var ripple = $('.ripple');
 
-		$(ripple).on('click', function(e){
-
+		$(ripple).on('click',function(e){
 			var $div = $('<div/>'),
 					btnOffset = $(this).offset(),
 					xPos = event.pageX - btnOffset.left,
@@ -175,6 +175,7 @@ $(document).ready(function() {
 		});
 	}
 	Ripple();
+
 // RIPPLE EFFECT -
 
 

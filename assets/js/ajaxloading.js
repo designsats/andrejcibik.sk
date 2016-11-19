@@ -8,7 +8,7 @@ $(document).ready(function(){
 		checkURL(this.hash);
 	});
 
-	default_content = $('#body-content').html();
+	default_content = $('.body-content').html();
 
 	setInterval("checkURL()",250);
 
@@ -24,7 +24,7 @@ function checkURL(hash) {
 		lasturl=hash;
 
 		if(hash=="")
-		$('#body-content').html(default_content);
+		$('.body-content').html(default_content);
 
 		else
 		loadPage(hash);
@@ -50,7 +50,7 @@ function loadPage(url) {
 				if ($(window).width() > 980) {
 					setTimeout(function(){
 						$('.load-cont').removeClass('show');
-						$('#body-content').html(msg);
+						$('.body-content').html(msg);
 					}, 1000);
 				} else {
 					$('.load-cont').removeClass('show');

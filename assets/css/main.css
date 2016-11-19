@@ -242,6 +242,14 @@ ul li {
   border: 0;
 }
 
+.centered {
+  text-align: center;
+}
+
+/* COLORS START */
+/* COLORS END */
+/* COLOR MIXINS START */
+/* COLOR MIXINS END */
 body {
   background-color: white;
   font-size: 18px;
@@ -359,20 +367,13 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #555;
+  padding: 14px 77px;
   text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 300;
   text-decoration: none;
-  white-space: nowrap;
   background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #bbb;
+  border: 1px solid rgba(0, 0, 0, 0.15);
   cursor: pointer;
   box-sizing: border-box;
 }
@@ -390,9 +391,38 @@ input[type="reset"]:focus,
 input[type="button"]:hover,
 input[type="button"]:active,
 input[type="button"]:focus {
-  color: #333;
-  border-color: #888;
   outline: 0;
+}
+
+.button {
+  transition: all .5s;
+  margin: 10px 20px;
+}
+
+.button--ripple {
+  position: relative;
+}
+
+.button--ripple:hover {
+  color: #333 !important;
+}
+
+.button--ripple:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform-origin: center center;
+      -ms-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  width: 5px;
+  height: 5px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  transition: all 0s;
 }
 
 .width-gt-980 .navigation {
@@ -541,6 +571,13 @@ input[type="button"]:focus {
   display: none;
 }
 
+/* HERO SECTION START */
+.hero-section {
+  display: none;
+  height: 1140px;
+}
+
+/* HERO SECTION END */
 .section {
   min-height: 100vh;
 }
@@ -782,7 +819,7 @@ input[type="button"]:focus {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   overflow: hidden;
   transition: background .6s;
@@ -911,6 +948,11 @@ input[type="button"]:focus {
   position: relative;
 }
 
+.rippleHover {
+  position: relative;
+  overflow: hidden;
+}
+
 .ripple-effect {
   position: absolute;
   border-radius: 50%;
@@ -918,8 +960,8 @@ input[type="button"]:focus {
   height: 50px;
   background: black;
   pointer-events: none;
-  -webkit-animation: ripple 1s;
-          animation: ripple 1s;
+  -webkit-animation: ripple 1.5s;
+          animation: ripple 1.5s;
 }
 
 @-webkit-keyframes ripple {
@@ -940,6 +982,44 @@ input[type="button"]:focus {
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 0.05;
+  }
+  100% {
+    -webkit-transform: scale(100);
+            transform: scale(100);
+    opacity: 0;
+  }
+}
+
+.ripple-effect--hover {
+  position: absolute;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: black;
+  pointer-events: none;
+  overflow: hidden;
+  -webkit-animation: rippleHover 2.5s;
+          animation: rippleHover 2.5s;
+}
+
+@-webkit-keyframes rippleHover {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0.15;
+  }
+  100% {
+    -webkit-transform: scale(100);
+            transform: scale(100);
+    opacity: 0;
+  }
+}
+
+@keyframes rippleHover {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0.15;
   }
   100% {
     -webkit-transform: scale(100);
