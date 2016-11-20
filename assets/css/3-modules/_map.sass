@@ -2,5 +2,56 @@
 .gMap
 	height: 50vh
 
+.width-lt-640
+	.gMap
+		height: 280px
+
 .gm-style-cc
 	visibility: hidden
+
+.gm-style
+	.gm-style-iw
+		text-align: center
+
+.gMap-iw
+	font-size: 16px
+	line-height: 1
+	text-align: center
+	padding: 10px
+	padding-bottom: 5px
+
+	& a:hover
+		color: $red
+		text-decoration: none
+
+.gMap
+	img[src="assets/images/marker.png"]
+		animation: pulse 3s infinite
+
+	img[src="assets/images/marker-lt-980.png"]
+		animation: pulse 3s infinite
+
+@keyframes pulse
+	0%,100%
+		transform: scale(1)
+
+	50%
+		transform: scale(.8)
+
+.iw-invisible
+	opacity: 0
+
+.iw-visible
+	transform-origin: bottom center
+	animation: isVisible .3s
+	animation-delay: .1s
+	animation-fill-mode: forwards
+
+@keyframes isVisible
+	0%
+		transform: scale(.6) translateY(20px)
+		opacity: 0
+
+	100%
+		transform: scale(1) translateY(0px)
+		opacity: 1

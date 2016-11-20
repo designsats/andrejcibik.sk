@@ -24,6 +24,6 @@
 		</div> <!-- BODY-CONTENT END -->
 
 		<?php include('views/common/footer.php') ?>
-
+		
 	</body>
 </html>
