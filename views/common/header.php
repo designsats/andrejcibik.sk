@@ -10,7 +10,8 @@
 
 
 <header class="header">
-	<a href="#home" class="logo"><img src="assets/images/logo.svg" alt="Andrej Cibík, Designer \& Developer" /></a>
+
+	<a href="#home" class="logo" alt="Andrej Cibík, Designer \& Developer"></a>
 
 	<div class="mobile-menu-toggle ripple">
 		<span class="bar bar-1"></span>

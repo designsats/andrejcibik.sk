@@ -33,8 +33,8 @@
 	<link rel="stylesheet" href="assets/font/icon-font.css" />
   <link rel="stylesheet" href="assets/css/main.css" />
 
-
 	<script src="assets/js/jquery-2.1.4.min.js"></script>
+	<script src="assets/js/jquery-ui-1.10.4.custom.min.js"></script>
 	<script src="assets/js/ajaxloading.js" type="text/javascript"></script>
 
 </head>

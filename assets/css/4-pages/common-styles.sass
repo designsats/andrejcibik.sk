@@ -82,6 +82,7 @@
 	position: fixed
 	top: 0
 	left: 0
+	background: url('../images/logo.svg') center center no-repeat
 	width: 260px
 	height: 120px
 	z-index: 9
@@ -94,12 +95,17 @@
 		left: 0
 		right: 0
 		transition: all .6s
-		background: linear-gradient(160deg, rgba(36,18,58,0.15) 0%, rgba(36,18,58,0) 50%)
+		background: linear-gradient(160deg, rgba(51,51,51,.25) 0%, rgba(51,51,51,.2) 10%, rgba(51,51,51,0) 50%)
 		opacity: 0
 		z-index: -1
 
 	&:hover:before
 		opacity: 1
+
+.width-gt-980
+	.logo
+		&.clip-light
+			background-image: url('../images/logo-light.svg')
 
 .width-lt-980
 	.logo
@@ -109,12 +115,11 @@
 		width: 155px
 		height: 60px
 		z-index: 0
+		background-size: 120px
 
 		&:before
 			display: none
 
-		img
-			width: 120px
 
 /* LOGO END */
 
@@ -134,35 +139,6 @@
 		box-shadow: 0 3px 40px rgba(0, 0, 0, 0.1)
 
 /* HEADER END */
-
-
-/* SOCIAL LINKS START */
-.social-links
-	position: absolute
-	bottom: 30px
-	left: 0
-	width: 100%
-
-	.item
-		display: block
-		text-align: center
-		padding: 10px 0
-		color: $grey
-		transition: all .3s
-
-		&:hover
-			color: $red
-
-.width-lt-980
-	.social-links
-		text-align: center
-
-		.item
-			display: inline-block
-			padding: 23px 20px
-
-
-/* SOCIAL LINKS END */
 
 
 /* MOUSE MOVE START */

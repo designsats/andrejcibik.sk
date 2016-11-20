@@ -77,7 +77,6 @@
 	.navigation
 		transform: translate3d(0,0,0)
 
-
 .header
 	.mobile-menu-toggle
 		height: 60px
@@ -117,3 +116,48 @@
 .width-gt-980
 	.mobile-menu-toggle
 		display: none
+
+.width-gt-980
+	.navigation
+		&.clip-light
+			pointer-events: none
+
+			.indicator
+				display: none
+
+			.menu
+				.item
+					color: white
+
+
+/* SOCIAL LINKS START */
+.social-links
+	position: absolute
+	bottom: 30px
+	left: 0
+	width: 100%
+
+	.item
+		display: block
+		text-align: center
+		padding: 10px 0
+		color: $grey
+		transition: all .3s
+
+		&:hover
+			color: $red
+
+.width-lt-980
+	.social-links
+		text-align: center
+
+		.item
+			display: inline-block
+			padding: 23px 20px
+
+.clip-light
+	.social-links
+		.item
+			color: white
+
+/* SOCIAL LINKS END */

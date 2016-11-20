@@ -552,11 +552,53 @@ hr {
   display: none;
 }
 
-/* HERO SECTION START */
-.hero-section {
-  height: 1140px;
+.width-gt-980 .navigation.clip-light {
+  pointer-events: none;
 }
 
+.width-gt-980 .navigation.clip-light .indicator {
+  display: none;
+}
+
+.width-gt-980 .navigation.clip-light .menu .item {
+  color: white;
+}
+
+/* SOCIAL LINKS START */
+.social-links {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+}
+
+.social-links .item {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  color: rgba(95, 95, 95, 0.9);
+  transition: all .3s;
+}
+
+.social-links .item:hover {
+  color: #bf2e48;
+}
+
+.width-lt-980 .social-links {
+  text-align: center;
+}
+
+.width-lt-980 .social-links .item {
+  display: inline-block;
+  padding: 23px 20px;
+}
+
+.clip-light .social-links .item {
+  color: white;
+}
+
+/* SOCIAL LINKS END */
+/* HERO SECTION START */
 /* HERO SECTION END */
 .boxed {
   margin: 0 auto;
@@ -885,6 +927,7 @@ hr {
   position: fixed;
   top: 0;
   left: 0;
+  background: url("../images/logo.svg") center center no-repeat;
   width: 260px;
   height: 120px;
   z-index: 9;
@@ -898,13 +941,17 @@ hr {
   left: 0;
   right: 0;
   transition: all .6s;
-  background: linear-gradient(160deg, rgba(36, 18, 58, 0.15) 0%, rgba(36, 18, 58, 0) 50%);
+  background: linear-gradient(160deg, rgba(51, 51, 51, 0.25) 0%, rgba(51, 51, 51, 0.2) 10%, rgba(51, 51, 51, 0) 50%);
   opacity: 0;
   z-index: -1;
 }
 
 .logo:hover:before {
   opacity: 1;
+}
+
+.width-gt-980 .logo.clip-light {
+  background-image: url("../images/logo-light.svg");
 }
 
 .width-lt-980 .logo {
@@ -914,14 +961,11 @@ hr {
   width: 155px;
   height: 60px;
   z-index: 0;
+  background-size: 120px;
 }
 
 .width-lt-980 .logo:before {
   display: none;
-}
-
-.width-lt-980 .logo img {
-  width: 120px;
 }
 
 /* LOGO END */
@@ -939,36 +983,6 @@ hr {
 }
 
 /* HEADER END */
-/* SOCIAL LINKS START */
-.social-links {
-  position: absolute;
-  bottom: 30px;
-  left: 0;
-  width: 100%;
-}
-
-.social-links .item {
-  display: block;
-  text-align: center;
-  padding: 10px 0;
-  color: rgba(95, 95, 95, 0.9);
-  transition: all .3s;
-}
-
-.social-links .item:hover {
-  color: #bf2e48;
-}
-
-.width-lt-980 .social-links {
-  text-align: center;
-}
-
-.width-lt-980 .social-links .item {
-  display: inline-block;
-  padding: 23px 20px;
-}
-
-/* SOCIAL LINKS END */
 /* MOUSE MOVE START */
 .page-bg {
   z-index: -1;

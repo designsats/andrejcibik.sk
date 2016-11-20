@@ -85,63 +85,64 @@ $(function(){
 
 $(document).ready(function(){
 
-	// IMG GROW +
-		var growImg = $('.growImg');
-		var growSide = growImg.find('.growSide');
-		var wScroll = $(this).scrollTop();
+// IMG GROW +
+	var growImg = $('.growImg');
+	var growSide = growImg.find('.growSide');
+	var wScroll = $(this).scrollTop();
 
 
 
-		function GrowImgMaster() {
+	function GrowImgMaster() {
+		console.log('fire');
+		if ($(document).width() <= 980) {
+			// Not for mobile devices
+		} else {
+			growImg.each(function(){
 
-			if ($(document).width() <= 980) {
-				// Not for mobile devices
-			} else {
-				growImg.each(function(){
+				var thisImg = $(this);
 
-					var thisImg = $(this);
+				function GrowImg() {
+					wScroll = $(this).scrollTop();
 
-					function GrowImg() {
-						wScroll = $(this).scrollTop();
+					if (thisImg.offset().top<= wScroll + $(window).height()  &&  thisImg.offset().top + thisImg.height() >= wScroll + $(window).height() ) {
 
-						if (thisImg.offset().top<= wScroll + $(window).height()  &&  thisImg.offset().top + thisImg.height() >= wScroll + $(window).height() ) {
+						thisImg.addClass('active');
 
-							thisImg.addClass('active');
+						var growSideLeft = thisImg.find('.growSide-left');
+						var growSideRight = thisImg.find('.growSide-right');
 
-							var growSideLeft = thisImg.find('.growSide-left');
-							var growSideRight = thisImg.find('.growSide-right');
+						var distance = (wScroll - thisImg.position().top + $(window).height()) / thisImg.height();
 
-							var distance = (wScroll - thisImg.position().top + $(window).height()) / thisImg.height();
+						var growSidePush = growSide.width() * distance;
 
-							var growSidePush = growSide.width() * distance;
+						if (distance > 0.98)
+							growSidePush = growSide.width();
 
-							if (distance > 0.98)
-								growSidePush = growSide.width();
+						growSideLeft.css('transform', 'translateX(' + growSidePush * -1 + 'px)');
+						growSideRight.css('transform', 'translateX(' + growSidePush + 'px)');
 
-							growSideLeft.css('transform', 'translateX(' + growSidePush * -1 + 'px)');
-							growSideRight.css('transform', 'translateX(' + growSidePush + 'px)');
+					} else {
+						thisImg.removeClass('active');
+					}
+				} // GROW IMG -
+				GrowImg();
 
-						} else {
-							thisImg.removeClass('active');
-						}
-					} // GROW IMG -
+				$(window).scroll(function(){
 					GrowImg();
+				});
 
-					$(window).scroll(function(){
-						GrowImg();
-					});
+			}); // EACH -
+		}
 
-				}); // EACH -
-			}
+	} // GROW IMG MASTER -
 
-		} // GROW IMG MASTER -
+	GrowImgMaster();
 
+	$(window).resize(function(){
 		GrowImgMaster();
+	});
 
-		$(document).resize(function(){
-			GrowImgMaster();
-		});
+// IMG GROW -
 
-	// IMG GROW -
 
 });
