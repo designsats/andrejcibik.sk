@@ -18,6 +18,8 @@
 					styles: [{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"geometry.stroke","stylers":[{"weight":"1.0"},{"color":"#a1a1a1"}]},{"featureType":"administrative.country","elementType":"labels.text.fill","stylers":[{"color":"#858585"}]},{"featureType":"administrative.province","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"all","stylers":[{"hue":"#2c2e33"},{"saturation":7},{"lightness":19},{"visibility":"on"}]},{"featureType":"administrative.locality","elementType":"labels.text.fill","stylers":[{"color":"#898989"}]},{"featureType":"administrative.neighborhood","elementType":"labels.text.fill","stylers":[{"color":"#e6e6e6"}]},{"featureType":"landscape","elementType":"all","stylers":[{"hue":"#ff0000"},{"saturation":-100},{"lightness":100},{"visibility":"simplified"}]},{"featureType":"poi","elementType":"all","stylers":[{"hue":"#ff0000"},{"saturation":-100},{"lightness":100},{"visibility":"off"}]},{"featureType":"road","elementType":"geometry","stylers":[{"saturation":"-100"},{"lightness":31},{"visibility":"simplified"},{"color":"#efefef"}]},{"featureType":"road","elementType":"labels","stylers":[{"hue":"#bbc0c4"},{"saturation":-93},{"lightness":31},{"visibility":"on"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#efefef"}]},{"featureType":"road.arterial","elementType":"labels","stylers":[{"hue":"#bbc0c4"},{"saturation":-93},{"lightness":-2},{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"saturation":-90},{"lightness":-8},{"visibility":"simplified"},{"color":"#efefef"}]},{"featureType":"road.local","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"road.local","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"hue":"#e9ebed"},{"saturation":10},{"lightness":69},{"visibility":"on"}]},{"featureType":"water","elementType":"all","stylers":[{"saturation":-78},{"lightness":67},{"visibility":"simplified"},{"color":"#f4f4f4"}]}]
         });
 
+
+
 				$(document).ready(function(){
 
 					var gMapsLoaded = false;
@@ -37,7 +39,7 @@
 					'<div class="gMap-iw"><a href="http://www.lemonlion.sk/" target="_blank" title="LemonLion.sk"> <span style="font-weight: 400; font-size: 16px; letter-spacing: -0.5px;">Lemon</span><br/><span style="letter-spacing: 0.5px;font-weight: 600; font-size: 22px;">Lion</span></a><br/><br/><a href="https://goo.gl/EcA78O" target="_blank" title="Find route">Púchov<br/>Slovakia</a></div>';
 
 					if ( $(window).width() <= 980 ) {
-							map.setOptions({draggable: false, scrollwheel: false});
+							//map.setOptions({draggable: false, scrollwheel: false});
 
 							var bigMarker = {
 								url: "assets/images/marker-lt-980.png",
@@ -99,9 +101,36 @@
       } // INIT MAP -
 
 
+			// Map reveal +
+				var gm = $('.gMap');
+
+				var wScroll = $(this).scrollTop();
+
+				function mapVisibility() {
+					var gmTop = gm.offset().top;
+
+					if (wScroll + $(window).height() >= gmTop + (gm.height() / 2)) {
+						gm.addClass('is-visible');
+					} else {
+						gm.removeClass('is-visible');
+					}
+				}
+				mapVisibility();
+
+				$(window).scroll(function(){
+					wScroll = $(this).scrollTop();
+					mapVisibility();
+				});
+
+			// Map reveal -
+
 </script>
 
 <script async defer>
   var url = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBlO5Zz7iqrDllqfpb-E7QeOHZz3sPoolw&callback=initMap";
-  $.getScript(url);
+
+	//if (!$('body').hasClass('map-cached'))
+	$.getScript(url);
+
+	$('body').addClass('map-cached');
 </script>

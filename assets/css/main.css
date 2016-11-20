@@ -505,7 +505,7 @@ hr {
   width: 30px;
   height: 2px;
   background: #e96443;
-  background: linear-gradient(to bottom, #e96443 0%, #c14e7c 100%);
+  background: linear-gradient(to right, #e96443 0%, #c14e7c 100%);
   transition: top .3s .3s, -webkit-transform .3s 0s;
   transition: top .3s .3s, transform .3s 0s;
   transition: top .3s .3s, transform .3s 0s, -webkit-transform .3s 0s;
@@ -588,14 +588,58 @@ hr {
 }
 
 .width-lt-640 .gMap {
-  height: 280px;
+  height: 350px;
 }
 
 .gm-style-cc {
   visibility: hidden;
 }
 
-.gm-style .gm-style-iw {
+.gm-style {
+  position: relative;
+}
+
+.gm-style:before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  width: 28px;
+  height: 55px;
+  border-radius: 2px;
+  z-index: 1;
+  pointer-events: none;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: url(../images/map-zoom.png) center center;
+  background-size: 100%;
+}
+
+.gm-style:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: #e96443;
+  background: linear-gradient(to right, #e96443 0%, #c14e7c 100%);
+  transition: all 1s;
+}
+
+.width-lt-640 .gm-style:after {
+  transition: all .6s;
+}
+
+.loaded .gMap.is-visible .gm-style:after {
+  width: 0;
+}
+
+.loaded .gm-style-iw {
   text-align: center;
 }
 
@@ -743,7 +787,7 @@ hr {
           animation-delay: .7s;
 }
 
-.width-gt-980 .lines-overlay {
+.lines-overlay {
   display: block;
 }
 
@@ -785,7 +829,8 @@ hr {
   left: 75vw;
 }
 
-.width-lt-980 .line {
+.width-lt-980 .line-1,
+.width-lt-980 .line-3 {
   display: none;
 }
 
@@ -917,7 +962,6 @@ hr {
 
 .width-lt-980 .body-content {
   width: 100%;
-  padding: 90px 20px;
 }
 
 /* BODY CONTENT END */
