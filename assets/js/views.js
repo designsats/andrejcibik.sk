@@ -6,10 +6,6 @@ $(function(){
 	// GLOBAL VARS +
 		// global scroll var +
 		var wScroll = $(this).scrollTop();
-
-		$(window).scroll(function(){
-			wScroll = $(this).scrollTop();
-		});
 		// global scroll var -
 	// GLOBAL VARS +
 
@@ -21,6 +17,8 @@ $(function(){
 					pageBg = $('.page-bg');
 
 			$(window).scroll(function(){
+
+				wScroll = $(this).scrollTop();
 
 				section.each(function(e){
 					// Aply bgColor only if sections are in view
@@ -77,5 +75,73 @@ $(function(){
 		}
 		RippleHover();
 	// RIPPLE EFFECT -
+
+
+
+});
+/*
+
+*/
+
+$(document).ready(function(){
+
+	// IMG GROW +
+		var growImg = $('.growImg');
+		var growSide = growImg.find('.growSide');
+		var wScroll = $(this).scrollTop();
+
+
+
+		function GrowImgMaster() {
+
+			if ($(document).width() <= 980) {
+				// Not for mobile devices
+			} else {
+				growImg.each(function(){
+
+					var thisImg = $(this);
+
+					function GrowImg() {
+						wScroll = $(this).scrollTop();
+
+						if (thisImg.offset().top<= wScroll + $(window).height()  &&  thisImg.offset().top + thisImg.height() >= wScroll + $(window).height() ) {
+
+							thisImg.addClass('active');
+
+							var growSideLeft = thisImg.find('.growSide-left');
+							var growSideRight = thisImg.find('.growSide-right');
+
+							var distance = (wScroll - thisImg.position().top + $(window).height()) / thisImg.height();
+
+							var growSidePush = growSide.width() * distance;
+
+							if (distance > 0.98)
+								growSidePush = growSide.width();
+
+							growSideLeft.css('transform', 'translateX(' + growSidePush * -1 + 'px)');
+							growSideRight.css('transform', 'translateX(' + growSidePush + 'px)');
+
+						} else {
+							thisImg.removeClass('active');
+						}
+					} // GROW IMG -
+					GrowImg();
+
+					$(window).scroll(function(){
+						GrowImg();
+					});
+
+				}); // EACH -
+			}
+
+		} // GROW IMG MASTER -
+
+		GrowImgMaster();
+
+		$(document).resize(function(){
+			GrowImgMaster();
+		});
+
+	// IMG GROW -
 
 });

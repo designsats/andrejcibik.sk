@@ -2,14 +2,42 @@
 /* HERO SECTION START */
 
 .hero-section
-	display: none
 	height: 1140px
 
 /* HERO SECTION END */
 
 .section
-	min-height: 100vh
 
 &.boxed
 	margin: 0 auto
 	max-width: 66.66vw
+
+
+/* GROW IMG START */
+
+.growImg
+	height: 100vh
+	background: center center no-repeat fixed #fff
+	background-size: cover
+	position: relative
+	overflow: hidden
+
+	.growSide
+		height: 100%
+		width: 16.66%
+		position: absolute
+		top: 0
+		transform: translateX(0)
+		background: white
+
+	.growSide-left
+		left: 0
+
+	.growSide-right
+		right: 0
+
+.width-lt-980
+	.growSide
+		display: none
+
+/* GROW IMG END */

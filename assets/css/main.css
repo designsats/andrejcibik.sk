@@ -258,6 +258,11 @@ body {
   color: rgba(95, 95, 95, 0.9);
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+
+.width-lt-980 {
+  padding-top: 60px;
 }
 
 ::-moz-selection {
@@ -324,9 +329,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, .h1 {
-  font-size: 68px;
+  font-size: 96px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 6px 23px rgba(0, 0, 0, 0.2);
   line-height: 1.2;
-  letter-spacing: -1px;
+  text-transform: uppercase;
+  letter-spacing: -0.08em;
 }
 
 h2, .h2 {
@@ -545,20 +554,48 @@ hr {
 
 /* HERO SECTION START */
 .hero-section {
-  display: none;
   height: 1140px;
 }
 
 /* HERO SECTION END */
-.section {
-  min-height: 100vh;
-}
-
 .boxed {
   margin: 0 auto;
   max-width: 66.66vw;
 }
 
+/* GROW IMG START */
+.growImg {
+  height: 100vh;
+  background: center center no-repeat fixed #fff;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.growImg .growSide {
+  height: 100%;
+  width: 16.66%;
+  position: absolute;
+  top: 0;
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+  background: white;
+}
+
+.growImg .growSide-left {
+  left: 0;
+}
+
+.growImg .growSide-right {
+  right: 0;
+}
+
+.width-lt-980 .growSide {
+  display: none;
+}
+
+/* GROW IMG END */
 .footer {
   height: 140px;
   width: 100%;
@@ -646,7 +683,6 @@ hr {
 .gMap-iw {
   font-size: 16px;
   line-height: 1;
-  text-align: center;
   padding: 10px;
   padding-bottom: 5px;
 }
@@ -741,7 +777,7 @@ hr {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   pointer-events: none;
   z-index: 10;
@@ -760,29 +796,29 @@ hr {
 }
 
 .lines-overlay .line-1 {
-  left: 16.2vw;
+  left: 16.66%;
 }
 
 .lines-overlay .line-2 {
-  left: 33.33vw;
+  left: 33.33%;
   -webkit-animation-delay: .1s;
           animation-delay: .1s;
 }
 
 .lines-overlay .line-3 {
-  left: 49.99vw;
+  left: 49.99%;
   -webkit-animation-delay: .3s;
           animation-delay: .3s;
 }
 
 .lines-overlay .line-4 {
-  left: 66.66vw;
+  left: 66.66%;
   -webkit-animation-delay: .5s;
           animation-delay: .5s;
 }
 
 .lines-overlay .line-5 {
-  left: 82.8vw;
+  left: 83.33%;
   -webkit-animation-delay: .7s;
           animation-delay: .7s;
 }
@@ -818,15 +854,15 @@ hr {
 }
 
 .width-lt-1280 .line-1 {
-  left: 25vw;
+  left: 25%;
 }
 
 .width-lt-1280 .line-2 {
-  left: 50vw;
+  left: 50%;
 }
 
 .width-lt-1280 .line-3 {
-  left: 75vw;
+  left: 75%;
 }
 
 .width-lt-980 .line-1,

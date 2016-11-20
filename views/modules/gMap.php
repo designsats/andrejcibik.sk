@@ -36,7 +36,7 @@
 					}
 
 					var infoWindowContent =
-					'<div class="gMap-iw"><a href="http://www.lemonlion.sk/" target="_blank" title="LemonLion.sk"> <span style="font-weight: 400; font-size: 16px; letter-spacing: -0.5px;">Lemon</span><br/><span style="letter-spacing: 0.5px;font-weight: 600; font-size: 22px;">Lion</span></a><br/><br/><a href="https://goo.gl/EcA78O" target="_blank" title="Find route">Púchov<br/>Slovakia</a></div>';
+					'<div class="gMap-iw"><a href="http://www.lemonlion.sk/" target="_blank" title="LemonLion.sk"> <span style="font-weight: 400; font-size: 15px; letter-spacing: -0.7px;">Lemon</span><br/><span style="letter-spacing: 0.5px;font-weight: 600; font-size: 22px;">Lion</span></a><br/><br/><a href="https://goo.gl/EcA78O" target="_blank" title="Find route">Púchov<br/>Slovakia</a></div>';
 
 					if ( $(window).width() <= 980 ) {
 							//map.setOptions({draggable: false, scrollwheel: false});
@@ -128,9 +128,5 @@
 
 <script async defer>
   var url = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBlO5Zz7iqrDllqfpb-E7QeOHZz3sPoolw&callback=initMap";
-
-	//if (!$('body').hasClass('map-cached'))
 	$.getScript(url);
-
-	$('body').addClass('map-cached');
 </script>
