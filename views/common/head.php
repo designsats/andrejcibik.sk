@@ -35,6 +35,6 @@
 
 	<script src="assets/js/jquery-2.1.4.min.js"></script>
 	<script src="assets/js/jquery-ui-1.10.4.custom.min.js"></script>
-	<script src="assets/js/ajaxloading.js" type="text/javascript"></script>
+	<script src="assets/js/main.js" type="text/javascript"></script>
 
 </head>
