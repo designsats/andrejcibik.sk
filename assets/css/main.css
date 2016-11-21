@@ -454,6 +454,7 @@ hr {
   position: absolute;
   right: 0;
   top: 0;
+  opacity: 0;
   background: #e96443;
   background: linear-gradient(to bottom, #e96443 0%, #c14e7c 100%);
 }
@@ -570,6 +571,7 @@ hr {
   bottom: 30px;
   left: 0;
   width: 100%;
+  font-size: 20px;
 }
 
 .social-links .item {
@@ -582,6 +584,10 @@ hr {
 
 .social-links .item:hover {
   color: #bf2e48;
+}
+
+.social-links .icon-behance {
+  font-size: .8em;
 }
 
 .width-lt-980 .social-links {
@@ -600,9 +606,17 @@ hr {
 /* SOCIAL LINKS END */
 /* HERO SECTION START */
 /* HERO SECTION END */
-.boxed {
+.section.boxed {
   margin: 0 auto;
-  max-width: 66.66vw;
+  max-width: 66.66%;
+}
+
+.width-lt-1280 .section.boxed {
+  max-width: 75%;
+}
+
+.width-lt-980 .section.boxed {
+  max-width: 85%;
 }
 
 /* GROW IMG START */
@@ -660,6 +674,11 @@ hr {
 
 .width-lt-640 .footer {
   position: relative;
+}
+
+.gMap-cont {
+  background: url("../images/map-preload.jpg") center center;
+  background-size: cover;
 }
 
 .gMap {
@@ -1106,10 +1125,6 @@ hr {
 
 .show .wfi {
   opacity: .5;
-}
-
-.width-lt-980 .load-cont {
-  display: none;
 }
 
 /* PRELOADER & PAGE TRANSITION END */

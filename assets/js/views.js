@@ -8,7 +8,7 @@ $(function(){
 		var wScroll = $(this).scrollTop();
 		// global scroll var -
 	// GLOBAL VARS +
-
+	
 
 	// SECTIONS BACKGROUND +
 		function sectionsBg() {
@@ -93,7 +93,7 @@ $(document).ready(function(){
 
 
 	function GrowImgMaster() {
-		console.log('fire');
+
 		if ($(document).width() <= 980) {
 			// Not for mobile devices
 		} else {
