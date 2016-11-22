@@ -6,12 +6,6 @@
 </script>
 
 <section class="hero-section">
-	<br><br><br>
-	<h1>Works</h1>
-	<br>
-	<h2>Header h2</h2>
-	<br>
-	<h3>Header h3</h3>
 </section>
 
 <br><br><br>
@@ -19,8 +13,23 @@
 <div class="works-cont">
 
 	<div class="section boxed centered" data-background-color="#d1e5c1">
-		<img src="data/previews/lv.png" alt="" />
-		<a href="#works/lacnevozenie" class="button button--ripple rippleHover">Lacnevozenie.sk</a>
+
+		<div class="work-preview">
+			<div class="image-crop">
+				<img src="data/projects/01.jpg" alt="" class="image" />
+			</div>
+
+			<a href="#works/lacnevozenie" class="button button-preview rippleHover">Lacnevozenie.sk</a>
+		</div>
+
+		<div class="work-preview">
+			<div class="image-crop">
+				<img src="data/projects/02.jpg" alt="" class="image" />
+			</div>
+
+			<a href="#works/lacnevozenie" class="button button-preview rippleHover">Lacnevozenie.sk</a>
+		</div>
+
 	</div>
 
 </div>

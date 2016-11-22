@@ -1,0 +1,35 @@
+
+/* WORK PREVIEWS START */
+
+.work-preview
+	position: relative
+	width: 100%
+	height: 0
+	padding-top: 59.25%
+
+	&:before
+		content: ''
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 0
+		right: 0
+		z-index: 1
+		background: url('../images/preview-mask.png') no-repeat
+		background-size: 100%
+		pointer-events: none
+
+	.image-crop
+		overflow: hidden
+		position: absolute
+		top: 51px
+		bottom: 71px
+		z-index: 0
+
+	.image
+		width: 75.5%
+
+.button-preview
+	margin-top: 30px
+
+	/* WORK PREVIEWS END */

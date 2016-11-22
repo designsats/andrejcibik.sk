@@ -178,7 +178,7 @@
 
 /* PRELOADER & PAGE TRANSITION START */
 
-.preload-cont,.load-cont
+.load-cont
 	//display: none
 	pointer-events: none
 	opacity: 1
@@ -197,7 +197,7 @@
 		transform: translate(-50%,-50%)
 		color: $grey
 		font-weight: 300
-		font-size: 40px
+		font-size: 30px
 		opacity: 0
 		z-index: 3
 		transition: all .6s
@@ -210,27 +210,6 @@
 		left: 0
 		height: 100vh
 		width: 100vw
-
-.preload-cont
-	.layer
-		animation: preloadSite 1.5s
-		animation-fill-mode: forwards
-		animation-delay: 1s
-
-@keyframes preloadSite
-	0%
-		transform: translate3d(0,0%,0)
-
-	95%
-		box-shadow: 0 3px 40px rgba(0, 0, 0, .1)
-
-	100%
-		transform: translate3d(0,-100%,0)
-		box-shadow: 0 3px 40px rgba(0, 0, 0, 0)
-
-
-.load-cont
-	.layer
 		transform: translate3d(0,-100%,0)
 		transition: all .6s
 		box-shadow: 0 3px 40px rgba(0, 0, 0, .1)

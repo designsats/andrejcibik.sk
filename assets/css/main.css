@@ -827,6 +827,44 @@ hr {
   }
 }
 
+/* WORK PREVIEWS START */
+.work-preview {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 59.25%;
+}
+
+.work-preview:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: url("../images/preview-mask.png") no-repeat;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+.work-preview .image-crop {
+  overflow: hidden;
+  position: absolute;
+  top: 51px;
+  bottom: 71px;
+  z-index: 0;
+}
+
+.work-preview .image {
+  width: 75.5%;
+}
+
+.button-preview {
+  margin-top: 30px;
+  /* WORK PREVIEWS END */
+}
+
 /* tmp */
 .souhrn {
   display: none;
@@ -1035,7 +1073,7 @@ hr {
 
 /* BODY CONTENT END */
 /* PRELOADER & PAGE TRANSITION START */
-.preload-cont, .load-cont {
+.load-cont {
   pointer-events: none;
   opacity: 1;
   position: fixed;
@@ -1047,7 +1085,7 @@ hr {
   z-index: 2;
 }
 
-.preload-cont .wfi, .load-cont .wfi {
+.load-cont .wfi {
   position: fixed;
   left: 50%;
   top: 50%;
@@ -1056,13 +1094,13 @@ hr {
           transform: translate(-50%, -50%);
   color: rgba(95, 95, 95, 0.9);
   font-weight: 300;
-  font-size: 40px;
+  font-size: 30px;
   opacity: 0;
   z-index: 3;
   transition: all .6s;
 }
 
-.preload-cont .layer, .load-cont .layer {
+.load-cont .layer {
   background: #fff;
   z-index: 1;
   position: absolute;
@@ -1070,48 +1108,6 @@ hr {
   left: 0;
   height: 100vh;
   width: 100vw;
-}
-
-.preload-cont .layer {
-  -webkit-animation: preloadSite 1.5s;
-          animation: preloadSite 1.5s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-}
-
-@-webkit-keyframes preloadSite {
-  0% {
-    -webkit-transform: translate3d(0, 0%, 0);
-            transform: translate3d(0, 0%, 0);
-  }
-  95% {
-    box-shadow: 0 3px 40px rgba(0, 0, 0, 0.1);
-  }
-  100% {
-    -webkit-transform: translate3d(0, -100%, 0);
-            transform: translate3d(0, -100%, 0);
-    box-shadow: 0 3px 40px transparent;
-  }
-}
-
-@keyframes preloadSite {
-  0% {
-    -webkit-transform: translate3d(0, 0%, 0);
-            transform: translate3d(0, 0%, 0);
-  }
-  95% {
-    box-shadow: 0 3px 40px rgba(0, 0, 0, 0.1);
-  }
-  100% {
-    -webkit-transform: translate3d(0, -100%, 0);
-            transform: translate3d(0, -100%, 0);
-    box-shadow: 0 3px 40px transparent;
-  }
-}
-
-.load-cont .layer {
   -webkit-transform: translate3d(0, -100%, 0);
           transform: translate3d(0, -100%, 0);
   transition: all .6s;
