@@ -390,13 +390,10 @@ hr {
 .button {
   transition: all .5s;
   margin: 10px 20px;
-}
-
-.button--ripple {
   position: relative;
 }
 
-.button--ripple:hover {
+.rippleHover:hover {
   color: #333 !important;
 }
 
@@ -606,6 +603,16 @@ hr {
 /* SOCIAL LINKS END */
 /* HERO SECTION START */
 /* HERO SECTION END */
+.section {
+  height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .section.boxed {
   margin: 0 auto;
   max-width: 66.66%;
@@ -853,6 +860,8 @@ hr {
   position: absolute;
   top: 51px;
   bottom: 71px;
+  left: 0;
+  right: 0;
   z-index: 0;
 }
 
@@ -1110,7 +1119,7 @@ hr {
   width: 100vw;
   -webkit-transform: translate3d(0, -100%, 0);
           transform: translate3d(0, -100%, 0);
-  transition: all .6s;
+  transition: all .8s;
   box-shadow: 0 3px 40px rgba(0, 0, 0, 0.1);
 }
 

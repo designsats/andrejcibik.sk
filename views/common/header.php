@@ -1,13 +1,8 @@
 
-<div class="preload-cont">
-	<div class="layer"></div>
-</div>
-
-<div class="load-cont">
+<div class="load-cont show">
 	<span class="wfi">Wait for it...</span>
 	<div class="layer"></div>
 </div>
-
 
 <header class="header">
 
@@ -21,6 +16,7 @@
 </header> <!-- HEADER END -->
 
 <nav class="navigation">
+	
 	<span class="indicator"></span>
 
 	<div class="menu">
