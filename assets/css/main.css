@@ -605,17 +605,20 @@ hr {
 /* HERO SECTION END */
 .section {
   height: 100vh;
+}
+
+.section.boxed {
+  margin: 0 auto;
+  max-width: 66.66%;
+}
+
+.section.center {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.section.boxed {
-  margin: 0 auto;
-  max-width: 66.66%;
 }
 
 .width-lt-1280 .section.boxed {

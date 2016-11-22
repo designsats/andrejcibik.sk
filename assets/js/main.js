@@ -48,9 +48,6 @@ function mainMenuIndicator(thisItem) {
 				$("html, body").animate({ scrollTop: 0 }, 0);
 			}, 500);
 		}
-
-		//menuItem.removeClass('active');
-		//$(this).addClass('active');
 	});
 }
 
@@ -119,7 +116,7 @@ function loadPage(url) {
 				// Clear bgColor
 				$('.page-bg').css('background', 'none');
 			}
-
+			$('body').addClass('loaded');
 		} // Success msg -
 
 	});

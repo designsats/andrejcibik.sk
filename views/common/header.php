@@ -16,7 +16,7 @@
 </header> <!-- HEADER END -->
 
 <nav class="navigation">
-	
+
 	<span class="indicator"></span>
 
 	<div class="menu">
@@ -31,9 +31,3 @@
 	</div>
 
 </nav> <!-- NAVIGATION END -->
-
-<script type="text/javascript">
-	$(window).load(function(){
-		$('body').addClass('loaded');
-	});
-</script>
