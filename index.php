@@ -20,13 +20,10 @@
 		</div>
 
 		<div class="body-content">
-			<?php //include('views/works.php') ?>
-			<script type="text/javascript">
-				checkURL("#works");
-			</script>
+			<?php include('views/home.php') ?>
 		</div> <!-- BODY-CONTENT END -->
 
 		<?php include('views/common/footer.php') ?>
-
+		
 	</body>
 </html>
