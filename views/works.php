@@ -15,8 +15,10 @@
 	<div class="section boxed centered" data-background-color="#d1e5c1">
 
 		<div class="work-preview">
-			<div class="image-crop">
-				<img src="data/projects/01.jpg" alt="" class="image" />
+			<div class="work-preview-image">
+				<div class="image-crop">
+					<img src="data/projects/01.jpg" alt="" class="image" />
+				</div>
 			</div>
 
 			<a href="#works/lacnevozenie" class="button button-preview rippleHover">Lacnevozenie.sk</a>
@@ -27,8 +29,10 @@
 	<div class="section boxed centered" data-background-color="#d1e5c1">
 
 		<div class="work-preview">
-			<div class="image-crop">
-				<img src="data/projects/02.jpg" alt="" class="image" />
+			<div class="work-preview-image">
+				<div class="image-crop">
+					<img src="data/projects/02.jpg" alt="" class="image" />
+				</div>
 			</div>
 
 			<a href="#works/lacnevozenie" class="button button-preview rippleHover">Lacnevozenie.sk</a>

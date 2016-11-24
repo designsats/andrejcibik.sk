@@ -22,19 +22,6 @@
 
 				$(document).ready(function(){
 
-					var gMapsLoaded = false;
-					window.gMapsCallback = function(){
-					    gMapsLoaded = true;
-					    $(window).trigger('gMapsLoaded');
-					}
-					window.loadGoogleMaps = function(){
-					    if(gMapsLoaded) return window.gMapsCallback();
-					    var script_tag = document.createElement('script');
-					    script_tag.setAttribute("type","text/javascript");
-					    script_tag.setAttribute("src","http://maps.google.com/maps/api/js?sensor=false&callback=gMapsCallback");
-					    (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(script_tag);
-					}
-
 					var infoWindowContent =
 					'<div class="gMap-iw"><a href="http://www.lemonlion.sk/" target="_blank" title="LemonLion.sk"> <span style="font-weight: 400; font-size: 15px; letter-spacing: -0.7px;">Lemon</span><br/><span style="letter-spacing: 0.5px;font-weight: 600; font-size: 22px;">Lion</span></a><br/><br/><a href="https://goo.gl/EcA78O" target="_blank" title="Find route">Púchov<br/>Slovakia</a></div>';
 

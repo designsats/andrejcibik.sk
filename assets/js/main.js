@@ -1,3 +1,7 @@
+
+// Hi sneaky code-sniffer :)
+//console.image('https://s-media-cache-ak0.pinimg.com/736x/9b/fe/f0/9bfef0c0bb3a3cf817872aacf209667f.jpg');
+
 // GLOBAL VARS +
 	// global scroll var +
 	var wScroll = $(this).scrollTop();
@@ -7,6 +11,7 @@
 	});
 	// global scroll var -
 // GLOBAL VARS +
+
 
 function mainMenuIndicator(thisItem) {
 	var menuItem = $('.menu .item');
@@ -166,9 +171,6 @@ function loadPage(url) {
 
 $(document).ready(function() {
 
-// Hi sneaky code-sniffer :)
-//console.image('https://s-media-cache-ak0.pinimg.com/736x/9b/fe/f0/9bfef0c0bb3a3cf817872aacf209667f.jpg');
-
 // RESPONSIVE +
 	if (typeof $.responsive == 'function') {
 		$.responsive({
@@ -265,8 +267,8 @@ $(document).ready(function() {
 		$(ripple).on('click',function(e){
 			var $div = $('<div/>'),
 					btnOffset = $(this).offset(),
-					xPos = event.pageX - btnOffset.left,
-					yPos = event.pageY - btnOffset.top;
+					xPos = e.pageX - btnOffset.left,
+					yPos = e.pageY - btnOffset.top;
 
 			$div.addClass('ripple-effect');
 			var $ripple = $(".ripple-effect");

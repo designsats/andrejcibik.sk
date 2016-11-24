@@ -8,7 +8,7 @@ $(function(){
 		var wScroll = $(this).scrollTop();
 		// global scroll var -
 	// GLOBAL VARS +
-	
+
 
 	// SECTIONS BACKGROUND +
 		function sectionsBg() {
@@ -52,8 +52,8 @@ $(function(){
 			$(rippleHover).on('mouseover', function(e){
 				var $div = $('<div/>'),
 						btnOffset = $(this).offset(),
-						xPos = event.pageX - btnOffset.left,
-						yPos = event.pageY - btnOffset.top;
+						xPos = e.pageX - btnOffset.left,
+						yPos = e.pageY - btnOffset.top;
 
 				$div.addClass('ripple-effect--hover');
 				var $ripple = $(".ripple-effect--hover");
@@ -118,8 +118,8 @@ $(document).ready(function(){
 						if (distance > 0.98)
 							growSidePush = growSide.width();
 
-						growSideLeft.css('transform', 'translateX(' + growSidePush * -1 + 'px)');
-						growSideRight.css('transform', 'translateX(' + growSidePush + 'px)');
+						growSideLeft.css('transform', 'translate3d(' + growSidePush * -1 + 'px, 0, 0)');
+						growSideRight.css('transform', 'translate3d(' + growSidePush + 'px, 0, 0)');
 
 					} else {
 						thisImg.removeClass('active');
@@ -144,5 +144,20 @@ $(document).ready(function(){
 
 // IMG GROW -
 
+
+// WORKS PREVIEW +
+
+	var workPreview = $('.work-preview-image');
+
+	function workPreviewResize() {
+		workPreview.css('height', workPreview.width() * 0.5925); // 16:9
+	}
+	workPreviewResize();
+
+	$(window).resize(function(){
+		workPreviewResize();
+	});
+
+// WORKS PREVIEW -
 
 });
