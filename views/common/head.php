@@ -37,3 +37,12 @@
 	<script src="assets/js/jquery-ui-1.10.4.custom.min.js"></script>
 
 </head>
+
+<script type="text/javascript">
+
+$(window).load(function(){
+	$('body').addClass('loaded');
+});
+
+
+</script>

@@ -19,13 +19,23 @@
 			<div class="mouse-move-el"></div>
 		</div>
 
-		<div class="body-content">
-			<script type="text/javascript">
-				$(document).ready(function(){
-					checkURL("#works");
-				});
-			</script>
-		</div> <!-- BODY-CONTENT END -->
+		<div class="content-wrapper">
+
+			<div class="body-content">
+				<script type="text/javascript">
+					$(document).ready(function(){
+						checkURL("#works");
+					});
+				</script>
+
+			</div> <!-- BODY-CONTENT END -->
+
+			<div class="gMap-cont">
+				<?php include('views/modules/gMap.php') ?>
+			</div>
+
+
+		</div> <!-- CONTENT WRAPPER END -->
 
 		<?php include('views/common/footer.php') ?>
 

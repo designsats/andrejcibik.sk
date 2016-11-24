@@ -1,7 +1,15 @@
 
 .gMap-cont
+	visibility: hidden
+	height: 0
+	overflow: hidden
 	background: url('../images/map-preload.jpg') center center
 	background-size: cover
+
+.map-is-visible
+	.gMap-cont
+		visibility: visible
+		height: auto
 
 .gMap
 	height: 50vh
@@ -44,7 +52,7 @@
 .width-lt-640
 	.gm-style
 		&:after
-			transition: all .6s
+			display: none
 
 .loaded
 	.gMap

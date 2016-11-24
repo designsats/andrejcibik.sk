@@ -2,15 +2,28 @@
 // Hi sneaky code-sniffer :)
 //console.image('https://s-media-cache-ak0.pinimg.com/736x/9b/fe/f0/9bfef0c0bb3a3cf817872aacf209667f.jpg');
 
-// GLOBAL VARS +
-	// global scroll var +
+
+// RESPONSIVE +
+	if (typeof $.responsive == 'function') {
+		$.responsive({
+					width: [400, 640, 980, 1280],
+					prefix: 'width',
+					viewport: 'width=device-width',
+				afterResize: function(opt) {
+				}
+			});
+		};
+// RESPONSIVE -
+
+
+// global scroll var +
 	var wScroll = $(this).scrollTop();
 
 	$(window).scroll(function(){
 		wScroll = $(this).scrollTop();
 	});
-	// global scroll var -
-// GLOBAL VARS +
+// global scroll var -
+
 
 
 function mainMenuIndicator(thisItem) {
@@ -121,7 +134,6 @@ function loadPage(url) {
 				// Clear bgColor
 				$('.page-bg').css('background', 'none');
 			}
-			$('body').addClass('loaded');
 		} // Success msg -
 
 	});
@@ -135,6 +147,13 @@ function loadPage(url) {
 			var menuItem = $('.menu .item');
 
 			var hash = window.location.hash;
+
+			if (hash == "#contact") {
+				$('body').addClass('map-is-visible');
+			} else {
+				$('body').removeClass('map-is-visible');
+			}
+
 			var indexOfSlash = hash.indexOf("/");
 
 			if (indexOfSlash < 0)
@@ -170,19 +189,6 @@ function loadPage(url) {
 
 
 $(document).ready(function() {
-
-// RESPONSIVE +
-	if (typeof $.responsive == 'function') {
-		$.responsive({
-						width: [400, 640, 980, 1280],
-						prefix: 'width',
-						viewport: 'width=device-width',
-			afterResize: function(opt) {
-			}
-			});
-		};
-// RESPONSIVE -
-
 
 // INACTIVE TAB TITLE +
 	$(function() {
@@ -296,11 +302,11 @@ $(document).ready(function() {
 // FOOTER REAVEAL START +
 	function fHeight() {
 		var footerHeight = $('.footer').height(),
-				bodyContent = $('.body-content');
+				contentWrapper = $('.content-wrapper');
 		if ( $(window).width() >= 640 ) {
-			bodyContent.css('margin-bottom', footerHeight);
+			contentWrapper.css('margin-bottom', footerHeight);
 		} else {
-			bodyContent.css('margin-bottom', 0);
+			contentWrapper.css('margin-bottom', 0);
 		}
 	}
 

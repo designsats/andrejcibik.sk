@@ -53,20 +53,21 @@
 		height: 100%
 		opacity: .08
 
-.width-lt-1280
-	.line-5,.line-4
-		display: none
+@media screen and (max-width: 1280px)
+	.lines-overlay
+		.line-5,.line-4
+			display: none
 
-	.line-1
-		left: 25%
+		.line-1
+			left: 25%
 
-	.line-2
-		left: 50%
+		.line-2
+			left: 50%
 
-	.line-3
-		left: 75%
+		.line-3
+			left: 75%
 
-.width-lt-980
+@media screen and (max-width: 980px)
 	.line-1,
 	.line-3
 		display: none
@@ -107,7 +108,7 @@
 		&.clip-light
 			background-image: url('../images/logo-light.svg')
 
-.width-lt-980
+@media screen and (max-width: 980px)
 	.logo
 		position: absolute
 		left: 0
@@ -126,14 +127,14 @@
 
 /* HEADER START */
 
-.width-lt-980
+@media screen and (max-width: 980px)
 	.header
 		position: fixed
 		top: 0
 		left: 0
 		width: 100%
 		height: 60px
-		z-index: 2
+		z-index: 3
 		background: white
 		overflow: hidden
 		box-shadow: 0 3px 40px rgba(0, 0, 0, 0.1)
@@ -160,20 +161,20 @@
 /* MOUSE MOVE END */
 
 
-/* BODY CONTENT START */
+/* CONTENT WRAP START */
 
-.body-content
+.content-wrapper
 	background: white
 	margin: 0 auto
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1)
 	z-index: 1
-	min-height: calc(100vh - 136px)
+	min-height: 100vh
 
 .width-lt-980
-	.body-content
+	.content-wrapper
 		width: 100%
 
-/* BODY CONTENT END */
+/* CONTANT WRAP END */
 
 
 /* PRELOADER & PAGE TRANSITION START */
@@ -214,9 +215,9 @@
 		transition: all .8s
 		box-shadow: 0 3px 40px rgba(0, 0, 0, .1)
 
-&.show
-	.layer
-		transform: translate3d(0,0%,0)
+	&.show
+		.layer
+			transform: translate3d(0,0%,0)
 
 &.show .wfi
 	opacity: .5
