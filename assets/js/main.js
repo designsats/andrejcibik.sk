@@ -226,18 +226,6 @@ $(document).ready(function() {
 // MOBILE MENU -
 
 
-// MOUSE REACTION +
-	$('body').mousemove(function(e) {
-		var el = $('.mouse-move-el');
-			elWidth = el.width(),
-			x = e.pageX - elWidth / 2,
-	    y = e.pageY - elWidth / 2;
-
-		el.css('transform', 'translate3d(' + x + 'px,' + y + 'px,0)');
-	});
-// MOUSE REACTION -
-
-
 // SMOOTH SCROLL +
 	// docs https://greensock.com/docs/#/HTML5/GSAP/Plugins/ScrollToPlugin/
 	$(function(){
@@ -303,16 +291,9 @@ $(document).ready(function() {
 	function fHeight() {
 		var footerHeight = $('.footer').height(),
 				contentWrapper = $('.content-wrapper');
-		if ( $(window).width() >= 640 ) {
-			contentWrapper.css('margin-bottom', footerHeight);
-		} else {
-			contentWrapper.css('margin-bottom', 0);
-		}
-	}
 
-	$(window).resize(function(){
-		fHeight();
-	});
+		contentWrapper.css('margin-bottom', footerHeight);
+	}
 
 	fHeight();
 // FOOTER REAVEAL START -

@@ -16,7 +16,6 @@
 		<?php include('views/common/header.php') ?>
 
 		<div class="page-bg">
-			<div class="mouse-move-el"></div>
 		</div>
 
 		<div class="content-wrapper">
