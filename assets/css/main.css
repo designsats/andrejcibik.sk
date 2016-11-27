@@ -420,7 +420,6 @@ hr {
 .navigation .menu {
   position: absolute;
   top: -106px;
-  top-right: -126px;
   -webkit-transform-origin: bottom left;
       -ms-transform-origin: bottom left;
           transform-origin: bottom left;
@@ -490,6 +489,12 @@ hr {
   font-size: 24px;
   padding: 0;
   overflow: hidden;
+}
+
+@media screen and (max-height: 400px) {
+  .width-lt-980 .navigation .menu {
+    top: 80px;
+  }
 }
 
 .open-menu .navigation {
@@ -596,8 +601,18 @@ hr {
   padding: 23px 20px;
 }
 
+.width-lt-980 .social-links .icon-behance {
+  font-size: 1em;
+}
+
 .clip-light .social-links .item {
   color: white;
+}
+
+@media screen and (max-height: 400px) {
+  .width-lt-980 .social-links {
+    bottom: 10px;
+  }
 }
 
 /* SOCIAL LINKS END */
@@ -1259,6 +1274,7 @@ hr {
 }
 
 .contact-mail .text {
+  width: 90%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1274,6 +1290,32 @@ hr {
   font-weight: 300;
   margin-top: -10px;
   margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.width-lt-980 .contact-mail {
+  background: #e96443;
+  background: linear-gradient(to right, #e96443 0%, #c14e7c 100%);
+}
+
+.width-lt-980 .contact-mail .title {
+  font-size: 38px;
+}
+
+.width-lt-640 .contact-mail .title {
+  font-size: 30px;
+}
+
+.width-lt-400 .contact-mail {
+  height: 250px;
+}
+
+.width-lt-400 .contact-mail .text {
+  font-size: 16px;
+}
+
+.width-lt-400 .contact-mail .title {
+  font-size: 26px;
 }
 
 .mouse-move-el {
@@ -1285,4 +1327,8 @@ hr {
   left: 0;
   pointer-events: none;
   background-image: -webkit-radial-gradient(center center, rgba(177, 55, 111, 0.6) 10px, rgba(177, 55, 111, 0) 70%);
+}
+
+.width-lt-980 .mouse-move-el {
+  display: none;
 }

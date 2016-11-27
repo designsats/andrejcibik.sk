@@ -17,6 +17,7 @@
 		color: white
 
 	.text
+		width: 90%
 		position: absolute
 		top: 50%
 		left: 50%
@@ -29,6 +30,32 @@
 			font-weight: 300
 			margin-top: -10px
 			margin-bottom: 20px
+			line-height: 1.2
+
+.width-lt-980
+	.contact-mail
+		+horizontalGrad
+
+		.title
+			font-size: 38px
+
+.width-lt-640
+	.contact-mail
+		.title
+			font-size: 30px
+
+.width-lt-400
+	.contact-mail
+		height: 250px
+
+		.text
+			font-size: 16px
+
+		.title
+			font-size: 26px
+
+
+
 
 .mouse-move-el
 	width: 100vw
@@ -39,3 +66,7 @@
 	left: 0
 	pointer-events: none
 	background-image: -webkit-radial-gradient(center center, rgba(177, 55, 111, .6) 10px, rgba(177, 55, 111, 0) 70%)
+
+.width-lt-980
+	.mouse-move-el
+		display: none
