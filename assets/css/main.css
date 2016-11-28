@@ -254,7 +254,7 @@ body {
   background-color: white;
   font-size: 18px;
   line-height: 1.8;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: rgba(95, 95, 95, 0.9);
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -699,6 +699,7 @@ hr {
 }
 
 .footer .author {
+  color: #969696;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -709,19 +710,20 @@ hr {
 }
 
 .gMap-cont {
-  visibility: hidden;
-  height: 0;
   overflow: hidden;
+  height: 0;
+  visibility: hidden;
   background: url("../images/map-preload.jpg") center center;
   background-size: cover;
 }
 
 .map-is-visible .gMap-cont {
-  visibility: visible;
   height: auto;
+  visibility: visible;
 }
 
 .gMap {
+  display: none;
   height: 50vh;
 }
 
@@ -1109,6 +1111,7 @@ hr {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   z-index: 1;
   min-height: 100vh;
+  transition: all .5s;
 }
 
 .width-lt-980 .content-wrapper {
@@ -1276,7 +1279,7 @@ hr {
 .contact-mail .text {
   width: 90%;
   position: absolute;
-  top: 50%;
+  top: 53%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -1287,7 +1290,7 @@ hr {
 .contact-mail .text .title {
   display: block;
   font-size: 42px;
-  font-weight: 300;
+  font-weight: 700;
   margin-top: -10px;
   margin-bottom: 20px;
   line-height: 1.2;

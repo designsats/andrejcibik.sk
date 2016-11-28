@@ -124,8 +124,9 @@ function loadPage(url) {
 
 				setTimeout(function(){
 					$('.load-cont').removeClass('show');
+					$('body').removeClass('map-is-visible');
 					$('.body-content').html(msg);
-				}, 1000);
+				}, 1200);
 
 				setTimeout(function(){
 					$("html, body").animate({ scrollTop: 0 }, 0);
@@ -147,12 +148,6 @@ function loadPage(url) {
 			var menuItem = $('.menu .item');
 
 			var hash = window.location.hash;
-
-			if (hash == "#contact") {
-				$('body').addClass('map-is-visible');
-			} else {
-				$('body').removeClass('map-is-visible');
-			}
 
 			var indexOfSlash = hash.indexOf("/");
 

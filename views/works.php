@@ -17,11 +17,13 @@
 		<div class="work-preview">
 			<div class="work-preview-image">
 				<div class="image-crop">
-					<img src="data/projects/01.jpg" alt="" class="image" />
+					<a href="#works/lacnevozenie">
+						<img src="data/projects/01.jpg" alt="" class="image" />
+					</a>
 				</div>
 			</div>
 
-			<a href="#works/lacnevozenie" class="button button-preview rippleHover">Lacnevozenie.sk</a>
+			<a href="#works/lacnevozenie" class="button button-preview rippleHover">View project</a>
 		</div>
 
 	</div>
@@ -31,11 +33,13 @@
 		<div class="work-preview">
 			<div class="work-preview-image">
 				<div class="image-crop">
-					<img src="data/projects/02.jpg" alt="" class="image" />
+					<a href="#works/cnma">
+						<img src="data/previews/cnma.jpg" alt="" class="image" />
+					</a>
 				</div>
 			</div>
 
-			<a href="#works/lacnevozenie" class="button button-preview rippleHover">Lacnevozenie.sk</a>
+			<a href="#works/cnma" class="button button-preview rippleHover">View project</a>
 		</div>
 
 	</div>

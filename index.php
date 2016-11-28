@@ -4,6 +4,7 @@
 	<?php include('views/common/head.php') ?>
 
 	<body>
+		<div class="page-bg"></div>
 
 		<div class="lines-overlay">
 			<span class="line line-1"></span>
@@ -14,9 +15,6 @@
 		</div> <!-- LINES OVERLAY END -->
 
 		<?php include('views/common/header.php') ?>
-
-		<div class="page-bg">
-		</div>
 
 		<div class="content-wrapper">
 

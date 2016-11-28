@@ -9,7 +9,7 @@
 
 <a href="mailto:andrejcibik@gmail.com" class="contact-mail mouse-reaction" data-jq-clipthru="clip-light">
 	<span class="text">
-		<span class="title">Let's create something dreamy</span>
+		<span class="title">Let's create something awesome</span>
 		andrejcibik@gmail.com
 	</span>
 	<span class="mouse-move-el"></span>
@@ -20,23 +20,15 @@
   $.getScript(url);
 
 	$(document).ready(function(){
-
-		if ($(window).width() >= 980) {
-			// CLIP THRU +
-				$('.navigation').add('.logo').clipthru({
-					autoUpdate: true,
-					autoUpdateInterval: 30,
-					debug: false
-				});
-			// CLIP THRU -
-		}
+		// MAP IS VISIBLE
+			$('body').addClass('map-is-visible');
 
 		// MOUSE REACTION +
-				var targetEl = $('.mouse-reaction');
+			function mouseReaction(target) {
 
 				$('body').mousemove(function(e) {
 					var el = $('.mouse-move-el');
-					var targetElTop = targetEl.offset();
+					var targetElTop = target.offset();
 
 						elWidth = el.width(),
 						x = e.pageX - elWidth / 2,
@@ -44,6 +36,8 @@
 
 					el.css('transform', 'translate3d(' + x + 'px,' + y + 'px,0)');
 				});
+			}
+			mouseReaction($('.mouse-reaction'));
 		// MOUSE REACTION -
 
 	});
