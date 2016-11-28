@@ -1,7 +1,7 @@
 
 <script type="text/javascript">
 	$(function(){
-		document.title = 'LacneVozenie website' + ' ' + defaultTitle;
+		document.title = 'LacneVozenie.sk website' + ' ' + defaultTitle;
 	});
 </script>
 

@@ -138,7 +138,7 @@ function loadPage(url) {
 		} // Success msg -
 
 	});
-
+	
 	// MAIN MENU INDICATOR +
 
 		mainMenuIndicator($('.menu .item.active'));
