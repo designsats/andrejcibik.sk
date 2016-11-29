@@ -138,7 +138,7 @@ function loadPage(url) {
 		} // Success msg -
 
 	});
-	
+
 	// MAIN MENU INDICATOR +
 
 		mainMenuIndicator($('.menu .item.active'));
@@ -230,18 +230,16 @@ $(document).ready(function() {
 		var scrollTime = .5;
 		var scrollDistance = 200;
 
-		$window.on("mousewheel DOMMouseScroll", function(event){
-
-			event.preventDefault();
+		$(window).on("mousewheel DOMMouseScroll", function(event){
 
 			var delta = event.originalEvent.wheelDelta/120 || -event.originalEvent.detail/3;
 			var scrollTop = $window.scrollTop();
 			var finalScroll = scrollTop - parseInt(delta*scrollDistance);
 
 			TweenMax.to($window, scrollTime, {
-				scrollTo : { y: finalScroll, autoKill:true },
+				scrollTo : { y: finalScroll, autoKill:false },
 					ease: Power1.easeOut,
-					autoKill: true,
+					autoKill: false,
 					overwrite: 5
 				});
 		});
