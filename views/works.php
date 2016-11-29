@@ -10,6 +10,8 @@
 
 <br><br><br>
 
+<h2 class="h1 centered">Works</h2>
+
 <div class="works-cont">
 
 	<div class="section boxed centered" data-background-color="#d1e5c1">

@@ -57,16 +57,6 @@ function mainMenuIndicator(thisItem) {
 
 	} /* changeIndicator END */
 
-	menuItem.click(function(){
-
-		if ($(this).hasClass('active')) {
-				$("html, body").animate({ scrollTop: 0 }, 300);
-		} else {
-			setTimeout(function(){
-				$("html, body").animate({ scrollTop: 0 }, 0);
-			}, 500);
-		}
-	});
 }
 
 
@@ -287,7 +277,6 @@ $(document).ready(function() {
 
 		contentWrapper.css('margin-bottom', footerHeight);
 	}
-
 	fHeight();
 // FOOTER REAVEAL START -
 

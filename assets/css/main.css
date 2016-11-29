@@ -274,15 +274,15 @@ body {
 }
 
 ::-moz-selection {
-  background: #bf2e48;
+  background: #d15057;
 }
 
 ::selection {
-  background: #bf2e48;
+  background: #d15057;
 }
 
 ::-moz-selection {
-  background: #bf2e48;
+  background: #d15057;
 }
 
 ::-moz-selection {
@@ -321,7 +321,7 @@ a {
 }
 
 a:hover {
-  color: #bf2e48;
+  color: #d15057;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -335,12 +335,17 @@ h1, .h1 {
   text-shadow: 0 6px 23px rgba(0, 0, 0, 0.2);
   line-height: 1.2;
   text-transform: uppercase;
-  letter-spacing: -0.08em;
+  letter-spacing: -0.09em;
 }
 
 h2, .h2 {
-  font-size: 42px;
+  font-size: 72px;
   line-height: 1.14;
+  color: white;
+  text-shadow: 0 6px 23px rgba(0, 0, 0, 0.2);
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: -0.09em;
 }
 
 h3, .h3 {
@@ -441,7 +446,7 @@ hr {
 }
 
 .navigation .menu .item:hover, .navigation .menu .item.active {
-  color: #bf2e48;
+  color: #d15057;
 }
 
 .navigation .indicator {
@@ -585,7 +590,7 @@ hr {
 }
 
 .social-links .item:hover {
-  color: #bf2e48;
+  color: #d15057;
 }
 
 .social-links .icon-behance {
@@ -623,11 +628,6 @@ hr {
   min-height: 700px;
 }
 
-.section.boxed {
-  margin: 0 auto;
-  max-width: 66.66%;
-}
-
 .section.centered {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -637,7 +637,12 @@ hr {
           align-items: center;
 }
 
-.width-lt-1280 .section.boxed {
+.boxed {
+  margin: 0 auto;
+  max-width: 66.66%;
+}
+
+.width-lt-1280 .boxed {
   max-width: 75%;
 }
 
@@ -646,7 +651,7 @@ hr {
   min-height: 500px;
 }
 
-.width-lt-980 .section.boxed {
+.width-lt-980 .boxed {
   max-width: 85%;
 }
 
@@ -802,7 +807,7 @@ hr {
 }
 
 .gMap-iw a:hover {
-  color: #bf2e48;
+  color: #d15057;
   text-decoration: none;
 }
 
@@ -949,6 +954,12 @@ hr {
   display: none;
 }
 
+/* COMMON STYLES START */
+.centered {
+  text-align: center;
+}
+
+/* COMMON STYLES END */
 /* GREY FIXED LINES START */
 .lines-overlay {
   display: none;
@@ -1369,3 +1380,16 @@ hr {
 .width-lt-980 .mouse-move-el {
   display: none;
 }
+
+/* ABOUT TEXT START */
+.about-text {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: justify;
+}
+
+.width-lt-1280 .about-text {
+  text-align: left;
+}
+
+/* ABOUT TEXT END */
