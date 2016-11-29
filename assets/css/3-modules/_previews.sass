@@ -35,4 +35,25 @@
 	.image
 		width: 75.5%
 
+	.mobile-view
+		display: none
+
+@media screen and (max-width: 640px)
+	.work-preview-image
+
+		&:before
+			background: url('../images/preview-mask-mobile.png') no-repeat
+			background-size: 100%
+
+		.image-crop
+			top: 11.6%
+			bottom: 12.6%
+
+		.mobile-view
+			display: inline-block
+			width: 71%
+
+		.desktop-view
+			display: none
+
 	/* WORK PREVIEWS END */

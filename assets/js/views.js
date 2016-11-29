@@ -150,7 +150,11 @@ $(document).ready(function(){
 	var workPreview = $('.work-preview-image');
 
 	function workPreviewResize() {
-		workPreview.css('height', workPreview.width() * 0.5925); // 16:9
+		if ($(window).width() >= 640) {
+			workPreview.css('height', workPreview.width() * 0.5925); // 16:9
+		} else {
+			workPreview.css('height', workPreview.width() * 1.6417);
+		}
 	}
 	workPreviewResize();
 

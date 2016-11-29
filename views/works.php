@@ -18,7 +18,8 @@
 			<div class="work-preview-image">
 				<div class="image-crop">
 					<a href="#works/lacnevozenie">
-						<img src="data/projects/01.jpg" alt="" class="image" />
+						<img src="data/projects/01.jpg" alt="" class="image desktop-view" />
+						<img src="data/projects/cnma-mobile.jpg" alt="" class="image mobile-view" />
 					</a>
 				</div>
 			</div>
@@ -34,7 +35,8 @@
 			<div class="work-preview-image">
 				<div class="image-crop">
 					<a href="#works/cnma">
-						<img src="data/previews/cnma.jpg" alt="" class="image" />
+						<img src="data/previews/cnma.jpg" alt="" class="image desktop-view" />
+						<img src="data/projects/cnma-mobile.jpg" alt="" class="image mobile-view" />
 					</a>
 				</div>
 			</div>
