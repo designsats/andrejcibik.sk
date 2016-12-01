@@ -9,7 +9,7 @@
 
 	<meta name="robots" content="noindex" />
 
-	<meta property="og:title" content="Andrej Cibík - portfolio" />
+	<meta property="og:title" content="Andrej Cibík / Designer / Front-end Developer" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="" />
 	<meta property="og:site_name" content="Andrejcibik.sk" />

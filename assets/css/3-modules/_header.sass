@@ -1,0 +1,124 @@
+
+/* PAGE TRANSITION START */
+
+.load-cont
+	//display: none
+	pointer-events: none
+	opacity: 1
+	position: fixed
+	top: 0
+	bottom: 0
+	left: 0
+	right: 0
+	line-height: 100%
+	z-index: 2
+
+	.wfi
+		position: fixed
+		left: 50%
+		top: 50%
+		transform: translate(-50%,-50%)
+		color: $grey
+		text-align: center
+		width: 100%
+		font-weight: 300
+		font-size: 30px
+		opacity: 0
+		z-index: 3
+		transition: all .6s
+
+	.layer
+		background: #fff
+		z-index: 1
+		position: absolute
+		top: 0
+		left: 0
+		height: 100vh
+		width: 100vw
+		transform: translate3d(0,-100%,0)
+		transition: all .8s
+		box-shadow: 0 3px 40px rgba(0, 0, 0, .1)
+
+	&.show
+		.layer
+			transform: translate3d(0,0%,0)
+
+&.show .wfi
+	opacity: .5
+
+.width-lt-980
+	.load-cont
+		//display: none
+
+/* PAGE TRANSITION END */
+
+
+@media screen and (max-width: 980px)
+	.header
+		position: fixed
+		top: 0
+		left: 0
+		width: 100%
+		height: 60px
+		z-index: 3
+		background: white
+		overflow: hidden
+		box-shadow: 0 3px 40px rgba(0, 0, 0, 0.1)
+
+
+
+/* LOGO START */
+
+.logo
+	display: inline-flex
+	justify-content: center
+	align-items: center
+	position: fixed
+	top: 0
+	right: 0
+	background: url('../images/logo.svg') center center no-repeat
+	width: 260px
+	height: 120px
+	z-index: 9
+
+	&:before
+		content: ''
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 0
+		right: 0
+		transition: all .8s
+		background: linear-gradient(-160deg, rgba(51,51,51,.25) 0%, rgba(51,51,51,.2) 10%, rgba(51,51,51,0) 40%)
+		opacity: 0
+		z-index: -1
+
+	&:hover:before
+		opacity: 1
+
+.width-gt-980
+	.logo
+		&.clip-light
+			background-image: url('../images/logo-light.svg')
+
+@media screen and (max-width: 980px)
+	.logo
+		position: absolute
+		left: 0
+		top: 0
+		width: 155px
+		height: 60px
+		z-index: 0
+		background-size: 120px
+
+		&:before
+			display: none
+
+/* LOGO END */
+
+
+.link-back-cont
+	display: none
+	position: fixed
+	top: 20px
+	left: 50%

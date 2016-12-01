@@ -1,10 +1,13 @@
 
 <div class="footer">
 
-	<div class="author">
-		Designed & coded with passion by me. <br>
-		Open source on <strong><a href="https://github.com/andrejcibik/andrejcibik.sk" target="_blank">Github</a> </strong>
-	</div>
+	<a href="mailto:andrejcibik@gmail.com" class="main-cta mouse-reaction">
+		<span class="inner">
+			<span class="title">Let's create something awesome</span>
+			<span class="text">andrejcibik@gmail.com</span>
+		</span>
+		<span class="mouse-move-el"></span>
+	</a>
 
 </div>
 

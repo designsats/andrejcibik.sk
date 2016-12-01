@@ -164,4 +164,26 @@ $(document).ready(function(){
 
 // WORKS PREVIEW -
 
+
+// MOUSE REACTION +
+
+	function mouseReaction(target) {
+
+		$('body').mousemove(function(e) {
+			var el = $('.mouse-move-el');
+			var targetElTop = target.offset();
+
+				elWidth = el.width(),
+				x = e.pageX - elWidth / 2,
+				y = e.pageY - elWidth / 2 - targetElTop.top;
+
+			el.css('transform', 'translate3d(' + x + 'px,' + y + 'px,0)');
+		});
+	}
+	mouseReaction($('.mouse-reaction'));
+
+// MOUSE REACTION -
+
+
+
 });

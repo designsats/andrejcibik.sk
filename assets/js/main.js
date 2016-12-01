@@ -67,9 +67,9 @@ $(document).ready(function(){
 
 	checkURL();
 
-	var menuItem = $('.menu .item');
+	var ajaxLink = $('.ajaxLink');
 
-	menuItem.click(function (e){
+	ajaxLink.click(function (e){
 		checkURL(this.hash);
 	});
 
@@ -89,10 +89,12 @@ function checkURL(hash) {
 		lasturl=hash;
 
 		if(hash=="")
-		$('.body-content').html(default_content);
+			$('.body-content').html(default_content);
 
-		else
-		loadPage(hash);
+		else {
+			loadPage(hash);
+		}
+
 	}
 }
 
@@ -120,7 +122,7 @@ function loadPage(url) {
 
 				setTimeout(function(){
 					$("html, body").animate({ scrollTop: 0 }, 0);
-				}, 500);
+				}, 800);
 
 				// Clear bgColor
 				$('.page-bg').css('background', 'none');

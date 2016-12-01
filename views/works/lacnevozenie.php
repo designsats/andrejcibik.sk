@@ -2,6 +2,7 @@
 <script type="text/javascript">
 	$(function(){
 		document.title = 'LacneVozenie.sk website' + ' ' + defaultTitle;
+		$('.link-back').show().attr('href', '#works');
 	});
 </script>
 

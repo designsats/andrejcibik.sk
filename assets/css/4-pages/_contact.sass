@@ -1,76 +1,5 @@
 
-.contact-mail
-	position: relative
-	top: 0
-	left: 0
-	display: block
-	padding: 20px
-	height: 300px
-	background: $orange
-	text-align: center
-	color: white
-	font-size: 20px
-	font-weight: 300
-	overflow: hidden
 
-	&:hover
-		color: white
-
-	.text
-		width: 90%
-		position: absolute
-		top: 53%
-		left: 50%
-		transform: translate(-50%,-50%)
-		z-index: 1
-
-		.title
-			display: block
-			font-size: 42px
-			font-weight: 700
-			margin-top: -10px
-			margin-bottom: 20px
-			line-height: 1.2
-
-.width-lt-980
-	.contact-mail
-		+horizontalGrad
-
-		.title
-			font-size: 38px
-
-.width-lt-640
-	.contact-mail
-		.title
-			font-size: 30px
-
-.width-lt-400
-	.contact-mail
-		height: 250px
-
-		.text
-			font-size: 16px
-
-		.title
-			font-size: 26px
-
-.mouse-move-el
-	width: 140vw
-	height: 140vw
-	border-radius: 50%
-	position: absolute
-	top: 0
-	left: 0
-	pointer-events: none
-	background-image: -webkit-radial-gradient(center center, rgba(177, 55, 111, .6) 10px, rgba(177, 55, 111, 0) 70%)
-
-.width-lt-980
-	.mouse-move-el
-		display: none
-
-
-
-/* ABOUT TEXT START */
 
 .about-text
 	font-weight: 700
@@ -81,4 +10,17 @@
 	.about-text
 		text-align: left
 
-/* ABOUT TEXT END */
+
+.author
+	color: #969696
+	position: relative
+	bottom: 0
+	left: 0
+	width: 100%
+	text-align: center
+	font-size: 16px
+	padding: 20px
+
+@media screen and (max-width: 360px)
+	.author
+		font-size: 14px

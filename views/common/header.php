@@ -6,7 +6,11 @@
 
 <header class="header">
 
-	<a href="#works" class="logo" alt="Andrej Cibík, Designer \& Developer"></a>
+	<a href="#works" class="ajaxLink logo" alt="Andrej Cibík, Designer \& Developer"></a>
+
+	<div class="link-back-cont">
+		<a href=""  class="button link-back ajaxLink">Späť</a>
+	</div>
 
 	<div class="mobile-menu-toggle ripple">
 		<span class="bar bar-1"></span>
