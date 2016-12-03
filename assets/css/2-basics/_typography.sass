@@ -15,7 +15,7 @@ h1,.h1
 	line-height: 1.2
 	text-transform: uppercase
 	letter-spacing: -0.09em
-	padding-top: 100px
+	margin-bottom: 60px
 	transition: all .6s .4s
 
 	& span
@@ -26,11 +26,19 @@ h1,.h1
 		text-shadow: 11px 0px 15px rgba(0, 0, 0, 0.15)
 
 
+.width-lt-98
+	& h1,.h1
+		font-size: 72px
+		padding-left: 20px
+		padding-right: 20px
+
 .width-lt-640
 	& h1,.h1
-		text-shadow: 0 3px 18px rgba(0, 0, 0, .2)
+		text-shadow: 0 0px 0px rgba(0, 0, 0, 0)
 		font-size: 60px
 
+		&.visible
+			text-shadow: 6px 0 12px rgba(0, 0, 0, .2)
 
 h2,.h2
 	font-size: 72px
@@ -59,6 +67,9 @@ small
   font-size: 10px
   line-height: 1.2
 
+
+.subtitle
+	font-size: 22px
 
 // Basic Text Style
 

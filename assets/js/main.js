@@ -84,6 +84,11 @@ function loadPage(url) {
 					loadCont.removeClass('show');
 					$('body').addClass('loaded');
 					$('.body-content').html(msg);
+
+					setTimeout(function(){
+						loadCont.removeClass('initial')
+					}, 1000);
+
 				}, 1200);
 
 				setTimeout(function(){
@@ -97,6 +102,40 @@ function loadPage(url) {
 
 	});
 
+	// MAIN MENU INDICATOR +
+
+		setTimeout(function(){
+
+			var menuItem = $('.menu .item');
+
+			var hash = window.location.hash;
+
+			var indexOfSlash = hash.indexOf("/");
+
+			if (indexOfSlash < 0)
+				indexOfSlash = hash.length;
+
+			var firstHash = hash.substring(0,indexOfSlash);
+
+			menuItem.each(function(){
+
+				menuItem.removeClass('active');
+
+				var thisHref = $(this).attr('href');
+
+				if (thisHref == firstHash) {
+					$(this).addClass('active');
+					return false;
+
+				} else if (firstHash == "") {
+					$('.menu .item:first-child').addClass('active');
+					return false;
+				}
+			});
+
+		},10);
+
+	// MAIN MENU INDICATOR -
 }
 
 

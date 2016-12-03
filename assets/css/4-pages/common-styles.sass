@@ -28,26 +28,27 @@
 		animation-fill-mode: forwards
 		height: 100%
 		opacity: .08
-		animation: lines 1.5s
+		animation: lines 2s
 
 	.line-1
 		left: 16.66%
+		animation-delay: .3s
 
 	.line-2
 		left: 33.33%
-		animation-delay: .1s
+		animation-delay: .6s
 
 	.line-3
 		left: 49.99%
-		animation-delay: .3s
+		animation-delay: .9s
 
 	.line-4
 		left: 66.66%
-		animation-delay: .5s
+		animation-delay: 1.2s
 
 	.line-5
 		left: 83.33%
-		animation-delay: .7s
+		animation-delay: 1.5s
 
 .lines-overlay
 	display: block
@@ -104,7 +105,7 @@
 	left: 0
 	display: block
 	padding: 20px
-	height: 300px
+	height: 340px
 	background: $orange
 	text-align: center
 	color: white
@@ -130,6 +131,9 @@
 			margin-top: -10px
 			margin-bottom: 20px
 			line-height: 1.2
+
+		.text
+			display: inline-block
 
 .width-lt-980
 	.main-cta
@@ -187,6 +191,15 @@
 /* CONTANT WRAP END */
 
 
+/* BODY CONTENT START */
+
+.body-content
+	position: relative
+	padding-top: 100px
+
+/* BODY CONTENT END */
+
+
 /* RIPPLE EFFECT - START */
 
 .ripple
@@ -227,7 +240,7 @@
 @keyframes rippleHover
 	0%
 	  transform: scale(1)
-	  opacity: 0.1
+	  opacity: 0.08
 
 	100%
 	  transform: scale(100)

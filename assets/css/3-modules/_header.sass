@@ -13,7 +13,7 @@
 	line-height: 100%
 	z-index: 2
 
-	.wfi
+	.load-cont-text
 		position: fixed
 		left: 50%
 		top: 50%
@@ -43,8 +43,15 @@
 		.layer
 			transform: translate3d(0,0%,0)
 
-&.show .wfi
-	opacity: .5
+	&.show .load-cont-text
+		opacity: .5
+
+	&.initial
+		.layer
+			transition: all 2s 1s
+
+		.load-cont-text
+			display: none
 
 .width-lt-980
 	.load-cont

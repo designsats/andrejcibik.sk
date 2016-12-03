@@ -44,8 +44,8 @@
 			<div class="work-preview-image">
 				<div class="image-crop">
 					<a href="#works/lacnevozenie" class="ajaxLink">
-						<img src="data/projects/01.jpg" alt="" class="image desktop-view" />
-						<img src="data/projects/cnma-mobile.jpg" alt="" class="image mobile-view" />
+						<img src="data/previews/lacnevozenie.jpg" alt="" class="image desktop-view" />
+						<img src="data/previews/lacnevozenie-mobile.jpg" alt="" class="image mobile-view" />
 					</a>
 				</div>
 			</div>

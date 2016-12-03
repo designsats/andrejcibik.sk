@@ -1,6 +1,6 @@
 
-<div class="load-cont show">
-	<span class="wfi">Wait for it...</span>
+<div class="load-cont show initial">
+	<span class="load-cont-text">Wait for it...</span>
 	<div class="layer"></div>
 </div>
 

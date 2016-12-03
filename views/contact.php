@@ -31,8 +31,6 @@
 </script>
 
 
-<br><br><br>
-
 <h1 class="centered">About me</h1>
 
 <br><br><br>
@@ -43,7 +41,7 @@
 	</p>
 </div>
 
-<br><br><br><br><br><br><br><br><br>
+<br><br><br>
 
 
 <div class="author">

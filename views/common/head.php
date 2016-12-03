@@ -21,7 +21,10 @@
 	<meta name="theme-color" content="#bf2e48">
 
 	<!-- FavIcon -->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico?v=1" />
 	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png?v=9" />
+	<link rel="apple-touch-icon" href="assets/images/favicon.png?v=1"/>
+
 
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700&amp;subset=latin-ext" rel="stylesheet">
 
