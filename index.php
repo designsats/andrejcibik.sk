@@ -3,7 +3,7 @@
 
 	<?php include('views/common/head.php') ?>
 
-	<body>
+	<body class="loadCont-showing">
 		<div class="page-bg"></div>
 
 		<div class="lines-overlay">

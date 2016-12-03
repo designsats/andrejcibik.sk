@@ -185,5 +185,37 @@ $(document).ready(function(){
 // MOUSE REACTION -
 
 
+// HEADINGS +
+	var headings = $('h1').add('.h1').add('h2').add('.h2');
+
+	headings.each(function (index) {
+    var characters = $(this).text().split("");
+
+    $this = $(this);
+    $this.empty();
+		$(this).wrap('<div class="heading-wrap"></div>');
+
+		var charPos = characters.length;
+
+    $.each(characters, function (i, el) {
+			var charHtml = "<span style='z-index: " + charPos + ";'>" + el + "</span>";
+			charPos = charPos - 1;
+	    $this.append(charHtml);
+    });
+
+		function headingVisibile() {
+			if ($this.offset().top < wScroll + $(window).height()) {
+				$this.addClass('visible');
+			}
+		}
+		headingVisibile();
+
+		$(document).scroll(function(){
+			wScroll = $(this).scrollTop();
+			headingVisibile();
+		});
+
+	});
+// HEADINGS -
 
 });
