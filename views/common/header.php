@@ -8,8 +8,10 @@
 
 	<a href="#works" class="ajaxLink logo" alt="Andrej Cibík, Designer \& Developer"></a>
 
-	<div class="link-back-cont">
-		<a href=""  class="button link-back ajaxLink">Späť</a>
+	<div class="link-back-cont hidden">
+		<a href="#works" class="link-back ajaxLink rippleHover">
+			<span class="arrow"></span>
+		</a>
 	</div>
 
 	<div class="mobile-menu-toggle ripple">

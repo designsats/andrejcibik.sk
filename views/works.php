@@ -3,14 +3,16 @@
 	$(function(){
 
 		// GEt JS for content manipulation
-		  var url = "assets/js/views.js";
-		  $.getScript(url);
+			var url = "assets/js/views.js";
+			$.getScript(url);
 
 		// Title change
 			document.title = 'Designer & Frontend developer' + ' ' + defaultTitle;
 
 		// Link back Href
-			$('.link-back').hide();
+			$('.link-back-cont')
+				.removeClass('showing')
+				.addClass('hidden');
 
 		// MAIN CTA +
 			function mainCtaInit() {

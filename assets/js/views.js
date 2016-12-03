@@ -49,34 +49,43 @@ $(function(){
 		function RippleHover() {
 			var rippleHover = $('.rippleHover');
 
-			$(rippleHover).on('mouseover', function(e){
-				var $div = $('<div/>'),
-						btnOffset = $(this).offset(),
-						xPos = e.pageX - btnOffset.left,
-						yPos = e.pageY - btnOffset.top;
+			rippleHover.each(function(){
 
-				$div.addClass('ripple-effect--hover');
-				var $ripple = $(".ripple-effect--hover");
+				if (!$(this).hasClass('used')) {
 
-				$ripple.css("height", $(this).height());
-				$ripple.css("width", $(this).height());
-				$div
-					.css({
-						top: yPos - ($ripple.height()/2) - 20,
-						left: xPos - ($ripple.width()/2) - 20,
-						background: $(this).data("ripple-color")
-					})
-					.appendTo($(this));
+					$(this).on('mouseover', function(e){
+						var $div = $('<div/>'),
+								btnOffset = $(this).offset(),
+								xPos = e.pageX - btnOffset.left,
+								yPos = e.pageY - btnOffset.top;
 
-				window.setTimeout(function(){
-					$div.remove();
-				}, 2000);
+						$div.addClass('ripple-effect--hover');
+						var $ripple = $(".ripple-effect--hover");
+
+						$ripple.css("height", $(this).height());
+						$ripple.css("width", $(this).height());
+						$div
+							.css({
+								top: yPos - ($ripple.height()/2) - 20,
+								left: xPos - ($ripple.width()/2) - 20,
+								background: $(this).data("ripple-color")
+							})
+							.appendTo($(this));
+
+						window.setTimeout(function(){
+							$div.remove();
+						}, 2000);
+					});
+
+				}
+
 			});
+
+			rippleHover.addClass('used');
 		}
 		RippleHover();
+
 	// RIPPLE EFFECT -
-
-
 
 });
 /*

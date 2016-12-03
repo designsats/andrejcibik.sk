@@ -1,8 +1,34 @@
 
 <script type="text/javascript">
 	$(function(){
-		document.title = 'LacneVozenie.sk website' + ' ' + defaultTitle;
-		$('.link-back').show().attr('href', '#works');
+
+		// Get JS for content manipulation
+			var url = "assets/js/views.js";
+			$.getScript(url);
+
+		// Title change
+			document.title = 'LacneVozenie.sk website' + ' ' + defaultTitle;
+
+		// Link back Href
+			$('.link-back-cont')
+				.removeClass('hidden')
+				.addClass('showing');
+
+		// MAIN CTA +
+			function mainCtaInit() {
+				var mainCta = $('.main-cta');
+
+				title = 'Do you like what you see?';
+				text = 'andrejcibik@gmail.com';
+				link = "mailto:andrejcibik@gmail.com";
+
+				mainCta.find('.title').html(title);
+				mainCta.find('.text').html(text);
+				mainCta.attr('href', link);
+			}
+			mainCtaInit();
+		// MAIN CTA -
+
 	});
 </script>
 
@@ -18,7 +44,9 @@
 	</div>
 
 </div>
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 <div class="section">
 
 	<div class="growImg" style="background-image: url(data/projects/lacnevozenie02.jpg);" data-jq-clipthru="clip-light">
@@ -28,8 +56,8 @@
 
 </div>
 
+<br><br><br><br><br>
 
-<script>
-  var url = "assets/js/views.js";
-  $.getScript(url);
-</script>
+<div class="next-project">
+
+</div>

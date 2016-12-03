@@ -142,7 +142,6 @@ function loadPage(url) {
 $(document).ready(function() {
 
 // INACTIVE TAB TITLE +
-	$(function() {
 		var message = "I miss you :(";
 		var original;
 
@@ -153,11 +152,10 @@ $(document).ready(function() {
 		}).blur(function() {
 			var title = $('title').text();
 			if (title != message) {
-					original = title;
+				original = title;
 			}
 			document.title = message;
 		});
-	});
 // INACTIVE TAB TITLE -
 
 

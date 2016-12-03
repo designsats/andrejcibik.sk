@@ -1,7 +1,34 @@
 
 <script type="text/javascript">
 	$(function(){
-		document.title = 'cnma concept' + ' ' + defaultTitle;
+
+		// Get JS for content manipulation
+			var url = "assets/js/views.js";
+			$.getScript(url);
+
+		// Title change
+			document.title = 'CNMA concept' + ' ' + defaultTitle;
+
+		// Link back Href
+			$('.link-back-cont')
+				.removeClass('hidden')
+				.addClass('showing');
+
+		// MAIN CTA +
+			function mainCtaInit() {
+				var mainCta = $('.main-cta');
+
+				title = 'Do you like what you see?';
+				text = 'andrejcibik@gmail.com';
+				link = "mailto:andrejcibik@gmail.com";
+
+				mainCta.find('.title').html(title);
+				mainCta.find('.text').html(text);
+				mainCta.attr('href', link);
+			}
+			mainCtaInit();
+		// MAIN CTA -
+
 	});
 </script>
 
