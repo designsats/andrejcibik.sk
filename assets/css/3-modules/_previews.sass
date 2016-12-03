@@ -25,7 +25,6 @@
 		pointer-events: none
 
 	.image-crop
-		overflow: hidden
 		position: absolute
 		top: 8.5%
 		bottom: 12%
@@ -33,13 +32,19 @@
 		right: 0
 		z-index: 0
 
+		& .preview-image
+				display: block
+				width: 75.5%
+				margin: 0 auto
+				overflow: hidden
+
 	.image
-		width: 75.5%
+		width: 100%
 
 	.mobile-view
 		display: none
 
-@media screen and (max-width: 640px)
+@media screen and (max-width: 620px)
 	.work-preview-image
 
 		&:before
@@ -47,12 +52,14 @@
 			background-size: 100%
 
 		.image-crop
-			top: 11.6%
+			top: 11.5%
 			bottom: 12.6%
+
+			& .preview-image
+					width: 71%
 
 		.mobile-view
 			display: inline-block
-			width: 71%
 
 		.desktop-view
 			display: none

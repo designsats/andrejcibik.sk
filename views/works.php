@@ -34,8 +34,6 @@
 <section class="hero-section">
 </section>
 
-<br><br><br>
-
 <h2 class="h1 centered">Works</h2>
 
 <div class="works-cont">
@@ -45,7 +43,7 @@
 		<div class="work-preview">
 			<div class="work-preview-image">
 				<div class="image-crop">
-					<a href="#works/lacnevozenie" class="ajaxLink">
+					<a href="#works/lacnevozenie" class="preview-image ripple">
 						<img src="data/previews/lacnevozenie.jpg" alt="" class="image desktop-view" />
 						<img src="data/previews/lacnevozenie-mobile.jpg" alt="" class="image mobile-view" />
 					</a>
@@ -62,7 +60,7 @@
 		<div class="work-preview">
 			<div class="work-preview-image">
 				<div class="image-crop">
-					<a href="#works/cnma" class="ajaxLink">
+					<a href="#works/cnma" class="preview-image ripple">
 						<img src="data/previews/cnma.jpg" alt="" class="image desktop-view" />
 						<img src="data/projects/cnma-mobile.jpg" alt="" class="image mobile-view" />
 					</a>

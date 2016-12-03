@@ -35,6 +35,7 @@
 
 <h1 class="centered">Lacné vozenie</h1>
 
+<p class="centered"><a href="http://www.lacnevozenie.sk/sk/" class="button rippleHover" target="_blank">Visit website</a></p>
 
 <div class="section">
 

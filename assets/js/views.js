@@ -44,7 +44,7 @@ $(function(){
 	// SECTIONS BACKGROUND -
 
 
-	// RIPPLE EFFECT +
+	// RIPPLE EFFECT HOVER +
 
 		function RippleHover() {
 			var rippleHover = $('.rippleHover');
@@ -85,8 +85,46 @@ $(function(){
 		}
 		RippleHover();
 
-	// RIPPLE EFFECT -
+	// RIPPLE EFFECT HOVER -
 
+
+	// RIPPLE EFFECT CLICK +
+		function Ripple() {
+			var ripple = $('.ripple');
+
+			ripple.each(function(){
+
+				if (!$(this).hasClass('used')) {
+
+					$(this).on('click',function(e){
+						var $div = $('<div/>'),
+								btnOffset = $(this).offset(),
+								xPos = e.pageX - btnOffset.left,
+								yPos = e.pageY - btnOffset.top;
+
+						$div.addClass('ripple-effect');
+						var $ripple = $(".ripple-effect");
+
+						$ripple.css("height", $(this).height());
+						$ripple.css("width", $(this).height());
+						$div
+							.css({
+								top: yPos - ($ripple.height()/2) - 20,
+								left: xPos - ($ripple.width()/2) - 20,
+								background: $(this).data("ripple-color")
+							})
+							.appendTo($(this));
+
+						window.setTimeout(function(){
+							$div.remove();
+						}, 800);
+					});
+				}
+			});
+			ripple.addClass('used');
+		}
+		Ripple();
+	// RIPPLE EFFECT CLICK -
 });
 /*
 

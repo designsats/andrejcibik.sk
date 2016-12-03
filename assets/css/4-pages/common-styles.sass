@@ -171,13 +171,16 @@
 	.mouse-move-el
 		display: none
 
+@media screen and (max-height: 400px)
+	.main-cta
+		height: calc(100vh - 60px)
+
 /* MAIN CTA END */
 
 
 /* CONTENT WRAP START */
 
 .content-wrapper
-	background: white
 	margin: 0 auto
 	box-shadow: 0 -6px 41px rgba(0, 0, 0, .5)
 	z-index: 1
@@ -196,6 +199,15 @@
 .body-content
 	position: relative
 	padding-top: 100px
+	background: white
+
+.width-lt-980
+	.body-content
+		padding-top: 80px
+
+.width-lt-640
+	.body-content
+		padding-top: 60px
 
 /* BODY CONTENT END */
 

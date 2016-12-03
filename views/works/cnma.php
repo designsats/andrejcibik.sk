@@ -34,7 +34,7 @@
 
 
 
-<h1></h1>
+<h1 class="centered">CNMA concept</h1>
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>

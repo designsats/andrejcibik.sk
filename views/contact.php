@@ -35,7 +35,6 @@
 
 <h1 class="centered">About me</h1>
 
-<br><br><br>
 
 <div class="boxed">
 	<p class="about-text">
