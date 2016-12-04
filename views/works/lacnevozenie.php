@@ -19,8 +19,8 @@
 				var mainCta = $('.main-cta');
 
 				title = 'Do you like what you see?';
-				text = 'andrejcibik@gmail.com';
-				link = "mailto:andrejcibik@gmail.com";
+				text = 'About me & Contact';
+				link = "#contact";
 
 				mainCta.find('.title').html(title);
 				mainCta.find('.text').html(text);
@@ -35,7 +35,45 @@
 
 <h1 class="centered">Lacné vozenie</h1>
 
-<p class="centered"><a href="http://www.lacnevozenie.sk/sk/" class="button rippleHover" target="_blank">Visit website</a></p>
+<div class="row subtle-text ease-item" data-ease-delay="1s">
+	<div class="small-6 medium-2 large-2 large-offset-1 columns">
+		<strong>ROLE:</strong>
+		Designer, Front-end Developer
+	</div>
+	<div class="small-6 medium-2 large-1 columns">
+		<strong>DATE:</strong>
+		August 2016
+	</div>
+	<div class="small-6 medium-2 large-2 columns">
+		<strong>CONTEXT:</strong>
+		Website redesign
+	</div>
+</div>
+
+<div class="separator small"></div>
+
+<p class="subtitle centered boxed ease-item" data-ease-delay="1.6s">Website for Autoklinika Bosch Car Service, Slovak leader in the installation and servicing of LPG-technology to civil cars. </p>
+
+<div class="separator small"></div>
+
+<p class="centered ease-item" data-ease-delay="2.2s"><a href="http://www.lacnevozenie.sk/sk/" class="button rippleHover" target="_blank">Visit website</a></p>
+
+<div class="separator"></div>
+
+<div class="section">
+
+	<div class="growImg" style="background-image: url(data/projects/lacnevozenie02.jpg);">
+		<div class="growSide growSide-left"></div>
+		<div class="growSide growSide-right"></div>
+	</div>
+
+</div>
+
+<div class="separator"></div>
+
+
+
+<div class="separator"></div>
 
 <div class="section">
 
@@ -46,18 +84,11 @@
 
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="separator"></div>
 
-<div class="section">
+<p class="centered"><a href="http://www.lacnevozenie.sk/sk/" class="button rippleHover" target="_blank">Visit website</a></p>
 
-	<div class="growImg" style="background-image: url(data/projects/lacnevozenie02.jpg);" data-jq-clipthru="clip-light">
-		<div class="growSide growSide-left"></div>
-		<div class="growSide growSide-right"></div>
-	</div>
-
-</div>
-
-<br><br><br><br><br>
+<div class="separator"></div>
 
 <div class="next-project">
 

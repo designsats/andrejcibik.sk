@@ -2,7 +2,7 @@
 <script type="text/javascript">
 	$(function(){
 
-		// GEt JS for content manipulation
+		// Get JS for content manipulation
 			var url = "assets/js/views.js";
 			$.getScript(url);
 

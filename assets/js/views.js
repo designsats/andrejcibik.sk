@@ -265,4 +265,46 @@ $(document).ready(function(){
 	});
 // HEADINGS -
 
+
+// EASE IN +
+	var easeItems = $('.ease-item');
+
+	function easeIn() {
+
+		var wScroll = $(this).scrollTop();
+
+		function easing(delayedEasing) {
+			easeItems.each(function(){
+
+				var delay = $(this).data('ease-delay');
+
+				if (wScroll > (($(this).offset().top) - $(window).height() + 60)) {
+
+					if (delayedEasing)
+						$(this).addClass('is-visible').css('transition-delay', delay);
+					else
+						$(this).addClass('is-visible').css('transition-delay', 200);
+				}
+				else {
+					$(this).removeClass('is-visible');
+				}
+
+			});
+		}
+		easing(true);
+
+		$(document).scroll(function(){
+			wScroll = $(this).scrollTop();
+			easing(false);
+		});
+	}
+
+	easeIn();
+
+	$(window).resize(function(){
+		easeIn();
+	});
+// EASE IN -
+
+
 });

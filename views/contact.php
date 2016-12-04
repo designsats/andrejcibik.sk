@@ -38,7 +38,7 @@
 
 <div class="boxed">
 	<p class="about-text">
-		Hey, Thanks for stopping by. My name’s Andrej Cibík and I’m a Designer and Front-end Developer at <a href="http://www.lemonlion.sk/" target="_blank">LemonLion</a>, Digital Agency from Púchov, Slovakia. I’ve worked on more than 150 websites. I’m in a war against default grey and in love for clean, striking design. Do you have a killer project?
+		Hey, Thanks for stopping by. My name’s Andrej Cibík and I’m a Designer and Front-end Developer at <a href="http://www.lemonlion.sk/" class="subtle-link" target="_blank">LemonLion</a>, Digital Agency from Púchov, Slovakia. I’ve worked on more than 150 websites. I’m in a war against default grey and in love for clean, striking design. Do you have a killer project?
 	</p>
 </div>
 
@@ -46,5 +46,5 @@
 
 
 <div class="author">
-	Designed & coded with passion by me. Open source on <strong><a href="https://github.com/andrejcibik/andrejcibik.sk" target="_blank">Github</a> </strong>
+	Designed & coded with passion by me. Open source on <strong><a href="https://github.com/andrejcibik/andrejcibik.sk" class="subtle-link" target="_blank">Github</a> </strong>
 </div>

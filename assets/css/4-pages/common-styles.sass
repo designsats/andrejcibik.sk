@@ -104,7 +104,7 @@
 	top: 0
 	left: 0
 	display: block
-	padding: 20px
+	padding: 20px 30px
 	height: 340px
 	background: $orange
 	text-align: center
@@ -129,7 +129,7 @@
 			font-size: 42px
 			font-weight: 700
 			margin-top: -10px
-			margin-bottom: 20px
+			margin-bottom: 36px
 			line-height: 1.2
 
 		.text
@@ -146,6 +146,7 @@
 	.main-cta
 		.title
 			font-size: 30px
+			margin-bottom: 30px
 
 .width-lt-400
 	.main-cta
@@ -156,6 +157,7 @@
 
 		.title
 			font-size: 26px
+			margin-bottom: 20px
 
 .mouse-move-el
 	width: 140vw
@@ -183,6 +185,7 @@
 .content-wrapper
 	margin: 0 auto
 	box-shadow: 0 -6px 41px rgba(0, 0, 0, .5)
+	background: white
 	z-index: 1
 	min-height: 100vh
 	transition: all .5s
@@ -259,3 +262,50 @@
 	  opacity: 0
 
 /* RIPPLE EFFECT - END */
+
+
+/* SEPARATOR START */
+
+.separator
+	height: 170px
+
+	&.small
+		height: 90px
+
+.width-lt-980
+	.separator
+		height: 100px
+
+		&.small
+			height: 60px
+
+.width-lt-640
+	.separator
+		height: 80px
+
+		&.small
+			height: 45px
+
+.width-lt-400
+	.separator
+		height: 60px
+
+		&.small
+			height: 30px
+
+/* SEPARATOR END */
+
+
+/* EASE ITEM START */
+
+.ease-item
+	transition: all .8s
+	transition-delay: .2s
+	transform: translateX(-30px)
+	opacity: 0
+
+.ease-item.is-visible
+	transform: translateX(0px)
+	opacity: 1
+
+/* EASE ITEM END */

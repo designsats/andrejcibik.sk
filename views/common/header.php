@@ -6,7 +6,9 @@
 
 <header class="header">
 
-	<a href="#works" class="ajaxLink logo" alt="Andrej Cibík, Designer \& Developer"></a>
+	<a href="#works" class="ajaxLink logo">
+		<img src="assets/images/logo.svg" alt="Andrej Cibík, Designer \& Developer">
+	</a>
 
 	<div class="link-back-cont hidden">
 		<a href="#works" class="link-back ajaxLink rippleHover">

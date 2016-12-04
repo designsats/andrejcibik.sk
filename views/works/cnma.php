@@ -33,12 +33,7 @@
 </script>
 
 
-
 <h1 class="centered">CNMA concept</h1>
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
-
 
 <div class="section">
 
@@ -48,7 +43,9 @@
 	</div>
 
 </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="separator"></div>
+
 <div class="section">
 
 	<div class="growImg" style="background-image: url(data/projects/cnma.jpg);" data-jq-clipthru="clip-light">
