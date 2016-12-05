@@ -10,7 +10,9 @@
 			document.title = 'oh S**T, 404' + ' ' + defaultTitle;
 
 		// Link back Href
-			$('.link-back').show().attr('href', '#works');
+			$('.link-back-cont')
+				.removeClass('hidden')
+				.addClass('showing');
 
 		// MAIN CTA +
 			function mainCtaInit() {

@@ -35,24 +35,15 @@
 
 <h1 class="centered">Lacné vozenie</h1>
 
-<div class="row subtle-text ease-item" data-ease-delay="1s">
-	<div class="small-6 medium-2 large-2 large-offset-1 columns">
-		<strong>ROLE:</strong>
-		Designer, Front-end Developer
-	</div>
-	<div class="small-6 medium-2 large-1 columns">
-		<strong>DATE:</strong>
-		August 2016
-	</div>
-	<div class="small-6 medium-2 large-2 columns">
-		<strong>CONTEXT:</strong>
-		Website redesign
-	</div>
+<div class="boxed centered subtle-text ease-item" data-ease-delay="1s">
+	<span class="project-detail"><strong>ROLE:</strong> Designer, Front-end</span>
+	<span class="project-detail"><strong>DATE:</strong> August 2016</span>
+	<span class="project-detail"><strong>CONTEXT:</strong> Website redesign</span>
 </div>
 
 <div class="separator small"></div>
 
-<p class="subtitle centered boxed ease-item" data-ease-delay="1.6s">Website for Autoklinika Bosch Car Service, Slovak leader in the installation and servicing of LPG-technology to civil cars. </p>
+<p class="project-pitch subtitle boxed ease-item" data-ease-delay="1.6s">Website for Autoklinika Bosch Car Service, Slovak leader in the installation and servicing of LPG-technology to civil cars. </p>
 
 <div class="separator small"></div>
 

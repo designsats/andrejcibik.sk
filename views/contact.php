@@ -45,6 +45,6 @@
 <br><br><br>
 
 
-<div class="author">
+<div class="author subtle-text">
 	Designed & coded with passion by me. Open source on <strong><a href="https://github.com/andrejcibik/andrejcibik.sk" class="subtle-link" target="_blank">Github</a> </strong>
 </div>
