@@ -151,7 +151,7 @@ $(document).ready(function(){
 				function GrowImg() {
 					wScroll = $(this).scrollTop();
 
-					if (thisImg.offset().top<= wScroll + $(window).height()  &&  thisImg.offset().top + thisImg.height() >= wScroll + $(window).height() ) {
+					if (thisImg.offset().top<= wScroll + $(window).height()  &&  thisImg.offset().top + thisImg.height() + 60 >= wScroll + $(window).height() ) {
 
 						thisImg.addClass('active');
 
@@ -162,7 +162,7 @@ $(document).ready(function(){
 
 						var growSidePush = growSide.width() * distance;
 
-						if (distance > 0.98)
+						if (wScroll > thisImg.offset().top + thisImg.height() + 60)
 							growSidePush = growSide.width();
 
 						growSideLeft.css('transform', 'translate3d(' + growSidePush * -1 + 'px, 0, 0)');
@@ -233,7 +233,7 @@ $(document).ready(function(){
 
 
 // HEADINGS +
-	var headings = $('h1').add('.h1').add('h2').add('.h2');
+	var headings = $('h1').add('.h1');
 
 	headings.each(function (index) {
     var characters = $(this).text().split("");

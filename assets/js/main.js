@@ -1,6 +1,6 @@
 
 // Hi sneaky code-sniffer :)
-//console.image('https://s-media-cache-ak0.pinimg.com/736x/9b/fe/f0/9bfef0c0bb3a3cf817872aacf209667f.jpg');
+console.image('http://andrejcibik.6f.sk/assets/images/console-logo.png');
 
 
 // RESPONSIVE +

@@ -301,11 +301,21 @@
 .ease-item
 	transition: all .8s
 	transition-delay: .2s
-	transform: translateX(-30px)
 	opacity: 0
 
+	&.ease-left
+		transform: translateX(-30px)
+
+		&.is-visible
+			transform: translateX(0px)
+
+	&.ease-bottom
+		transform: translateY(60px)
+
+		&.is-visible
+			transform: translateY(0px)
+
 .ease-item.is-visible
-	transform: translateX(0px)
 	opacity: 1
 
 /* EASE ITEM END */
@@ -313,7 +323,10 @@
 
 .width-lt-980
 	.row
-		padding-left: 20px
+		padding: 0 20px
 
 .column,.columns
   padding-right: 40px
+
+.drop-shadow
+	box-shadow: 0px 4px 60px -20px rgba(0, 0, 0, .35)

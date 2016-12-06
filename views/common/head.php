@@ -14,7 +14,7 @@
 	<meta property="og:url" content="" />
 	<meta property="og:site_name" content="Andrejcibik.sk" />
 	<meta property="og:image" content="http://andrejcibik.6f.sk/assets/images/og-image.jpg" />
-	<meta property="og:description" content="Hi nice people. Im Andy." />
+	<meta property="og:description" content="Hi nice people. Im Andy and these are my works." />
 
 	<title></title>
 

@@ -1150,7 +1150,7 @@ body {
   font-size: 18px;
   line-height: 1.8;
   font-family: 'Work Sans', sans-serif;
-  color: #544f51;
+  color: #565a5f;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   overflow-x: hidden;
@@ -1212,7 +1212,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #544f51;
+  color: #565a5f;
   transition: color .5s;
 }
 
@@ -1285,9 +1285,28 @@ h1.visible, .h1.visible {
 }
 
 h2, .h2 {
-  font-size: 72px;
-  line-height: 1.14;
-  line-height: 1.2;
+  font-size: 62px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  -webkit-transform: translateX(-3px);
+      -ms-transform: translateX(-3px);
+          transform: translateX(-3px);
+}
+
+.width-lt-980 h2, .width-lt-980 .h2 {
+  font-size: 50px;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+}
+
+.width-lt-640 h2, .width-lt-640 .h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.width-lt-400 h2, .width-lt-400 .h2 {
+  font-size: 28px;
 }
 
 h3, .h3 {
@@ -1399,7 +1418,7 @@ hr {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #544f51;
+  color: #565a5f;
   text-align: center;
   width: 100%;
   font-weight: 300;
@@ -1441,7 +1460,7 @@ hr {
 }
 
 /* PAGE TRANSITION END */
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1000px) {
   .header {
     position: fixed;
     top: 0;
@@ -1491,7 +1510,7 @@ hr {
   opacity: 1;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1000px) {
   .logo {
     position: absolute;
     left: 0;
@@ -1775,7 +1794,7 @@ hr {
   display: block;
   text-align: center;
   padding: 10px 0;
-  color: #544f51;
+  color: #565a5f;
   transition: all .3s;
 }
 
@@ -1829,7 +1848,11 @@ hr {
 
 .boxed {
   margin: 0 auto;
-  max-width: 66.95%;
+  max-width: 66.66%;
+}
+
+.boxed img {
+  vertical-align: bottom;
 }
 
 .width-lt-1280 .boxed {
@@ -1853,7 +1876,7 @@ hr {
 /* GROW IMG START */
 .growImg {
   height: 100%;
-  background: center center no-repeat fixed #fff;
+  background: center top no-repeat fixed #fff;
   background-size: cover;
   position: relative;
   overflow: hidden;
@@ -1879,8 +1902,8 @@ hr {
 }
 
 .width-lt-980 .growImg {
-  height: auto;
-  padding-top: 100%;
+  height: 80vh;
+  min-height: 500px;
 }
 
 .width-lt-980 .growSide {
@@ -1911,7 +1934,7 @@ hr {
 
 /* WORK PREVIEWS START */
 .work-preview {
-  width: 99.6%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -2357,26 +2380,48 @@ hr {
 .ease-item {
   transition: all .8s;
   transition-delay: .2s;
-  -webkit-transform: translateX(-30px);
-      -ms-transform: translateX(-30px);
-          transform: translateX(-30px);
   opacity: 0;
 }
 
-.ease-item.is-visible {
+.ease-item.ease-left {
+  -webkit-transform: translateX(-30px);
+      -ms-transform: translateX(-30px);
+          transform: translateX(-30px);
+}
+
+.ease-item.ease-left.is-visible {
   -webkit-transform: translateX(0px);
       -ms-transform: translateX(0px);
           transform: translateX(0px);
+}
+
+.ease-item.ease-bottom {
+  -webkit-transform: translateY(60px);
+      -ms-transform: translateY(60px);
+          transform: translateY(60px);
+}
+
+.ease-item.ease-bottom.is-visible {
+  -webkit-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.ease-item.is-visible {
   opacity: 1;
 }
 
 /* EASE ITEM END */
 .width-lt-980 .row {
-  padding-left: 20px;
+  padding: 0 20px;
 }
 
 .column, .columns {
   padding-right: 40px;
+}
+
+.drop-shadow {
+  box-shadow: 0px 4px 60px -20px rgba(0, 0, 0, 0.35);
 }
 
 .about-text {
@@ -2396,6 +2441,27 @@ hr {
 
 .width-lt-400 .about-text {
   font-size: 22px;
+}
+
+.social-links-contact .button {
+  padding: 54px 61px;
+  font-size: 30px;
+}
+
+.social-links-contact .button::before {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.width-lt-640 .social-links-contact .button {
+  padding: 30px;
+  font-size: 20px;
+}
+
+.width-lt-640 .social-links-contact .button::before {
+  width: auto;
+  height: auto;
 }
 
 .author {

@@ -15,7 +15,10 @@
 
 .boxed
 	margin: 0 auto
-	max-width: 66.95%
+	max-width: 66.66%
+
+	img
+		vertical-align: bottom
 
 .width-lt-1280
 	.boxed
@@ -34,11 +37,12 @@
 		height: auto
 		padding: 60px 0
 
+
 /* GROW IMG START */
 
 .growImg
 	height: 100%
-	background: center center no-repeat fixed #fff
+	background: center top no-repeat fixed #fff
 	background-size: cover
 	position: relative
 	overflow: hidden
@@ -59,8 +63,8 @@
 
 .width-lt-980
 	.growImg
-		height: auto
-		padding-top: 100%
+		height: 80vh
+		min-height: 500px
 
 	.growSide
 		display: none
