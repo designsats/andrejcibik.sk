@@ -156,7 +156,7 @@
 
 <div class="separator"></div>
 
-<p class="centered"><a href="http://www.lacnevozenie.sk/sk/" class="button rippleHover" target="_blank">Visit website</a></p>
+<p class="centered"><a href="#works/cnma" class="button rippleHover nextProject">Next project <span class="arrow"></span></a></p>
 
 <div class="separator"></div>
 

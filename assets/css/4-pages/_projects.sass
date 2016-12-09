@@ -13,3 +13,57 @@
 .width-lt-980
 	.project-pitch
 		text-align: left
+
+
+/* NEXT PROJECT BUTTON START */
+
+.nextProject
+	padding: 25px 70px
+	min-width: 33.4%
+
+	.arrow
+		transition: all .5s
+		transform: rotate(180deg) translateX(-50px)
+		opacity: 0
+
+.nextProject
+	&:hover
+		.arrow
+			transform: rotate(180deg) translateX(-100px)
+			opacity: 1
+			background: rgba(0, 0, 0, .5)
+
+			&:before,&:after
+				background: rgba(0, 0, 0, .5)
+
+.width-lt-1280
+	.nextProject
+		min-width: 450px
+
+.width-lt-980
+	.nextProject
+		min-width: 400px
+		padding: 16px 70px
+
+		.arrow
+			width: 70px
+			transform: rotate(180deg) translateX(-90px)
+			opacity: 1
+
+.width-lt-640
+	.nextProject
+		min-width: 360px
+		padding: 10px 50px
+
+		.arrow
+			width: 60px
+			transform: rotate(180deg) translateX(-80px)
+
+.width-lt-400
+	.nextProject
+		min-width: 80%
+
+		.arrow
+			display: none
+
+/* NEXT PROJECT BUTTON END */

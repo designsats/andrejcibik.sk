@@ -87,21 +87,6 @@
 	height: 120px
 	z-index: 9
 
-	&:before
-		content: ''
-		position: absolute
-		top: 0
-		bottom: 0
-		left: 0
-		right: 0
-		transition: all .8s
-		background: linear-gradient(-160deg, rgba(51,51,51,.25) 0%, rgba(51,51,51,.2) 10%, rgba(51,51,51,0) 40%)
-		opacity: 0
-		z-index: -1
-
-	&:hover:before
-		opacity: 1
-
 @media screen and (max-width: 1000px)
 	.logo
 		position: absolute
@@ -164,42 +149,42 @@
 	opacity: 0
 	transition: all .5s
 
-	.arrow
+.arrow
+	position: absolute
+	left: 50%
+	top: 50%
+	transform: translateX(-50%)
+	width: 100px
+	height: 1px
+	pointer-events: none
+	background: rgba(0, 0, 0, .2)
+	transition: all .4s
+
+	&:before,&:after
+		content: ''
 		position: absolute
-		left: 50%
-		top: 50%
-		transform: translateX(-50%)
-		width: 100px
+		top: 4px
+		left: -2px
+		width: 12px
 		height: 1px
-		pointer-events: none
 		background: rgba(0, 0, 0, .2)
+		transform: rotate(45deg)
 		transition: all .4s
 
-		&:before,&:after
-			content: ''
-			position: absolute
-			top: 4px
-			left: -2px
-			width: 12px
-			height: 1px
-			background: rgba(0, 0, 0, .2)
-			transform: rotate(45deg)
-			transition: all .4s
+	&:after
+		top: -4px
+		transform: rotate(-45deg)
 
-		&:after
-			top: -4px
-			transform: rotate(-45deg)
+.link-back
+	position: relative
+	display: block
+	padding: 60px 0
 
-	.link-back
-		position: relative
-		display: block
-		padding: 60px 0
+	&:hover
+		.arrow
+			background: rgba(0, 0, 0, .5)
 
-		&:hover
-			.arrow
+			&:before,&:after
 				background: rgba(0, 0, 0, .5)
-
-				&:before,&:after
-					background: rgba(0, 0, 0, .5)
 
 /* LINK BACK END */

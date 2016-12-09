@@ -151,7 +151,7 @@ $(document).ready(function(){
 				function GrowImg() {
 					wScroll = $(this).scrollTop();
 
-					if (thisImg.offset().top<= wScroll + $(window).height()  &&  thisImg.offset().top + thisImg.height() + 60 >= wScroll + $(window).height() ) {
+					if (thisImg.offset().top <= wScroll + $(window).height()  &&  thisImg.offset().top + thisImg.height() + 60 >= wScroll + $(window).height() ) {
 
 						thisImg.addClass('active');
 
@@ -161,7 +161,7 @@ $(document).ready(function(){
 						var distance = (wScroll - thisImg.position().top + $(window).height()) / thisImg.height();
 
 						var growSidePush = growSide.width() * distance;
-
+						
 						if (wScroll > thisImg.offset().top + thisImg.height() + 60)
 							growSidePush = growSide.width();
 
