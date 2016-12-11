@@ -135,7 +135,7 @@
 		.text
 			display: inline-block
 
-.width-lt-980
+.width-lt-980, .ie
 	.main-cta
 		+horizontalGrad
 
@@ -184,8 +184,6 @@
 
 .content-wrapper
 	margin: 0 auto
-	box-shadow: 0 -6px 41px rgba(0, 0, 0, .5)
-	background: white
 	z-index: 1
 	min-height: 100vh
 	transition: all .5s
@@ -203,6 +201,8 @@
 	position: relative
 	padding-top: 100px
 	background: white
+	box-shadow: 0 3px 37px rgba(0, 0, 0, .35)
+	z-index: 1
 
 .width-lt-980
 	.body-content
@@ -300,7 +300,6 @@
 
 .ease-item
 	transition: all .8s
-	transition-delay: .2s
 	opacity: 0
 
 	&.ease-left

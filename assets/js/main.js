@@ -177,7 +177,8 @@ $(document).ready(function() {
 
 // SMOOTH SCROLL +
 	// docs https://greensock.com/docs/#/HTML5/GSAP/Plugins/ScrollToPlugin/
-	$(function(){
+	// Init here: smoothScroll Init
+	function smoothScroll() {
 
 		var $window = $(window);
 
@@ -197,15 +198,18 @@ $(document).ready(function() {
 					overwrite: 5
 				});
 		});
-	});
+	}
 // SMOOTH SCROLL -
 
 
 // FOOTER REAVEAL START +
-	function fHeight() {
-		var footerHeight = $('.footer').height(),
-				contentWrapper = $('.content-wrapper');
 
+var footer = $('.footer'),
+		footerHeight = footer.height(),
+		contentWrapper = $('.content-wrapper');
+
+	function fHeight() {
+		footerHeight = footer.height();
 		contentWrapper.css('margin-bottom', footerHeight);
 	}
 	fHeight();
@@ -213,6 +217,52 @@ $(document).ready(function() {
 	$(window).resize(function(){
 		fHeight();
 	});
+
 // FOOTER REAVEAL START -
 
+
+// IE and EDGE DETECTION +
+	var version = detectIE();
+
+	if (version === false && $(window).width() >= 980) {
+
+		// smoothScroll Init
+		smoothScroll();
+
+	} else if (version >= 12) {
+		$('body').addClass('edge');
+	} else {
+		$('body').addClass('ie');
+	}
+
+	/**
+	* detect IE
+	* returns version of IE or false, if browser is not Internet Explorer
+	*/
+	function detectIE() {
+		var ua = window.navigator.userAgent;
+
+		var msie = ua.indexOf('MSIE ');
+		if (msie > 0) {
+			// IE 10 or older => return version number
+			return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+		}
+
+		var trident = ua.indexOf('Trident/');
+		if (trident > 0) {
+			// IE 11 => return version number
+			var rv = ua.indexOf('rv:');
+			return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+		}
+
+		var edge = ua.indexOf('Edge/');
+		if (edge > 0) {
+			// Edge (IE 12+) => return version number
+			return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+		}
+
+		// other browser
+		return false;
+	}
+// IE and EDGE DETECTION +
 });

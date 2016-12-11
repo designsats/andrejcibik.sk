@@ -161,7 +161,7 @@ $(document).ready(function(){
 						var distance = (wScroll - thisImg.position().top + $(window).height()) / thisImg.height();
 
 						var growSidePush = growSide.width() * distance;
-						
+
 						if (wScroll > thisImg.offset().top + thisImg.height() + 60)
 							growSidePush = growSide.width();
 
@@ -297,7 +297,7 @@ $(document).ready(function(){
 			wScroll = $(this).scrollTop();
 			easing(false);
 		});
-	}
+	} // easeIn -
 
 	easeIn();
 
@@ -307,4 +307,23 @@ $(document).ready(function(){
 // EASE IN -
 
 
+// FOOTER VISIBILITY +
+
+	var footer = $('.footer');
+
+	function footerVisibility() {
+		$(window).scroll(function(){
+			if ( wScroll + $(window).height() >= $(document).height() - $(window).height())
+				footer.css('opacity', '1');
+			else
+				footer.css('opacity', '0');
+		});
+	}
+	footerVisibility();
+
+	$(window).resize(function(){
+		footerVisibility();
+	});
+
+// FOOTER VISIBILITY -
 });

@@ -6,6 +6,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	<meta name="robots" content="noindex" />
 
@@ -50,14 +51,5 @@
 		ga('create', 'UA-80543812-2', 'auto');
 		ga('send', 'pageview');
 	// GA -
-
-	// SMART LOOK +
-    window.smartlook||(function(d) {
-	    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
-	    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
-	    c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
-    })(document);
-    smartlook('init', '5755c896c1625fd769073c4933528c11c8c5aefe');
-	// SMART LOOK -
 
 </script>

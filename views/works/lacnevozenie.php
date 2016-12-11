@@ -159,7 +159,3 @@
 <p class="centered"><a href="#works/cnma" class="button rippleHover nextProject">Next project <span class="arrow"></span></a></p>
 
 <div class="separator"></div>
-
-<div class="next-project">
-
-</div>

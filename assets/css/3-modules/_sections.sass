@@ -42,10 +42,12 @@
 
 .growImg
 	height: 100%
-	background: center top no-repeat fixed #fff
+	background: center center no-repeat #fff
 	background-size: cover
+	background-attachment: fixed
 	position: relative
 	overflow: hidden
+	margin: auto
 
 	.growSide
 		height: 100%
@@ -69,8 +71,14 @@
 	.growSide
 		display: none
 
+.edge, .ie
+	.growImg
+		background-attachment: inherit
+
 /* GROW IMG END */
 
+
+/* 404 START */
 
 .err-image
 	width: 100%
@@ -82,3 +90,27 @@
 .width-lt-400
 	.err-image
 		height: 320px
+
+/* 404 END */
+
+
+/* VIDEO START */
+
+.video-cont
+	width: 480px
+	margin: 0 auto
+	position: relative
+
+	.video
+		max-width: 100%
+		vertical-align: bottom
+
+.width-lt-640
+	.video-cont
+		width: 360px
+
+.width-lt-400
+	.video-cont
+		width: 260px
+
+/* VIDEO END */

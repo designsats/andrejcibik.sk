@@ -62,7 +62,7 @@
 				<div class="image-crop">
 					<a href="#works/cnma" class="preview-image ripple">
 						<img src="data/previews/cnma.jpg" alt="" class="image desktop-view" />
-						<img src="data/projects/cnma-mobile.jpg" alt="" class="image mobile-view" />
+						<img src="data/previews/cnma-mobile.jpg" alt="" class="image mobile-view" />
 					</a>
 				</div>
 			</div>
