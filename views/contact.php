@@ -35,11 +35,19 @@
 
 <h1 class="centered">About me</h1>
 
-
 <div class="boxed">
 	<p class="about-text">
 		Hey, Thanks for stopping by. My name’s Andrej Cibík and I’m a Designer and Front-end Developer at <a href="http://www.lemonlion.sk/" class="subtle-link" target="_blank">LemonLion</a>, Digital Agency from Púchov, Slovakia. I’ve worked on more than 150 websites. I’m in a war against default grey and in love for clean, striking design. Do you have a killer project?
 	</p>
+</div>
+
+<div class="separator"></div>
+
+<div class="section">
+	<div class="growImg" style="background-image: url(data/me.jpg);">
+		<div class="growSide growSide-left"></div>
+		<div class="growSide growSide-right"></div>
+	</div>
 </div>
 
 <div class="separator"></div>

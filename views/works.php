@@ -38,8 +38,7 @@
 
 <div class="works-cont">
 
-	<div class="section boxed centered" data-background-color="#d1e5c1">
-
+	<div class="section boxed centered">
 		<div class="work-preview">
 			<div class="work-preview-image">
 				<div class="image-crop">
@@ -49,14 +48,11 @@
 					</a>
 				</div>
 			</div>
-
 			<a href="#works/lacnevozenie" class="ajaxLink button button-preview rippleHover">View project</a>
 		</div>
-
 	</div>
 
-	<div class="section boxed centered" data-background-color="#d1e5c1">
-
+	<div class="section boxed centered">
 		<div class="work-preview">
 			<div class="work-preview-image">
 				<div class="image-crop">
@@ -66,10 +62,22 @@
 					</a>
 				</div>
 			</div>
-
 			<a href="#works/cnma" class="ajaxLink button button-preview rippleHover">View project</a>
 		</div>
+	</div>
 
+	<div class="section boxed centered">
+		<div class="work-preview">
+			<div class="work-preview-image">
+				<div class="image-crop">
+					<a href="#works/personal-branding" class="preview-image ripple">
+						<img src="data/previews/personalbranding.jpg" alt="" class="image desktop-view" />
+						<img src="data/previews/personalbranding-mobile.jpg" alt="" class="image mobile-view" />
+					</a>
+				</div>
+			</div>
+			<a href="#works/personal-branding" class="ajaxLink button button-preview rippleHover">View project</a>
+		</div>
 	</div>
 
 </div>

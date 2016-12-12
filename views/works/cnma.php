@@ -7,7 +7,7 @@
 			$.getScript(url);
 
 		// Title change
-			document.title = 'CNMA concept' + ' ' + defaultTitle;
+			document.title = 'cnma concept' + ' ' + defaultTitle;
 
 		// Link back Href
 			$('.link-back-cont')
@@ -125,6 +125,6 @@
 
 <div class="separator"></div>
 
-<p class="centered"><a href="#works/cnma" class="button rippleHover nextProject">Next project <span class="arrow"></span></a></p>
+<p class="centered"><a href="#works/personal-branding" class="button rippleHover nextProject">Next project <span class="arrow"></span></a></p>
 
 <div class="separator"></div>

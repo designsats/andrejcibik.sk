@@ -185,7 +185,7 @@ $(document).ready(function() {
 		var scrollTime = .5;
 		var scrollDistance = 280;
 
-		$(window).on("mousewheel DOMMouseScroll", function(event){
+		$(window).on("mousewheel DOMMouseScroll touchstart", function(event){
 
 			var delta = event.originalEvent.wheelDelta/120 || -event.originalEvent.detail/3;
 			var scrollTop = $window.scrollTop();
@@ -227,7 +227,8 @@ var footer = $('.footer'),
 	if (version === false && $(window).width() >= 980) {
 
 		// smoothScroll Init
-		smoothScroll();
+			smoothScroll();
+			$('body').addClass('safe-browser');
 
 	} else if (version >= 12) {
 		$('body').addClass('edge');
