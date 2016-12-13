@@ -52,7 +52,7 @@
 <div class="separator"></div>
 
 <div class="section">
-	<div class="growImg" style="background-image: url(data/projects/personalbranding01.jpg);">
+	<div class="growImg" style="background-image: url(data/projects/personalbranding/personalbranding01.jpg);">
 		<div class="growSide growSide-left"></div>
 		<div class="growSide growSide-right"></div>
 	</div>
@@ -70,7 +70,7 @@
 <div class="separator small"></div>
 
 <div class="boxed ease-item ease-bottom">
-	<img src="data/projects/personalbranding02.jpg" alt="Logo Andrej Cibik">
+	<img src="data/projects/personalbranding/personalbranding02.jpg" class="respImg" alt="Logo Andrej Cibik">
 </div>
 
 <div class="separator"></div>
@@ -85,19 +85,51 @@
 <div class="separator small"></div>
 
 <div class="boxed ease-item ease-bottom">
-	<img src="data/projects/personalbranding03.jpg" alt="Logo Andrej Cibik">
+	<img src="data/projects/personalbranding/personalbranding05.jpg" class="respImg" alt="Colors Andrej Cibik">
 </div>
 
 <div class="boxed ease-item ease-bottom">
-	<img src="data/projects/personalbranding04.jpg" alt="Logo Andrej Cibik">
+	<img src="data/projects/personalbranding/personalbranding03.jpg" class="respImg" alt="Logo Andrej Cibik">
+</div>
+
+<div class="separator small"></div>
+
+<div class="boxed ease-item ease-bottom">
+	<img src="data/projects/personalbranding/personalbranding04.jpg" class="respImg" alt="Logo Andrej Cibik">
+</div>
+
+<div class="separator"></div>
+<div class="separator small"></div>
+
+<div class="row ease-item ease-left">
+	<div class="small-6 medium-4 large-3 large-offset-1">
+		<h2>Aplications</h2>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+	</div>
 </div>
 
 <div class="separator"></div>
 
-<div class="separator"></div>
+<div class="boxed centered ease-item ease-bottom">
+	<h3>Bussiness card</h3>
+</div>
+
+<div class="separator small"></div>
 
 <div class="boxed ease-item ease-bottom">
-	<img src="data/projects/personalbranding01.gif" alt="">
+	<img src="data/projects/personalbranding/personalbranding07.jpg" class="respImg" alt="Bussiness card">
+</div>
+
+<div class="separator"></div>
+
+<div class="boxed centered ease-item ease-bottom">
+	<h3>Email signature</h3>
+</div>
+
+<div class="separator small"></div>
+
+<div class="boxed ease-item ease-bottom">
+	<img src="data/projects/personalbranding/personalbranding06.jpg" class="respImg" alt="Email signature">
 </div>
 
 <div class="separator"></div>

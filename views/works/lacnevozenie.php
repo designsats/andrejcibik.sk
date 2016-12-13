@@ -52,7 +52,7 @@
 <div class="separator"></div>
 
 <div class="section">
-	<div class="growImg" style="background-image: url(data/projects/lacnevozenie02.jpg);">
+	<div class="growImg" style="background-image: url(data/projects/lacnevozenie/lacnevozenie02.jpg);">
 		<div class="growSide growSide-left"></div>
 		<div class="growSide growSide-right"></div>
 	</div>
@@ -70,13 +70,17 @@
 <div class="separator small"></div>
 
 <div class="boxed ease-item ease-bottom">
-	<img src="data/projects/lacnevozenie03.jpg" alt="Logo LacneVozenie">
+	<img src="data/projects/lacnevozenie/lacnevozenie03.jpg" class="respImg" alt="Logo LacneVozenie">
+</div>
+
+<div class="boxed ease-item ease-bottom">
+	<img src="data/projects/lacnevozenie/lacnevozenie10.jpg" class="respImg" alt="LacneVozenie Colors">
 </div>
 
 <div class="separator"></div>
 
 <div class="section">
-	<div class="growImg" style="background-image: url(data/projects/lacnevozenie01.jpg);">
+	<div class="growImg" style="background-image: url(data/projects/lacnevozenie/lacnevozenie01.jpg);">
 		<div class="growSide growSide-left"></div>
 		<div class="growSide growSide-right"></div>
 	</div>
@@ -94,13 +98,13 @@
 <div class="separator"></div>
 
 <div class="boxed drop-shadow ease-item ease-bottom">
-	<img src="data/projects/lacnevozenie04.jpg" alt="Website LacneVozenie">
+	<img src="data/projects/lacnevozenie/lacnevozenie04.jpg" alt="Website LacneVozenie">
 </div>
 
 <div class="separator small"></div>
 
 <div class="boxed centered ease-item ease-bottom">
-	<img src="data/projects/lacnevozenie05.jpg" alt="Mobile Website LacneVozenie">
+	<img src="data/projects/lacnevozenie/lacnevozenie05.jpg" alt="Mobile Website LacneVozenie">
 </div>
 
 <div class="separator small"></div>
@@ -115,7 +119,7 @@
 <div class="separator"></div>
 
 <div class="section">
-	<div class="growImg" style="background-image: url(data/projects/lacnevozenie08.jpg);">
+	<div class="growImg" style="background-image: url(data/projects/lacnevozenie/lacnevozenie08.jpg);">
 		<div class="growSide growSide-left"></div>
 		<div class="growSide growSide-right"></div>
 	</div>
@@ -133,7 +137,7 @@
 <div class="separator"></div>
 
 <div class="boxed drop-shadow ease-item ease-bottom">
-	<img src="data/projects/lacnevozenie07.jpg" alt="">
+	<img src="data/projects/lacnevozenie/lacnevozenie07.jpg" class="respImg" alt="">
 </div>
 
 
@@ -150,7 +154,7 @@
 	</div>
 
 	<div class="small-6 small-order-1 medium-4 medium-offset-1 large-2 large-offset-0 large-order-0 centered ease-item ease-left">
-		<img src="data/projects/lacnevozenie09.jpg" alt="Tibor Holcik">
+		<img src="data/projects/lacnevozenie/lacnevozenie09.jpg" alt="Tibor Holcik">
 	</div>
 </div>
 

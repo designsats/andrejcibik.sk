@@ -233,6 +233,7 @@ $(document).ready(function(){
 
 
 // HEADINGS +
+
 	var headings = $('h1').add('.h1');
 
 	headings.each(function (index) {
@@ -240,9 +241,13 @@ $(document).ready(function(){
 
     $this = $(this);
     $this.empty();
+
 		$(this).wrap('<div class="heading-wrap"></div>');
 
 		var charPos = characters.length;
+
+		if (charPos >= 15)
+			$this.addClass('long');
 
     $.each(characters, function (i, el) {
 			var charHtml = "<span style='z-index: " + charPos + ";'>" + el + "</span>";
@@ -263,10 +268,12 @@ $(document).ready(function(){
 		});
 
 	});
+
 // HEADINGS -
 
 
 // EASE IN +
+
 	var easeItems = $('.ease-item');
 
 	function easeIn() {
@@ -326,4 +333,44 @@ $(document).ready(function(){
 	});
 
 // FOOTER VISIBILITY -
+
+
+// RESPONSIVE IMAGES +
+
+	var respImg = $('.respImg');
+
+	function respImages() {
+		if ($(window).width() <= 640) {
+
+			respImg.each(function(){
+
+				var src = $(this).attr('src');
+				var splitUrl = src.split('.');
+				src = splitUrl[0] + '-small.' + splitUrl[1];
+
+				if (!$(this).hasClass('smallVersion'))
+					$(this).attr('src', src).addClass('smallVersion');
+			});
+
+		} else {
+
+			respImg.each(function(){
+
+				var src = $(this).attr('src');
+				var splitUrl = src.split('-small.');
+				src = splitUrl[0] + '.' + splitUrl[1];
+
+				if ($(this).hasClass('smallVersion'))
+					$(this).attr('src', src).removeClass('smallVersion');
+			});
+		}
+	}
+	respImages();
+
+	$(window).resize(function(){
+		respImages();
+	});
+
+// RESPONSIVE IMAGES -
+
 });

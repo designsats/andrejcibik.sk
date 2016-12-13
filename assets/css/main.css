@@ -1285,6 +1285,10 @@ h1.visible, .h1.visible {
   margin-bottom: 40px;
 }
 
+.width-lt-400 h1.long, .width-lt-400 .h1.long {
+  font-size: 56px;
+}
+
 h2, .h2 {
   font-size: 62px;
   line-height: 1.1;
@@ -1311,8 +1315,16 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 26px;
+  font-size: 36px;
   line-height: 1.38;
+}
+
+.width-lt-640 h3, .width-lt-640 .h3 {
+  font-size: 28px;
+}
+
+.width-lt-400 h3, .width-lt-400 .h3 {
+  font-size: 22px;
 }
 
 h4, .h4 {
@@ -2483,12 +2495,14 @@ hr {
   left: 0;
   width: 100%;
   text-align: center;
-  padding: 20px;
+  font-size: 20px;
+  padding: 100px 40px;
 }
 
 @media screen and (max-width: 360px) {
   .author {
     font-size: 15px;
+    padding: 60px 20px;
   }
 }
 

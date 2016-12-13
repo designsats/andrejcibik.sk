@@ -52,7 +52,7 @@
 <div class="separator"></div>
 
 <div class="section">
-	<div class="growImg" style="background-image: url(data/projects/cnma01.jpg);">
+	<div class="growImg" style="background-image: url(data/projects/cnma/cnma01.jpg);">
 		<div class="growSide growSide-left"></div>
 		<div class="growSide growSide-right"></div>
 	</div>
@@ -61,7 +61,7 @@
 <div class="separator small"></div>
 
 <div class="section">
-	<div class="growImg" style="background-image: url(data/projects/cnma02.jpg);">
+	<div class="growImg" style="background-image: url(data/projects/cnma/cnma02.jpg);">
 		<div class="growSide growSide-left"></div>
 		<div class="growSide growSide-right"></div>
 	</div>
@@ -79,7 +79,7 @@
 <div class="separator"></div>
 
 <div class="boxed ease-item ease-bottom">
-	<img src="data/projects/cnma03.jpg" alt="Logo CNMA">
+	<img src="data/projects/cnma/cnma03.jpg" alt="Logo CNMA">
 </div>
 
 <div class="separator small"></div>
@@ -94,13 +94,13 @@
 <div class="separator"></div>
 
 <div class="boxed ease-item ease-bottom drop-shadow">
-	<img src="data/projects/cnma04.jpg" alt="Website CNMA">
+	<img src="data/projects/cnma/cnma04.jpg" class="respImg" alt="Website CNMA">
 </div>
 
 <div class="separator"></div>
 
 <div class="section">
-	<div class="growImg" style="background-image: url(data/projects/cnma05.jpg);">
+	<div class="growImg" style="background-image: url(data/projects/cnma/cnma05.jpg);">
 		<div class="growSide growSide-left"></div>
 		<div class="growSide growSide-right"></div>
 	</div>

@@ -228,7 +228,6 @@ var footer = $('.footer'),
 
 		// smoothScroll Init
 			smoothScroll();
-			$('body').addClass('safe-browser');
 
 	} else if (version >= 12) {
 		$('body').addClass('edge');
@@ -266,4 +265,5 @@ var footer = $('.footer'),
 		return false;
 	}
 // IE and EDGE DETECTION +
+
 });
