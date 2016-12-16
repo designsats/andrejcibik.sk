@@ -30,7 +30,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700&amp;subset=latin-ext" rel="stylesheet">
 
 	<link rel="stylesheet" href="assets/font/icon-font.css" />
-  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/main.css?v=2" />
 
 	<script src="assets/js/jquery-2.1.4.min.js"></script>
 	<script src="assets/js/jquery-ui-1.10.4.custom.min.js"></script>

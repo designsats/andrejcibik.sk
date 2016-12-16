@@ -63,7 +63,24 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Info</h2>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+		LacneVozenie is a website focusing on alternative fuels, especially LPG. Website provides plenty of rich content for users, who want to find out more about driving on LPG or those who want to reduce their fuel expenses.
+	</div>
+</div>
+
+<div class="separator small"></div>
+
+<div class="boxed ease-item ease-bottom">
+	<div class="yt-container">
+		<iframe width="100%" height="100%" src="https://www.youtube.com/embed/6BhwWKoJifo" frameborder="0" allowfullscreen></iframe>
+	</div>
+</div>
+
+<div class="separator"></div>
+
+<div class="row ease-item ease-left">
+	<div class="small-6 medium-4 large-3 large-offset-1">
+		<h2>Challange</h2>
+		The client, Autoklinika Bosch Car Service, needed overall redesign of their website. Our goal was to improve legibility of content on all devices, making user comfort our priority and by doing so, increase conversions. Redesign wasn’t going to be enough, we had to bring together whole visual communication from logo, web, social, youtube and print.
 	</div>
 </div>
 
@@ -90,8 +107,8 @@
 
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
-		<h2>Responsive website</h2>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+		<h2>Solution</h2>
+		My responsibilities were creating a new logo, design of the website, front-end development and content design. During the design, we were continuously thinking over each step of users going through the content. The result is a website, far ahead of its competitors in Slovakia.
 	</div>
 </div>
 
@@ -112,7 +129,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Best map of fuel stations ever</h2>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+		One of the key elements on the site is interactive map of fuel stations. My job was to make sure it’s easy to use on both desktop and mobile devices.
 	</div>
 </div>
 
@@ -130,7 +147,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Calculator app</h2>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+		It can be tricky to estimate if switching to LPG will be beneficial to you. That’s why we created a simple web app, where you can calculate the return of your investment. My contribution was to give the app modern look and to make sure, its easy use on every device.
 	</div>
 </div>
 
@@ -140,6 +157,36 @@
 	<img src="data/projects/lacnevozenie/lacnevozenie07.jpg" class="respImg" alt="">
 </div>
 
+<div class="separator"></div>
+
+<div class="row ease-item ease-left">
+	<div class="small-6 medium-4 large-3 large-offset-1">
+		<h2>Redesign results</h2>
+		Results after 4 months showed us a very nice increase of unique visitors and more importantly, more coversions. We continue to work with this client to improve every aspect of his online and offline presence.
+	</div>
+</div>
+
+<div class="separator"></div>
+
+<div class="row ease-item ease-left row-results">
+	<div class="small-6 medium-3 large-1 large-offset-1">
+		<span class="h4">new visitors</span>
+		<br><br>
+		<span class="h2">+23%</span>
+	</div>
+	<div class="small-6 medium-3 large-1">
+		<span class="h4">conversions</span>
+		<br><br>
+		<span class="h2">+28%</span>
+	</div>
+	<div class="small-6 medium-3 large-1">
+		<span class="h4">new visitors on mobile</span>
+		<br><br>
+		<span class="h2">+52%</span>
+	</div>
+</div>
+
+<div class="separator small"></div>
 
 <div class="separator"></div>
 
@@ -150,7 +197,7 @@
 		Exceptional work, great approach to your customers and matching their needs, maximal professianality,
 		I have nothing more to say. I wish you all a lot of good spirit and energy."
 		<br>
-		Tibor Holčík - CEO of <a href="http://www.autoklinikaholcik.sk/sk/" target="_blank">Autoknika Bosch Car Service</a>
+		<i>Tibor Holčík - CEO of <a href="http://www.autoklinikaholcik.sk/sk/" target="_blank">Autoknika Bosch Car Service</a></i>
 	</div>
 
 	<div class="small-6 small-order-1 medium-4 medium-offset-1 large-2 large-offset-0 large-order-0 centered ease-item ease-left">

@@ -1236,16 +1236,12 @@ h1, h2, h3, h4, h5, h6 {
 h1, .h1 {
   font-size: 132px;
   font-weight: 700;
-  color: white;
-  text-shadow: 3px 0px 0px transparent;
+  color: #b4b6b9;
   line-height: 1.2;
   text-transform: uppercase;
   letter-spacing: -0.09em;
   margin-bottom: 90px;
-  padding: 0 40px;
-  -webkit-transform: translateX(-9px);
-      -ms-transform: translateX(-9px);
-          transform: translateX(-9px);
+  padding: 0 60px;
   transition: all .6s .8s;
 }
 
@@ -1253,17 +1249,9 @@ h1 span, .h1 span {
   position: relative;
 }
 
-h1.visible, .h1.visible {
-  text-shadow: 15px 0px 18px rgba(0, 0, 0, 0.15);
-}
-
 .width-gt-980.width-lt-1280 h1, .width-gt-980.width-lt-1280 .h1 {
   font-size: 96px;
   margin-bottom: 80px;
-}
-
-.width-gt-980.width-lt-1280 h1.visible, .width-gt-980.width-lt-1280 .h1.visible {
-  text-shadow: 12px 0px 18px rgba(0, 0, 0, 0.15);
 }
 
 .width-lt-980 h1, .width-lt-980 .h1 {
@@ -1271,11 +1259,9 @@ h1.visible, .h1.visible {
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 70px;
-  text-shadow: 6px 0px 12px rgba(0, 0, 0, 0.15);
 }
 
 .width-lt-640 h1, .width-lt-640 .h1 {
-  text-shadow: 4px 0 12px rgba(0, 0, 0, 0.2);
   font-size: 72px;
   line-height: 1.1;
   margin-bottom: 60px;
@@ -2267,14 +2253,14 @@ hr {
 /* BODY CONTENT START */
 .body-content {
   position: relative;
-  padding-top: 100px;
+  padding-top: 160px;
   background: white;
   box-shadow: 0 3px 37px rgba(0, 0, 0, 0.35);
   z-index: 1;
 }
 
 .width-lt-980 .body-content {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 .width-lt-640 .body-content {
@@ -2449,6 +2435,26 @@ hr {
   box-shadow: 0px 4px 60px -20px rgba(0, 0, 0, 0.35);
 }
 
+.row-results .h1 {
+  padding: 0;
+  margin: 0;
+}
+
+/* YT FRAME START */
+.yt-container {
+  position: relative;
+  padding-bottom: 55.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.yt-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* YT FRAME END */
 .about-text {
   font-weight: 700;
   font-size: 35px;

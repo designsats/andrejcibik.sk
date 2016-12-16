@@ -33,7 +33,6 @@
 
 
 <h1 class="centered">You broke it!</h1>
-<p class="centered">I'm confused. What is this?</p>
+<p class="centered">Yep, 404. Where is the page?</p>
 
-<div class="boxed err-image">
-</div>
+<div class="boxed err-image"></div>

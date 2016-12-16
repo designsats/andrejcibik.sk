@@ -233,7 +233,7 @@ $(document).ready(function(){
 
 
 // HEADINGS +
-
+	/*
 	var headings = $('h1').add('.h1');
 
 	headings.each(function (index) {
@@ -268,7 +268,7 @@ $(document).ready(function(){
 		});
 
 	});
-
+	*/
 // HEADINGS -
 
 
