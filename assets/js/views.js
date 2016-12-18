@@ -320,6 +320,7 @@ $(document).ready(function(){
 
 	function footerVisibility() {
 		$(window).scroll(function(){
+			wScroll = $(this).scrollTop();
 			if ( wScroll + $(window).height() >= $(document).height() - $(window).height())
 				footer.css('opacity', '1');
 			else

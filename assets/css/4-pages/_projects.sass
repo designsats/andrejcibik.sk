@@ -15,16 +15,48 @@
 		text-align: left
 
 
-/* NEXT PROJECT BUTTON START */
+/* PROJECT NAVIGATION BUTTON START */
+
+.next-project-cont
+	display: flex
+	justify-content: center
+
+	.button
+		padding: 25px 70px
+		min-width: 50%
+
+	&.multiple
+		.prevProject
+			border-right: 0
+
+		.nextProject
+			border-left: 0
+
+.width-lt-980
+	.next-project-cont
+		flex-wrap: wrap
+
+.prevProject
+	.arrow
+		transition: all .5s
+		transform: translateX(-150px)
+		opacity: 0
 
 .nextProject
-	padding: 25px 70px
-	min-width: 33.4%
-
 	.arrow
 		transition: all .5s
 		transform: rotate(180deg) translateX(-50px)
 		opacity: 0
+
+.prevProject
+	&:hover
+		.arrow
+			transform: translateX(-200px)
+			opacity: 1
+			background: rgba(0, 0, 0, .5)
+
+			&:before,&:after
+				background: rgba(0, 0, 0, .5)
 
 .nextProject
 	&:hover
@@ -37,33 +69,61 @@
 				background: rgba(0, 0, 0, .5)
 
 .width-lt-1280
-	.nextProject
-		min-width: 450px
+	.next-project-cont
+		.button
+			width: auto
+			min-width: 80%
+
+.width-lt-1280
+	.multiple
+		.button
+			min-width: 50%
 
 .width-lt-980
-	.nextProject
-		min-width: 400px
+	.button
 		padding: 16px 70px
+		margin: 20px 0
 
 		.arrow
 			width: 70px
-			transform: rotate(180deg) translateX(-90px)
 			opacity: 1
 
-.width-lt-640
-	.nextProject
-		min-width: 360px
-		padding: 10px 50px
+	.multiple
+		.button
+			width: 80%
+			border: 1px solid rgba(0, 0, 0, 0.15)
 
+	.prevProject
 		.arrow
-			width: 60px
+			transform: translateX(-160px)
+
+	.nextProject
+		.arrow
+			transform: rotate(180deg) translateX(-90px)
+
+
+.width-lt-640
+	.multiple
+		.button
+			width: 90%
+
+			.arrow
+				width: 60px
+
+	.prevProject
+		.arrow
+			transform: translateX(-140px)
+
+	.nextProject
+		.arrow
 			transform: rotate(180deg) translateX(-80px)
 
 .width-lt-400
-	.nextProject
-		min-width: 80%
+	.next-project-cont
+		.button
+			margin: 10px 0
 
 		.arrow
 			display: none
 
-/* NEXT PROJECT BUTTON END */
+/* PROJECT NAVIGATION BUTTON END */

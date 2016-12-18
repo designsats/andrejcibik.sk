@@ -33,7 +33,7 @@
 </script>
 
 
-<h1 class="centered">Lacné vozenie</h1>
+<h1 class="centered ease-item ease-left" data-ease-delay=".5s">Lacné vozenie</h1>
 
 <div class="boxed centered subtle-text ease-item ease-left" data-ease-delay="1s">
 	<span class="project-detail"><strong>ROLE:</strong> Designer, Front-end</span>
@@ -47,7 +47,7 @@
 
 <div class="separator small"></div>
 
-<p class="centered ease-item ease-left" data-ease-delay="2.2s"><a href="http://www.lacnevozenie.sk/sk/" class="button rippleHover" target="_blank">Visit website</a></p>
+<p class="centered ease-item ease-left" data-ease-delay="1.6s"><a href="http://www.lacnevozenie.sk/sk/" class="button rippleHover" target="_blank">Visit website</a></p>
 
 <div class="separator"></div>
 
@@ -207,6 +207,8 @@
 
 <div class="separator"></div>
 
-<p class="centered"><a href="#works/cnma" class="button rippleHover nextProject">Next project <span class="arrow"></span></a></p>
+<div class="boxed ease-item ease-bottom next-project-cont">
+	<a href="#works/cnma" class="button rippleHover nextProject">Next project <span class="arrow"></span></a>
+</div>
 
 <div class="separator"></div>

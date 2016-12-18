@@ -33,7 +33,7 @@
 </script>
 
 
-<h1 class="centered">Personal branding</h1>
+<h1 class="centered ease-item ease-left" data-ease-delay=".5s">Personal branding</h1>
 
 <div class="boxed centered subtle-text ease-item ease-left" data-ease-delay="1s">
 	<span class="project-detail"><strong>ROLE:</strong> Designer</span>
@@ -43,11 +43,11 @@
 
 <div class="separator small"></div>
 
-<p class="project-pitch subtitle boxed ease-item ease-left" data-ease-delay="1.6s">Acronyms as logos are everywhere. Thats why I decided to use my full name instead. </p>
+<p class="project-pitch subtitle boxed ease-item ease-left" data-ease-delay="1.6s">Acronyms as logos are everywhere. That's why I decided to use my full name instead. </p>
 
 <div class="separator small"></div>
 
-<p class="centered ease-item ease-left" data-ease-delay="2.2s"><a href="https://www.behance.net/gallery/46276979/Personal-Branding-Andrej-Cibik" class="button rippleHover" target="_blank">Case study</a></p>
+<p class="centered ease-item ease-left" data-ease-delay="1.6s"><a href="https://www.behance.net/gallery/46276979/Personal-Branding-Andrej-Cibik" class="button rippleHover" target="_blank">Case study</a></p>
 
 <div class="separator"></div>
 
@@ -130,6 +130,12 @@
 
 <div class="boxed ease-item ease-bottom">
 	<img src="data/projects/personalbranding/personalbranding06.jpg" class="respImg" alt="Email signature">
+</div>
+
+<div class="separator"></div>
+
+<div class="boxed ease-item ease-bottom next-project-cont">
+	<a href="#works/cnma" class="button rippleHover prevProject"><span class="arrow"></span> Prev project</a>
 </div>
 
 <div class="separator"></div>

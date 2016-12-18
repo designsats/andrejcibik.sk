@@ -224,16 +224,24 @@ var footer = $('.footer'),
 // IE and EDGE DETECTION +
 	var version = detectIE();
 
-	if (version === false && $(window).width() >= 980) {
+	function ieDetectionSmoothScroll () {
+		if (version === false && $(window).width() >= 980) {
 
-		// smoothScroll Init
-			smoothScroll();
+			// smoothScroll Init
+				smoothScroll();
 
-	} else if (version >= 12) {
-		$('body').addClass('edge');
-	} else {
-		$('body').addClass('ie');
+		} else if (version === false && $(window).width() <= 980) {
+		} else if (version >= 12) {
+			$('body').addClass('edge');
+		} else {
+			$('body').addClass('ie');
+		}
 	}
+	ieDetectionSmoothScroll();
+
+	$(window).resize(function(){
+		ieDetectionSmoothScroll();
+	});
 
 	/**
 	* detect IE

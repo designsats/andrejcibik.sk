@@ -2529,10 +2529,41 @@ hr {
   text-align: left;
 }
 
-/* NEXT PROJECT BUTTON START */
-.nextProject {
+/* PROJECT NAVIGATION BUTTON START */
+.next-project-cont {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.next-project-cont .button {
   padding: 25px 70px;
-  min-width: 33.4%;
+  min-width: 50%;
+}
+
+.next-project-cont.multiple .prevProject {
+  border-right: 0;
+}
+
+.next-project-cont.multiple .nextProject {
+  border-left: 0;
+}
+
+.width-lt-980 .next-project-cont {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.prevProject .arrow {
+  transition: all .5s;
+  -webkit-transform: translateX(-150px);
+      -ms-transform: translateX(-150px);
+          transform: translateX(-150px);
+  opacity: 0;
 }
 
 .nextProject .arrow {
@@ -2541,6 +2572,18 @@ hr {
       -ms-transform: rotate(180deg) translateX(-50px);
           transform: rotate(180deg) translateX(-50px);
   opacity: 0;
+}
+
+.prevProject:hover .arrow {
+  -webkit-transform: translateX(-200px);
+      -ms-transform: translateX(-200px);
+          transform: translateX(-200px);
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.prevProject:hover .arrow:before, .prevProject:hover .arrow:after {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .nextProject:hover .arrow {
@@ -2555,41 +2598,68 @@ hr {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.width-lt-1280 .nextProject {
-  min-width: 450px;
+.width-lt-1280 .next-project-cont .button {
+  width: auto;
+  min-width: 80%;
 }
 
-.width-lt-980 .nextProject {
-  min-width: 400px;
+.width-lt-1280 .multiple .button {
+  min-width: 50%;
+}
+
+.width-lt-980 .button {
   padding: 16px 70px;
+  margin: 20px 0;
 }
 
-.width-lt-980 .nextProject .arrow {
+.width-lt-980 .button .arrow {
   width: 70px;
-  -webkit-transform: rotate(180deg) translateX(-90px);
-      -ms-transform: rotate(180deg) translateX(-90px);
-          transform: rotate(180deg) translateX(-90px);
   opacity: 1;
 }
 
-.width-lt-640 .nextProject {
-  min-width: 360px;
-  padding: 10px 50px;
+.width-lt-980 .multiple .button {
+  width: 80%;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.width-lt-980 .prevProject .arrow {
+  -webkit-transform: translateX(-160px);
+      -ms-transform: translateX(-160px);
+          transform: translateX(-160px);
+}
+
+.width-lt-980 .nextProject .arrow {
+  -webkit-transform: rotate(180deg) translateX(-90px);
+      -ms-transform: rotate(180deg) translateX(-90px);
+          transform: rotate(180deg) translateX(-90px);
+}
+
+.width-lt-640 .multiple .button {
+  width: 90%;
+}
+
+.width-lt-640 .multiple .button .arrow {
+  width: 60px;
+}
+
+.width-lt-640 .prevProject .arrow {
+  -webkit-transform: translateX(-140px);
+      -ms-transform: translateX(-140px);
+          transform: translateX(-140px);
 }
 
 .width-lt-640 .nextProject .arrow {
-  width: 60px;
   -webkit-transform: rotate(180deg) translateX(-80px);
       -ms-transform: rotate(180deg) translateX(-80px);
           transform: rotate(180deg) translateX(-80px);
 }
 
-.width-lt-400 .nextProject {
-  min-width: 80%;
+.width-lt-400 .next-project-cont .button {
+  margin: 10px 0;
 }
 
-.width-lt-400 .nextProject .arrow {
+.width-lt-400 .next-project-cont .arrow {
   display: none;
 }
 
-/* NEXT PROJECT BUTTON END */
+/* PROJECT NAVIGATION BUTTON END */

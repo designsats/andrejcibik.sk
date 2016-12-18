@@ -33,7 +33,7 @@
 </script>
 
 
-<h1 class="centered">CNMA concept</h1>
+<h1 class="centered ease-item ease-left" data-ease-delay=".5s">CNMA concept</h1>
 
 <div class="boxed centered subtle-text ease-item ease-left" data-ease-delay="1s">
 	<span class="project-detail"><strong>ROLE:</strong> Designer, Front-end</span>
@@ -47,7 +47,7 @@
 
 <div class="separator small"></div>
 
-<p class="centered ease-item ease-left" data-ease-delay="2.2s"><a href="http://cnma.6f.sk/" class="button rippleHover" target="_blank">Visit website</a></p>
+<p class="centered ease-item ease-left" data-ease-delay="1.6s"><a href="http://cnma.6f.sk/" class="button rippleHover" target="_blank">Visit website</a></p>
 
 <div class="separator"></div>
 
@@ -72,7 +72,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Info</h2>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+		Right now, there is no website in Slovakia, which combines possibility of rating and reviewing of movies and modern, responsive design. My job as a designer is always about solving problems. And since I felt there’s a room for improvement, I decided to create a concept of such site.
 	</div>
 </div>
 
@@ -86,8 +86,8 @@
 
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
-		<h2>Website</h2>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+		<h2>Solution</h2>
+		My main objective was to improve user experiance on mobile devices and main functions of website: rating and reviewing of movies. All content is structured by using cards, which can be moved, removed and customized by the user.
 	</div>
 </div>
 
@@ -111,7 +111,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Rating</h2>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+		I payed extra attention to rating process. It’s key feature of the website, so I wanted it to be really user friendly and easy to understand. Inspired by Google’s Material design principles I used big main action button, which triggers both rating and additional functions.
 	</div>
 </div>
 
@@ -125,6 +125,10 @@
 
 <div class="separator"></div>
 
-<p class="centered"><a href="#works/personal-branding" class="button rippleHover nextProject">Next project <span class="arrow"></span></a></p>
+<div class="boxed ease-item ease-bottom next-project-cont multiple">
+	<a href="#works/lacnevozenie" class="button rippleHover prevProject"><span class="arrow"></span> Prev project</a>
+	<a href="#works/personal-branding" class="button rippleHover nextProject">Next project <span class="arrow"></span></a>
+</div>
+
 
 <div class="separator"></div>
