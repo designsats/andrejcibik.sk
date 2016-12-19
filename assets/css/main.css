@@ -1147,12 +1147,6 @@ p {
 
 body {
   background-color: white;
-  font-size: 18px;
-  line-height: 1.8;
-  font-family: 'Work Sans', sans-serif;
-  color: #565a5f;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
   overflow-x: hidden;
 }
 
@@ -1222,6 +1216,15 @@ a.subtle-link {
 
 a:hover {
   color: #d15057;
+}
+
+body {
+  font-size: 20px;
+  line-height: 1.8;
+  font-family: 'Work Sans', sans-serif;
+  color: #565a5f;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {

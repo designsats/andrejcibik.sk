@@ -52,7 +52,7 @@
 <div class="separator"></div>
 
 <div class="section">
-	<div class="growImg" style="background-image: url(data/projects/personalbranding/personalbranding01.jpg);">
+	<div class="growImg" style="background-image: url(data/projects/personalbranding/personalbranding09.jpg);">
 		<div class="growSide growSide-left"></div>
 		<div class="growSide growSide-right"></div>
 	</div>
@@ -63,7 +63,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Discovery</h2>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+		Logo is a foundation of my visual identity. I wanted to make sure, it will represent my visual style and vision as good as possible. My main goal was the legibility, but at the same time I wanted it to look energetically. Simple, yet not boring.
 	</div>
 </div>
 
@@ -78,7 +78,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Color scheme</h2>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+		I gave a lot of time and effort into finding the right colors. Again and again I tweaked the  values until I’ve found the right ones. I choose this cool gradient of two tropical colors, which works very well on both light and dark backgrounds.
 	</div>
 </div>
 
@@ -99,19 +99,33 @@
 </div>
 
 <div class="separator"></div>
-<div class="separator small"></div>
+
+<div class="boxed ease-item ease-bottom">
+	<img src="data/projects/personalbranding/personalbranding08.jpg" class="respImg" alt="">
+</div>
+
+<div class="separator"></div>
+
+<div class="section">
+	<div class="growImg" style="background-image: url(data/projects/personalbranding/personalbranding10.jpg);">
+		<div class="growSide growSide-left"></div>
+		<div class="growSide growSide-right"></div>
+	</div>
+</div>
+
+<div class="separator"></div>
 
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Aplications</h2>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+		When I was satisfied with logo, I proceeded to design some of its applications. There was no need for me to design all the possible applications, just those I would actually use. So, after design of this web was complete, I designed business card and email signature. Everything with emphasis on simplicity and minimalism.
 	</div>
 </div>
 
 <div class="separator"></div>
 
 <div class="boxed centered ease-item ease-bottom">
-	<h3>Bussiness card</h3>
+	<h3>Business card</h3>
 </div>
 
 <div class="separator small"></div>
@@ -130,6 +144,18 @@
 
 <div class="boxed ease-item ease-bottom">
 	<img src="data/projects/personalbranding/personalbranding06.jpg" class="respImg" alt="Email signature">
+</div>
+
+<div class="separator"></div>
+
+<div class="boxed centered ease-item ease-bottom">
+	<h3>Some inspiration</h3>
+</div>
+
+<div class="separator"></div>
+
+<div class="boxed ease-item ease-bottom">
+	<img src="data/projects/personalbranding/personalbranding01.gif" class="respImg" alt="">
 </div>
 
 <div class="separator"></div>
