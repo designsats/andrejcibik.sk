@@ -2,16 +2,17 @@
 
 
 .navigation
+	display: none
 	position: fixed
 	right: 0
-	top: 0
+	top: -100vh
 	bottom: 0
 	display: block
 	width: 100%
-	height: auto
+	height: 100vh
 	background: rgba(255,255,255, 1)
 	box-shadow: 0 3px 40px rgba(0, 0, 0, .1)
-	transform: translate3d(0,-100vh,0)
+	transform: translate3d(0,0,0)
 	transition: all .6s
 	z-index: 2
 
@@ -37,6 +38,11 @@
 			&.active
 				color: $red
 
+
+.width-lt-980
+	.navigation
+		display: block
+
 @media screen and (max-height: 400px)
 	.width-lt-980
 		.navigation
@@ -45,7 +51,7 @@
 
 .open-menu
 	.navigation
-		transform: translate3d(0,0,0)
+		transform: translate3d(0,100vh,0)
 
 .header
 	.mobile-menu-toggle
@@ -102,6 +108,7 @@
 
 /* SOCIAL LINKS START */
 .social-links
+	display: none
 	position: absolute
 	bottom: 30px
 	left: 0
@@ -123,6 +130,7 @@
 
 .width-lt-980
 	.social-links
+		display: block
 		text-align: center
 
 		.item

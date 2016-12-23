@@ -32,6 +32,7 @@
 	});
 </script>
 
+<div class="separator"></div>
 
 <h1 class="centered ease-item ease-left" data-ease-delay=".5s">Personal branding</h1>
 
@@ -118,7 +119,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Aplications</h2>
-		When I was satisfied with logo, I proceeded to design some of its applications. There was no need for me to design all the possible applications, just those I would actually use. So, after design of this web was complete, I designed business card and email signature. Everything with emphasis on simplicity and minimalism.
+		When I was satisfied with logo, I proceeded to design some of its applications. There was no need for me to design all the possible applications, just those I would actually use. That’s why I designed only web, business card and email signature. Everything with emphasis on simplicity and minimalism.
 	</div>
 </div>
 

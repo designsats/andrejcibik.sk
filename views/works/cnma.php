@@ -32,6 +32,7 @@
 	});
 </script>
 
+<div class="separator"></div>
 
 <h1 class="centered ease-item ease-left" data-ease-delay=".5s">CNMA concept</h1>
 
@@ -111,7 +112,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Rating</h2>
-		I payed extra attention to rating process. It’s key feature of the website, so I wanted it to be really user friendly and easy to understand. Inspired by Google’s Material design principles I used big main action button, which triggers both rating and additional functions.
+		I payed extra attention to rating process. It’s a key feature of the website, so I wanted it to be really user friendly and easy to understand. Inspired by Google’s Material design principles I used a big main action button, which triggers both rating and additional functions.
 	</div>
 </div>
 

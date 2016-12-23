@@ -32,6 +32,7 @@
 	});
 </script>
 
+<div class="separator"></div>
 
 <h1 class="centered ease-item ease-left" data-ease-delay=".5s">Lacné vozenie</h1>
 
@@ -67,7 +68,7 @@
 	</div>
 </div>
 
-<div class="separator small"></div>
+<div class="separator"></div>
 
 <div class="boxed ease-item ease-bottom">
 	<div class="yt-container">
@@ -173,22 +174,23 @@
 		<span class="h4">new visitors</span>
 		<br><br>
 		<span class="h2">+23%</span>
+		<br><br><br><br>
 	</div>
 	<div class="small-6 medium-3 large-1">
 		<span class="h4">conversions</span>
 		<br><br>
 		<span class="h2">+28%</span>
+		<br><br><br><br>
 	</div>
 	<div class="small-6 medium-3 large-1">
 		<span class="h4">new visitors on mobile</span>
 		<br><br>
 		<span class="h2">+52%</span>
+		<br><br>
 	</div>
 </div>
 
 <div class="separator small"></div>
-
-<div class="separator"></div>
 
 <div class="row ease-item ease-left">
 	<div class="small-6 small-order-2 medium-6 large-2 large-offset-1 large-order-1">
@@ -196,11 +198,12 @@
 		"Hello, Im very satisfied with your Agency.
 		Exceptional work, great approach to your customers and matching their needs, maximal professianality,
 		I have nothing more to say. I wish you all a lot of good spirit and energy."
-		<br>
+		<br><br>
 		<i>Tibor Holčík - CEO of <a href="http://www.autoklinikaholcik.sk/sk/" target="_blank">Autoknika Bosch Car Service</a></i>
 	</div>
 
 	<div class="small-6 small-order-1 medium-4 medium-offset-1 large-2 large-offset-0 large-order-0 centered ease-item ease-left">
+		<br><br>
 		<img src="data/projects/lacnevozenie/lacnevozenie09.jpg" alt="Tibor Holcik">
 	</div>
 </div>

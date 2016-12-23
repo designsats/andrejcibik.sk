@@ -32,6 +32,7 @@
 	});
 </script>
 
+<div class="separator"></div>
 
 <h1 class="centered">About me</h1>
 
@@ -43,6 +44,15 @@
 
 <div class="separator"></div>
 
+<div class="boxed centered social-links-contact">
+	<a href="mailto:andrejcibik@gmail.com" class="button rippleHover icon-mail" title="Email"></a>
+	<a href="https://www.facebook.com/CibikAndrej" class="button rippleHover icon-facebook" title="Facebook" target="_blank"></a>
+	<a href="https://www.behance.net/AndrejCibik" class="button rippleHover icon-behance" title="Behnace" target="_blank"></a>
+</div>
+
+<div class="separator"></div>
+<div class="separator small"></div>
+
 <div class="section">
 	<div class="growImg" style="background-image: url(data/me.jpg);">
 		<div class="growSide growSide-left"></div>
@@ -52,14 +62,8 @@
 
 <div class="separator"></div>
 
-<div class="boxed centered social-links-contact">
-	<a href="mailto:andrejcibik@gmail.com" class="button rippleHover icon-mail" title="Email"></a>
-	<a href="https://www.facebook.com/CibikAndrej" class="button rippleHover icon-facebook" title="Facebook" target="_blank"></a>
-	<a href="https://www.behance.net/AndrejCibik" class="button rippleHover icon-behance" title="Behnace" target="_blank"></a>
-</div>
-
-<div class="separator"></div>
-
 <div class="author subtle-text">
 	Designed & coded with passion by me. Open source on <strong><a href="https://github.com/andrejcibik/andrejcibik.sk" class="subtle-link" target="_blank">Github.</a></strong>
 </div>
+
+<div class="separator"></div>

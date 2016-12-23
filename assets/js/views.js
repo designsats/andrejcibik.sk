@@ -72,7 +72,7 @@ $(function(){
 							})
 							.appendTo($(this));
 
-						window.setTimeout(function(){
+						setTimeout(function(){
 							$div.remove();
 						}, 2000);
 					});
@@ -115,7 +115,7 @@ $(function(){
 							})
 							.appendTo($(this));
 
-						window.setTimeout(function(){
+						setTimeout(function(){
 							$div.remove();
 						}, 800);
 					});
@@ -233,21 +233,25 @@ $(document).ready(function(){
 
 
 // HEADINGS +
-	/*
+
 	var headings = $('h1').add('.h1');
 
 	headings.each(function (index) {
+
+		var chars = $(this).text().length;
+		
+		if (chars >= 15)
+			$(this).addClass('long');
+
+		/*
     var characters = $(this).text().split("");
 
     $this = $(this);
     $this.empty();
 
-		$(this).wrap('<div class="heading-wrap"></div>');
-
 		var charPos = characters.length;
 
-		if (charPos >= 15)
-			$this.addClass('long');
+		$(this).wrap('<div class="heading-wrap"></div>');
 
     $.each(characters, function (i, el) {
 			var charHtml = "<span style='z-index: " + charPos + ";'>" + el + "</span>";
@@ -266,9 +270,9 @@ $(document).ready(function(){
 			wScroll = $(this).scrollTop();
 			headingVisibile();
 		});
-
+		*/
 	});
-	*/
+
 // HEADINGS -
 
 

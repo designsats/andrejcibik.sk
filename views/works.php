@@ -32,7 +32,21 @@
 </script>
 
 <section class="hero-section">
+
+	<div class="separator"></div>
+
+	<div class="row ease-item ease-left">
+		<div class="small-6 medium-5 large-5 large-offset-1">
+			<h1>Designer <br> Front-end dev.</h1>
+			Andrej Cibík. 23 year old designer and front-end developer <br> based in Púchov, Slovakia.
+			<br><br><br>
+			<a href="#contact" class="ajaxLink button rippleHover">Contacts</a>
+		</div>
+	</div>
+
 </section>
+
+<div class="separator"></div>
 
 <h2 class="h1 centered">Works</h2>
 
