@@ -19,18 +19,32 @@ h1, h2, h3, h4, h5, h6
 	position: relative
 
 h1,.h1
-	font-size: 132px
+	font-size: 110px
 	font-weight: 700
-	color: #b4b6b9
+	color: #544f51
 	line-height: 1.2
-	text-transform: uppercase
-	letter-spacing: -0.09em
-	margin-bottom: 90px
+	text-transform: none
+	margin-bottom: 80px
 	padding: 0 60px
-	transition: all .6s .8s
 
-	& span
-		position: relative
+	.first-word
+		font-weight: 300
+		padding-right: .07em
+		letter-spacing: -0.09em
+		margin-left: -4px
+		color: $red
+		+horizontalGrad
+		-moz-background-clip: text
+		-moz-text-fill-color: transparent
+		-webkit-background-clip: text
+		-webkit-text-fill-color: transparent
+		background-clip: text
+		text-fill-color: transparent
+
+.ie
+	h1,.h1
+	.first-word
+		background: none
 
 .width-gt-980
 	&.width-lt-1280
@@ -38,16 +52,12 @@ h1,.h1
 			font-size: 96px
 			margin-bottom: 80px
 
-			&.visible
-
-
 .width-lt-980
 	& h1,.h1
 		font-size: 82px
 		padding-left: 20px
 		padding-right: 20px
 		margin-bottom: 70px
-
 
 .width-lt-640
 	& h1,.h1
@@ -60,7 +70,7 @@ h1,.h1
 		margin-bottom: 40px
 
 	& h1.long,.h1.long
-		font-size: 56px
+		font-size: 49px
 
 
 h2,.h2

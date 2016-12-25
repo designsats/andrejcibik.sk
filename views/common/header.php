@@ -7,7 +7,7 @@
 <header class="header">
 
 	<a href="#works" class="ajaxLink logo">
-		<img src="assets/images/logo.svg" alt="Andrej Cibík, Designer \& Developer">
+		<img src="assets/images/logo.svg" alt="Andrej Cibík, Designer & Developer">
 	</a>
 
 	<div class="link-back-cont hidden">

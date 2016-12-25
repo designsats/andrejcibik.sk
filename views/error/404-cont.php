@@ -18,7 +18,7 @@
 			function mainCtaInit() {
 				var mainCta = $('.main-cta');
 
-				title = 'Marty, we have to go back!!!';
+				title = 'Morty, we have to go back!!!';
 				text = 'Ok, doc.';
 				link = "#works";
 
@@ -31,8 +31,17 @@
 	});
 </script>
 
+<div class="separator"></div>
 
-<h1 class="centered">You broke it!</h1>
-<p class="centered">Yep, 404. Where is the page?</p>
+<div class="boxed err-image">
 
-<div class="boxed err-image"></div>
+	<h1 class="centered">Where is the page?</h1>
+	<p class="centered">Yep, 404.
+		<br><br><br>
+		<a href="#works" class="button rippleHover">Back to start</a>
+
+	</p>
+
+	<div class="image"></div>
+
+</div>

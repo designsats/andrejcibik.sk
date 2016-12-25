@@ -34,7 +34,7 @@
 
 <div class="separator"></div>
 
-<h1 class="centered">About me</h1>
+<h1 class="centered"><span class="first-word">About</span> Me</h1>
 
 <div class="boxed">
 	<p class="about-text">
