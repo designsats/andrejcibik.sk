@@ -21,9 +21,14 @@ body
 
 
 ::-webkit-scrollbar
-	width: 10px
+	width: 7px
 	height: 4px
 	background: transparent
 
 ::-webkit-scrollbar-thumb
-	background: $red
+	+verticalGrad
+
+body
+	scrollbar-base-color: white
+	scrollbar-shadow-color: none
+	scrollbar-track-color: white

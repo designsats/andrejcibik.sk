@@ -117,6 +117,12 @@ function loadPage(url) {
 
 			var firstHash = hash.substring(0,indexOfSlash);
 
+			if (hash == '#works') {
+				setTimeout(function(){
+					$("html, body").animate({ scrollTop: $(window).height() });
+				}, 900);
+			}
+
 			menuItem.each(function(){
 
 				menuItem.removeClass('active');

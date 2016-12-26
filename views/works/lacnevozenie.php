@@ -44,7 +44,7 @@
 
 <div class="separator small"></div>
 
-<p class="project-pitch subtitle boxed ease-item ease-left" data-ease-delay="1.6s">Website for Autoklinika Bosch Car Service, Slovak leader in the installation and servicing of LPG-technology to civil cars. </p>
+<p class="project-pitch subtitle boxed ease-item ease-left" data-ease-delay="1.5s">Website for Autoklinika Bosch Car Service, Slovak leader in the installation and servicing of LPG-technology to civil cars. </p>
 
 <div class="separator small"></div>
 

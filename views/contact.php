@@ -51,16 +51,6 @@
 </div>
 
 <div class="separator"></div>
-<div class="separator small"></div>
-
-<div class="section">
-	<div class="growImg" style="background-image: url(data/me.jpg);">
-		<div class="growSide growSide-left"></div>
-		<div class="growSide growSide-right"></div>
-	</div>
-</div>
-
-<div class="separator"></div>
 
 <div class="author subtle-text">
 	Designed & coded with passion by me. Open source on <strong><a href="https://github.com/andrejcibik/andrejcibik.sk" class="subtle-link" target="_blank">Github.</a></strong>
