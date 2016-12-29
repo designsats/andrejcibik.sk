@@ -14,7 +14,7 @@
 			function mainCtaInit() {
 				var mainCta = $('.main-cta');
 
-				title = 'Morty, we have to go back!!!';
+				title = 'Marty, we have to go back!!!';
 				text = 'Ok, doc.';
 				link = "#works";
 

@@ -69,7 +69,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Info</h2>
-		Right now, there is no website in Slovakia, which combines possibility of rating and reviewing of movies and modern, responsive design. My job as a designer is always about solving problems. And since I felt there’s a room for improvement, I decided to create a concept of such site.
+		At the moment, there is no website in Slovakia, which combines possibility of rating and reviewing movies and modern responsive design. My job as a designer is always about solving problems. Since I felt there’s room for improvement, I decided to create a concept of such site.
 	</div>
 </div>
 
@@ -84,7 +84,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Solution</h2>
-		My main objective was to improve user experiance on mobile devices and main functions of website: rating and reviewing of movies. All content is structured by using cards, which can be moved, removed and customized by the user.
+		My main objective was to improve user experience on mobile devices and main functions of website: rating and reviewing movies. All content is structured using cards, which can be moved, removed and customized by the user.
 	</div>
 </div>
 

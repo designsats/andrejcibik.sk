@@ -1,7 +1,7 @@
 
 <script type="text/javascript">
 	$(function(){
-		
+
 		// Title change
 			document.title = 'Personal branding' + ' ' + defaultTitle;
 
@@ -60,7 +60,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Discovery</h2>
-		Logo is a foundation of my visual identity. I wanted to make sure, it will represent my visual style and vision as good as possible. My main goal was the legibility, but at the same time I wanted it to look energetically. Simple, yet not boring.
+		Logo is a foundation of my visual identity. I wanted to make sure, it will represent my visual style and vision as closely as possible. My main goal was the legibility, but at the same time I wanted it to look energetically. Simple, yet not boring.
 	</div>
 </div>
 
@@ -75,7 +75,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Color scheme</h2>
-		I gave a lot of time and effort into finding the right colors. Again and again I tweaked the  values until I’ve found the right ones. I choose this cool gradient of two tropical colors, which works very well on both light and dark backgrounds.
+		I put a lot of time and effort into finding the right colors. Again and again I tweaked the values until I’ve found the right ones. I chose this cool gradient of two tropical colors, which works very well on both light and dark backgrounds.
 	</div>
 </div>
 
@@ -115,7 +115,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Aplications</h2>
-		When I was satisfied with logo, I proceeded to design some of its applications. There was no need for me to design all the possible applications, just those I would actually use. That’s why I designed only web, business card and email signature. Everything with emphasis on simplicity and minimalism.
+		When I was satisfied with the logo, I proceeded to design some of its applications. There was no need for me to design all the possible applications, just those I would actually use. That’s why I designed only the web site, business cards and an email signature. Everything with emphasis on simplicity and minimalism.
 	</div>
 </div>
 

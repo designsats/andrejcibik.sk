@@ -99,18 +99,18 @@
 
 /* LINK BACK START */
 
-.link-back-cont
-	&.hidden
-		pointer-events: none
-		animation: linkBackHidden .5s
-		animation-fill-mode: forwards
+.width-gt-980
+	.link-back-cont
+		&.hidden
+			pointer-events: none
+			animation: linkBackHidden .5s
+			animation-fill-mode: forwards
 
-	&.showing
-		pointer-events: all
-		z-index: 9
-		animation: linkBackShowing .5s .6s
-		animation-fill-mode: forwards
-
+		&.showing
+			pointer-events: all
+			z-index: 9
+			animation: linkBackShowing .5s .6s
+			animation-fill-mode: forwards
 
 @keyframes linkBackHidden
 	0%

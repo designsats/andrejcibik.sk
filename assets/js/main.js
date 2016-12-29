@@ -33,8 +33,8 @@ $(document).ready(function() {
 	var menuItem = $('.menu .item');
 
 	var hash = window.location.pathname;
-			hash = hash.substring(16, hash.length -1);
-
+			hash = hash.substring(1, hash.length -1);
+			
 	if (hash == 'works') {
 		$("html, body").animate({ scrollTop: $(window).height() });
 	}

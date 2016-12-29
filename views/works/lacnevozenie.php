@@ -60,7 +60,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Info</h2>
-		LacneVozenie is a website focusing on alternative fuels, especially LPG. Website provides plenty of rich content for users, who want to find out more about driving on LPG or those who want to reduce their fuel expenses.
+		LacneVozenie is a website dealing with alternative fuels, especially LPG. Website provides plenty of rich content for users who want to find out more about running their car on LPG or those who want to cut their fuel expenses.
 	</div>
 </div>
 
@@ -76,8 +76,8 @@
 
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
-		<h2>Challange</h2>
-		The client, Autoklinika Bosch Car Service, needed overall redesign of their website. Our goal was to improve legibility of content on all devices, making user comfort our priority and by doing so, increase conversions. Redesign wasn’t going to be enough, we had to bring together whole visual communication from logo, web, social, youtube and print.
+		<h2>Challenge</h2>
+		The client, Autoklinika Bosch Car Service, needed overall redesign of their website. Our goal was to improve legibility of content on all devices, making user comfort our priority and therefore, increase conversions. Redesign wasn’t sufficient enough; we had to bring together the whole visual communication ranging from logo, web and social media, to print.
 	</div>
 </div>
 
@@ -105,7 +105,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Solution</h2>
-		My responsibilities were creating a new logo, design of the website, front-end development and content design. During the design, we were continuously thinking over each step of users going through the content. The result is a website, far ahead of its competitors in Slovakia.
+		My responsibilities consisted of creating a new logo, design of the website, front-end development and content design. In the design process we were continuously reevaluating each step of the user path. The result is a website far ahead of its competitors in Slovakia.
 	</div>
 </div>
 
@@ -126,7 +126,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Best map of fuel stations ever</h2>
-		One of the key elements on the site is interactive map of fuel stations. My job was to make sure it’s easy to use on both desktop and mobile devices.
+		One of the key elements on the site is an interactive map of fuel stations. My job was to make sure it’s easy to use on both desktop and mobile devices.
 	</div>
 </div>
 
@@ -144,7 +144,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Calculator app</h2>
-		It can be tricky to estimate if switching to LPG will be beneficial to you. That’s why we created a simple web app, where you can calculate the return of your investment. My contribution was to give the app modern look and to make sure, its easy use on every device.
+		It can be tricky to estimate if switching to LPG will be beneficial to you. That’s why we created a simple web app, where you can calculate the return of your investment in seconds. My contribution was to give the app a modern look and to ensure flawless operation on any device.
 	</div>
 </div>
 
