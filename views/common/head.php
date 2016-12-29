@@ -13,7 +13,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://andrejcibik.sk/" />
 	<meta property="og:site_name" content="Andrejcibik.sk" />
-	<meta property="og:image" content="http://andrejcibik.sk/assets/images/opengraph-image.jpg" />
+	<meta property="og:image" content="http://andrejcibik.sk/assets/images/opengraph-image.jpg?v=2" />
 	<meta property="og:description" content="Hi nice people. Im Andy and these are my works." />
 
 	<title>Designer & Frontend developer | Andrej Cibík</title>
@@ -29,9 +29,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700&amp;subset=latin-ext" rel="stylesheet">
 
 	<link rel="stylesheet" href="assets/font/icon-font.css" />
-  <link rel="stylesheet" href="assets/css/main.css?v=4" />
+  <link rel="stylesheet" href="assets/css/main.css?v=7" />
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script defer src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 
 </head>

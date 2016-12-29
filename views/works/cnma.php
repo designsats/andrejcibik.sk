@@ -34,9 +34,9 @@
 
 <div class="separator"></div>
 
-<h1 class="centered ease-item ease-left" data-ease-delay=".5s">CNMA concept</h1>
+<h1 class="centered">CNMA concept</h1>
 
-<div class="boxed centered subtle-text ease-item ease-left" data-ease-delay="1s">
+<div class="centered">
 	<span class="project-detail"><strong>ROLE:</strong> Designer, Front-end</span>
 	<span class="project-detail"><strong>DATE:</strong> February 2016</span>
 	<span class="project-detail"><strong>CONTEXT:</strong> Personal project</span>
@@ -44,11 +44,11 @@
 
 <div class="separator small"></div>
 
-<p class="project-pitch subtitle boxed ease-item ease-left" data-ease-delay="1.6s">I am a big movie enthusiast. Thats why I decided to design this concept for movie portal. It's insired by Google's Material Design manifesto.</p>
+<p class="project-pitch subtitle boxed">I am a big movie enthusiast. Thats why I decided to design this concept for movie portal. It's insired by Google's Material Design manifesto.</p>
 
 <div class="separator small"></div>
 
-<p class="centered ease-item ease-left" data-ease-delay="1.6s"><a href="http://cnma.6f.sk/" class="button rippleHover" target="_blank">Visit website</a></p>
+<p class="centered"><a href="http://cnma.6f.sk/" class="button rippleHover" target="_blank">Visit website</a></p>
 
 <div class="separator"></div>
 

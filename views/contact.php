@@ -38,7 +38,7 @@
 
 <div class="boxed">
 	<p class="about-text">
-		Hey, Thanks for stopping by. My name’s Andrej Cibík and I’m a 23 years old Designer and Front-end Developer at <a href="http://www.lemonlion.sk/" class="subtle-link" target="_blank">LemonLion</a>, Digital Agency from Púchov, Slovakia. Through last 3 years I've worked on more than 150 websites. I’m in a war against default grey and in love with clean, striking design. Do you have a killer project?
+		Hey, Thanks for stopping by. My name’s Andrej Cibík and I’m a 23 years old Designer and Front-end Developer at <a href="http://www.lemonlion.sk/" class="subtle-link" target="_blank">LemonLion</a>, Digital Agency from Púchov, Slovakia. Through last 3 years I've worked on more than 130 projects. I’m in a war against default grey and in love with clean, striking design. Do you have a killer project?
 	</p>
 </div>
 

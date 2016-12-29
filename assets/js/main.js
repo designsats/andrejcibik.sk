@@ -181,15 +181,60 @@ $(document).ready(function() {
 // MOBILE MENU -
 
 
+// PASSIVE EVENTS +
+(function() {
+	var supportsPassive = eventListenerOptionsSupported();
+
+	if (supportsPassive) {
+		var addEvent = EventTarget.prototype.addEventListener;
+		overwriteAddEvent(addEvent);
+	}
+
+	function overwriteAddEvent(superMethod) {
+		var defaultOptions = {
+			passive: true,
+			capture: false
+		};
+
+		EventTarget.prototype.addEventListener = function(type, listener, options) {
+			var usesListenerOptions = typeof options === 'object';
+			var useCapture = usesListenerOptions ? options.capture : options;
+
+			options = usesListenerOptions ? options : {};
+			options.passive = options.passive !== undefined ? options.passive : defaultOptions.passive;
+			options.capture = useCapture !== undefined ? useCapture : defaultOptions.capture;
+
+			superMethod.call(this, type, listener, options);
+		};
+	}
+
+	function eventListenerOptionsSupported() {
+		var sopported = false;
+		try {
+			var opts = Object.defineProperty({}, 'passive', {
+				get: function() {
+					sopported = true;
+				}
+			});
+			window.addEventListener("test", null, opts);
+		} catch (e) {}
+
+		return sopported;
+	}
+	})();
+// PASSIVE EVENTS -
+
+
 // SMOOTH SCROLL +
 	// docs https://greensock.com/docs/#/HTML5/GSAP/Plugins/ScrollToPlugin/
 	// Init here: smoothScroll Init
+
 	function smoothScroll() {
 
 		var $window = $(window);
 
 		var scrollTime = .5;
-		var scrollDistance = 280;
+		var scrollDistance = 300;
 
 		$(window).on("mousewheel DOMMouseScroll touchstart", function(event){
 
@@ -233,8 +278,21 @@ var footer = $('.footer'),
 	function ieDetectionSmoothScroll () {
 		if (version === false && $(window).width() >= 980) {
 
-			// smoothScroll Init
-				smoothScroll();
+			// SAFARI DETECTION +
+				var ua = navigator.userAgent.toLowerCase();
+				if (ua.indexOf('safari') != -1) {
+				  if (ua.indexOf('chrome') > -1) {
+
+						$('body').addClass('chrome');
+
+						// smoothScroll Init
+							smoothScroll();
+
+				  } else {
+				    $('body').addClass('safari');
+				  }
+				}
+			// SAFARI DETECTION -
 
 		} else if (version === false && $(window).width() <= 980) {
 		} else if (version >= 12) {

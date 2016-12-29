@@ -34,9 +34,9 @@
 
 <div class="separator"></div>
 
-<h1 class="centered ease-item ease-left" data-ease-delay=".5s">Lacné vozenie</h1>
+<h1 class="centered">Lacne Vozenie</h1>
 
-<div class="boxed centered subtle-text ease-item ease-left" data-ease-delay="1s">
+<div class="centered">
 	<span class="project-detail"><strong>ROLE:</strong> Designer, Front-end</span>
 	<span class="project-detail"><strong>DATE:</strong> August 2016</span>
 	<span class="project-detail"><strong>CONTEXT:</strong> Website redesign</span>
@@ -44,11 +44,11 @@
 
 <div class="separator small"></div>
 
-<p class="project-pitch subtitle boxed ease-item ease-left" data-ease-delay="1.5s">Website for Autoklinika Bosch Car Service, Slovak leader in the installation and servicing of LPG-technology to civil cars. </p>
+<p class="project-pitch subtitle boxed">Website for Autoklinika Bosch Car Service, Slovak leader in the installation and servicing of LPG-technology to civil cars. </p>
 
 <div class="separator small"></div>
 
-<p class="centered ease-item ease-left" data-ease-delay="1.6s"><a href="http://www.lacnevozenie.sk/sk/" class="button rippleHover" target="_blank">Visit website</a></p>
+<p class="centered"><a href="http://www.lacnevozenie.sk/sk/" class="button rippleHover" target="_blank">Visit website</a></p>
 
 <div class="separator"></div>
 

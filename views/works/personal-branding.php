@@ -34,9 +34,9 @@
 
 <div class="separator"></div>
 
-<h1 class="centered ease-item ease-left" data-ease-delay=".5s">Personal branding</h1>
+<h1 class="centered">Personal branding</h1>
 
-<div class="boxed centered subtle-text ease-item ease-left" data-ease-delay="1s">
+<div class="centered">
 	<span class="project-detail"><strong>ROLE:</strong> Designer</span>
 	<span class="project-detail"><strong>DATE:</strong> December 2016</span>
 	<span class="project-detail"><strong>CONTEXT:</strong> Logo desing</span>
@@ -44,11 +44,11 @@
 
 <div class="separator small"></div>
 
-<p class="project-pitch subtitle boxed ease-item ease-left" data-ease-delay="1.6s">Acronyms as logos are everywhere. That's why I decided to use my full name instead. </p>
+<p class="project-pitch subtitle boxed">Acronyms as logos are everywhere. That's why I decided to use my full name instead. </p>
 
 <div class="separator small"></div>
 
-<p class="centered ease-item ease-left" data-ease-delay="1.6s"><a href="https://www.behance.net/gallery/46276979/Personal-Branding-Andrej-Cibik" class="button rippleHover" target="_blank">Case study</a></p>
+<p class="centered"><a href="https://www.behance.net/gallery/46276979/Personal-Branding-Andrej-Cibik" class="button rippleHover" target="_blank">Case study</a></p>
 
 <div class="separator"></div>
 

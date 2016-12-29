@@ -18,7 +18,7 @@
 			function mainCtaInit() {
 				var mainCta = $('.main-cta');
 
-				title = 'Wanna know more about me?';
+				title = 'Want to know more about me?';
 				text = 'About & Contact';
 				link = "#contact";
 
@@ -39,17 +39,17 @@
 		<div class="small-6 medium-5 large-5 large-offset-1">
 			<h1><span class="first-word">Designer</span> <br> Front-end developer</h1>
 
-			<p class="ease-item ease-left" data-ease-delay="1s">Hi, I'm Andrej Cibík. 23 year old Designer and Front-end developer based in Púchov, Slovakia.</p>
+			<p>Hi, I'm Andrej Cibík. 23 year old Designer and Front-end developer based in Púchov, Slovakia.</p>
 
 			<div class="separator small"></div>
 
-			<a href="#contact" class="ajaxLink button rippleHover ease-item ease-left"  data-ease-delay="1.5s">About & Contact</a>
+			<a href="#contact" class="ajaxLink button rippleHover">About & Contact</a>
 		</div>
 	</div>
 
 </section>
 
-<div class="separator"></div>
+<div class="separator small"></div>
 
 <h2 class="h1 centered">Works</h2>
 

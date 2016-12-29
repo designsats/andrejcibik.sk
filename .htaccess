@@ -44,9 +44,9 @@ RewriteRule ^ /%1 [R=301,L]
 
   # JavaScript
 
-    ExpiresByType application/javascript                "access plus 1 month"
-    ExpiresByType application/x-javascript              "access plus 1 month"
-    ExpiresByType text/javascript                       "access plus 1 month"
+    ExpiresByType application/javascript                "access plus 1 seconds"
+    ExpiresByType application/x-javascript              "access plus 1 seconds"
+    ExpiresByType text/javascript                       "access plus 1 seconds"
 
 
   # Manifest files

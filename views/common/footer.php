@@ -13,4 +13,4 @@
 
 
 <script defer src="assets/js/functions.js" type="text/javascript"></script>
-<script defer src="assets/js/main.js" type="text/javascript"></script>
+<script defer src="assets/js/main.js?v=2" type="text/javascript"></script>
