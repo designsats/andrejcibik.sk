@@ -2,10 +2,6 @@
 <script type="text/javascript">
 	$(function(){
 
-		// Get JS for content manipulation
-		  var url = "assets/js/views.js";
-		  $.getScript(url);
-
 		// Title change
 			document.title = 'oh S**T, 404' + ' ' + defaultTitle;
 

@@ -1,4 +1,5 @@
 <head>
+	<base href="<?php echo $base;?>">
 	<meta name="author" content="Andrej Cibík">
 	<meta charset="UTF-8">
 	<meta name="description" content="23 year old designer and front-end developer based in Púchov, Slovakia. Let's create something awesome.">
@@ -28,8 +29,8 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700&amp;subset=latin-ext" rel="stylesheet">
 
-	<link rel="stylesheet" href="assets/font/icon-font.css" />
-  <link rel="stylesheet" href="assets/css/main.css?v=7" />
+	<link rel="stylesheet" type="text/css" href="assets/font/icon-font.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css?v=7" />
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script defer src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>

@@ -6,15 +6,18 @@
 	<loc>http://www.andrejcibik.sk/</loc>
 </url>
 <url>
-	<loc>http://www.andrejcibik.sk/#contact</loc>
+	<loc>http://www.andrejcibik.sk/works</loc>
 </url>
 <url>
-	<loc>http://www.andrejcibik.sk/#works/lacnevozenie</loc>
+	<loc>http://www.andrejcibik.sk/contact</loc>
 </url>
 <url>
-	<loc>http://www.andrejcibik.sk/#works/cnma</loc>
+	<loc>http://www.andrejcibik.sk/lacnevozenie</loc>
 </url>
 <url>
-	<loc>http://www.andrejcibik.sk/#works/personal-branding</loc>
+	<loc>http://www.andrejcibik.sk/cnma</loc>
+</url>
+<url>
+	<loc>http://www.andrejcibik.sk/personal-branding</loc>
 </url>
 </urlset>

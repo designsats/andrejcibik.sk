@@ -2,10 +2,6 @@
 <script type="text/javascript">
 	$(function(){
 
-		// Get JS for content manipulation
-		  var url = "assets/js/views.js";
-		  $.getScript(url);
-
 		// Title change
 			document.title = 'About & Contact' + ' ' + defaultTitle;
 
@@ -38,7 +34,7 @@
 
 <div class="boxed">
 	<p class="about-text">
-		Hey, Thanks for stopping by. My name’s Andrej Cibík and I’m a 23 years old Designer and Front-end Developer at <a href="http://www.lemonlion.sk/" class="subtle-link" target="_blank">LemonLion</a>, Digital Agency from Púchov, Slovakia. Through last 3 years I've worked on more than 130 projects. I’m in a war against default grey and in love with clean, striking design. Do you have a killer project?
+		Hey, Thanks for stopping by. My name’s Andrej Cibík and I’m a designer and front-end developer at <a href="http://www.lemonlion.sk/" class="subtle-link" target="_blank">LemonLion</a>, digital agency from Púchov, Slovakia. I’ve worked on over 100 projects. I’m at war against default grey and I love clean, striking design. Do you have a killer project which needs a kick-start?
 	</p>
 </div>
 

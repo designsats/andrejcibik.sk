@@ -1,12 +1,55 @@
 
-Options -Indexes
-ErrorDocument 404 /index.php
-ErrorDocument 403 /index.php
+#Options -Indexes
+#ErrorDocument 404 /index.php
+#ErrorDocument 403 /index.php
 
-RewriteEngine On
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.*)index\.php($|\ |\?)
-RewriteRule ^ /%1 [R=301,L]
+#RewriteEngine On
+#RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.*)index\.php($|\ |\?)
+#RewriteRule ^ /%1 [R=301,L]
 
+Options +FollowSymlinks
+
+RewriteEngine on
+
+
+#Presmerovanie na www  - POZOR, nebude fungovat pokial je web na inej subdomene ako www
+	#Internet
+	RewriteCond %{REMOTE_HOST} !^127\.0\.0\.1
+	RewriteCond %{REMOTE_HOST} !^192\.168\.
+	RewriteCond %{HTTP_HOST} !.lioweb.sk$
+	RewriteCond %{HTTP_HOST} !.webicek.sk$
+	RewriteCond %{HTTP_HOST} !^www\.
+	RewriteCond %{HTTP_HOST} !^new\.
+	RewriteCond %{HTTP_HOST} !^novy\.
+	RewriteRule ^(.*)$    http://www.%{SERVER_NAME}/$1 [R=301,L]
+
+#Presmerovanie favicon.ico
+	#Internet
+	RewriteCond %{REMOTE_HOST} !^127\.0\.0\.1
+	RewriteCond %{REMOTE_HOST} !^192\.168\.
+	RewriteRule ^favicon\.ico$ /images/favicon.ico [L,QSA]
+
+	#LAN
+	RewriteRule ^favicon\.ico$ images/favicon.ico [L,QSA]
+
+#Prida na koniec "/", ak tam nie je. (napr. www.example.com/contact na www.example.com/contact/)
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_URI} !(.*)/$
+	RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI}/ [L,R=301]
+
+#Routovanie na index.php vsetkeho co neexsituje
+	#Internet
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REMOTE_HOST} !^127\.0\.0\.1
+	RewriteCond %{REMOTE_HOST} !^192\.168\.
+	RewriteRule ^(.*)$ /index.php?route=$1 [L,QSA]
+
+	#LAN
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]
 
 <IfModule mod_expires.c>
 

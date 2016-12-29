@@ -6,12 +6,12 @@
 
 <header class="header">
 
-	<a href="#works" class="ajaxLink logo">
+	<a href="works" class="logo">
 		<img src="assets/images/logo.svg" alt="Andrej Cibík, Designer & Developer">
 	</a>
 
 	<div class="link-back-cont hidden">
-		<a href="#works" class="link-back ajaxLink rippleHover">
+		<a href="works" class="link-back rippleHover">
 			<span class="arrow"></span>
 		</a>
 	</div>
@@ -25,11 +25,9 @@
 
 <nav class="navigation">
 
-	<span class="indicator"></span>
-
 	<div class="menu">
-		<a href="#works" class="item ripple active">works</a>
-		<a href="#contact" class="item ripple ">about & contact</a>
+		<a href="works" class="item active">works</a>
+		<a href="contact" class="item">about & contact</a>
 	</div>
 
 	<div class="social-links">

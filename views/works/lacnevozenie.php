@@ -2,10 +2,6 @@
 <script type="text/javascript">
 	$(function(){
 
-		// Get JS for content manipulation
-			var url = "assets/js/views.js";
-			$.getScript(url);
-
 		// Title change
 			document.title = 'LacneVozenie.sk website' + ' ' + defaultTitle;
 
@@ -20,7 +16,7 @@
 
 				title = 'Do you like what you see?';
 				text = 'About me & Contact';
-				link = "#contact";
+				link = "contact";
 
 				mainCta.find('.title').html(title);
 				mainCta.find('.text').html(text);
@@ -211,7 +207,7 @@
 <div class="separator"></div>
 
 <div class="boxed ease-item ease-bottom next-project-cont">
-	<a href="#works/cnma" class="button rippleHover nextProject">Next project <span class="arrow"></span></a>
+	<a href="cnma" class="button rippleHover nextProject">Next project <span class="arrow"></span></a>
 </div>
 
 <div class="separator"></div>

@@ -1,8 +1,4 @@
 
-/* tmp */
-.souhrn
-	display: none
-
 /* COMMON STYLES START */
 
 .centered
@@ -24,10 +20,8 @@
 		width: 1px
 		position: absolute
 		background: black
-		height: 0
+		height: 100%
 		opacity: .08
-		animation: lines 2s
-		animation-fill-mode: forwards
 
 	.line-1
 		left: 16.66%
@@ -48,6 +42,11 @@
 	.line-5
 		left: 83.33%
 		animation-delay: 1.5s
+
+	.line
+		&.animate
+			animation: lines 2s
+			animation-fill-mode: forwards
 
 @keyframes lines
 	0%

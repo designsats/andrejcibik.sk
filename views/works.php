@@ -2,10 +2,6 @@
 <script type="text/javascript">
 	$(function(){
 
-		// Get JS for content manipulation
-			var url = "assets/js/views.js";
-			$.getScript(url);
-
 		// Title change
 			document.title = 'Designer & Frontend developer' + ' ' + defaultTitle;
 
@@ -20,7 +16,7 @@
 
 				title = 'Want to know more about me?';
 				text = 'About & Contact';
-				link = "#contact";
+				link = "contact";
 
 				mainCta.find('.title').html(title);
 				mainCta.find('.text').html(text);
@@ -39,11 +35,11 @@
 		<div class="small-6 medium-5 large-5 large-offset-1">
 			<h1><span class="first-word">Designer</span> <br> Front-end developer</h1>
 
-			<p>Hi, I'm Andrej Cibík. 23 year old Designer and Front-end developer based in Púchov, Slovakia.</p>
+			<p>Hi, I'm Andrej Cibík. 23 year old designer and front-end developer based in Púchov, Slovakia.</p>
 
 			<div class="separator small"></div>
 
-			<a href="#contact" class="ajaxLink button rippleHover">About & Contact</a>
+			<a href="contact" class="button rippleHover">About & Contact</a>
 		</div>
 	</div>
 
@@ -59,13 +55,13 @@
 		<div class="work-preview">
 			<div class="work-preview-image">
 				<div class="image-crop">
-					<a href="#works/lacnevozenie" class="preview-image ripple">
+					<a href="lacnevozenie" class="preview-image">
 						<img src="data/previews/lacnevozenie.jpg" alt="" class="image desktop-view" />
 						<img src="data/previews/lacnevozenie-mobile.jpg" alt="" class="image mobile-view" />
 					</a>
 				</div>
 			</div>
-			<a href="#works/lacnevozenie" class="ajaxLink button button-preview rippleHover">View project</a>
+			<a href="lacnevozenie" class="ajaxLink button button-preview rippleHover">View project</a>
 		</div>
 	</div>
 
@@ -73,13 +69,13 @@
 		<div class="work-preview">
 			<div class="work-preview-image">
 				<div class="image-crop">
-					<a href="#works/cnma" class="preview-image ripple">
+					<a href="cnma" class="preview-image">
 						<img src="data/previews/cnma.jpg" alt="" class="image desktop-view" />
 						<img src="data/previews/cnma-mobile.jpg" alt="" class="image mobile-view" />
 					</a>
 				</div>
 			</div>
-			<a href="#works/cnma" class="ajaxLink button button-preview rippleHover">View project</a>
+			<a href="cnma" class="ajaxLink button button-preview rippleHover">View project</a>
 		</div>
 	</div>
 
@@ -87,13 +83,13 @@
 		<div class="work-preview">
 			<div class="work-preview-image">
 				<div class="image-crop">
-					<a href="#works/personal-branding" class="preview-image ripple">
+					<a href="personal-branding" class="preview-image">
 						<img src="data/previews/personalbranding.jpg" alt="" class="image desktop-view" />
 						<img src="data/previews/personalbranding-mobile.jpg" alt="" class="image mobile-view" />
 					</a>
 				</div>
 			</div>
-			<a href="#works/personal-branding" class="ajaxLink button button-preview rippleHover">View project</a>
+			<a href="personal-branding" class="ajaxLink button button-preview rippleHover">View project</a>
 		</div>
 	</div>
 
