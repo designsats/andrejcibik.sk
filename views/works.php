@@ -56,8 +56,8 @@
 			<div class="work-preview-image">
 				<div class="image-crop">
 					<a href="lacnevozenie" class="preview-image">
-						<img src="data/previews/lacnevozenie.jpg" alt="" class="image desktop-view" />
-						<img src="data/previews/lacnevozenie-mobile.jpg" alt="" class="image mobile-view" />
+						<img src="data/previews/lacnevozenie.jpg" alt="Lacne Vozenie website" class="image desktop-view" />
+						<img src="data/previews/lacnevozenie-mobile.jpg" alt="Lacne Vozenie website mobile" class="image mobile-view" />
 					</a>
 				</div>
 			</div>
@@ -70,8 +70,8 @@
 			<div class="work-preview-image">
 				<div class="image-crop">
 					<a href="cnma" class="preview-image">
-						<img src="data/previews/cnma.jpg" alt="" class="image desktop-view" />
-						<img src="data/previews/cnma-mobile.jpg" alt="" class="image mobile-view" />
+						<img src="data/previews/cnma.jpg" alt="CNMA website" class="image desktop-view" />
+						<img src="data/previews/cnma-mobile.jpg" alt="CNMA website mobile" class="image mobile-view" />
 					</a>
 				</div>
 			</div>
@@ -84,8 +84,8 @@
 			<div class="work-preview-image">
 				<div class="image-crop">
 					<a href="personal-branding" class="preview-image">
-						<img src="data/previews/personalbranding.jpg" alt="" class="image desktop-view" />
-						<img src="data/previews/personalbranding-mobile.jpg" alt="" class="image mobile-view" />
+						<img src="data/previews/personalbranding.jpg" alt="Personal branding Andrej Cibík" class="image desktop-view" />
+						<img src="data/previews/personalbranding-mobile.jpg" alt="Personal branding Andrej Cibík" class="image mobile-view" />
 					</a>
 				</div>
 			</div>

@@ -115,7 +115,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Aplications</h2>
-		When I was satisfied with the logo, I proceeded to design some of its applications. There was no need for me to design all the possible applications, just those I would actually use. That’s why I designed only the web site, business cards and an email signature. Everything with emphasis on simplicity and minimalism.
+		When I was satisfied with the logo, I proceeded to design some of its applications. There was no need for me to design all the possible applications. Therefore I only designed those I would actually use - the web site, business cards and an email signature. Everything with emphasis on simplicity and minimalism.
 	</div>
 </div>
 

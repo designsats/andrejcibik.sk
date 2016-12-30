@@ -34,7 +34,7 @@
 
 <div class="boxed">
 	<p class="about-text">
-		Hey, Thanks for stopping by. My name’s Andrej Cibík and I’m a designer and front-end developer at <a href="http://www.lemonlion.sk/" class="subtle-link" target="_blank">LemonLion</a>, digital agency from Púchov, Slovakia. I’ve worked on over 100 projects. I’m at war against default grey and I love clean, striking design. Do you have a killer project which needs a kick-start?
+		Hey, Thanks for stopping by. My name’s Andrej Cibík and I’m a designer and front-end developer at <a href="http://www.lemonlion.sk/" class="subtle-link" target="_blank">LemonLion</a> - a digital agency from Púchov, Slovakia. I’ve worked on over 100 projects. I’m at war against default grey and I love clean, striking design. Do you have a killer project which needs a kick-start?
 	</p>
 </div>
 

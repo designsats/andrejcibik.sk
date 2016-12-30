@@ -60,7 +60,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Info</h2>
-		LacneVozenie is a website dealing with alternative fuels, especially LPG. Website provides plenty of rich content for users who want to find out more about running their car on LPG or those who want to cut their fuel expenses.
+		LacneVozenie is a website dealing with alternative fuels, especially LPG. The website provides plenty of rich content for users who want to find out more about running their car on LPG or those who want to cut their fuel expenses.
 	</div>
 </div>
 
@@ -159,7 +159,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Redesign results</h2>
-		Results after 4 months showed us a very nice increase of unique visitors and more importantly, more coversions. We continue to work with this client to improve every aspect of his online and offline presence.
+		Results after 4 months showed a very nice increase of unique visitors and more importantly, more conversions. We continue to work with this client to improve every aspect of his online and offline presence.
 	</div>
 </div>
 
