@@ -6,11 +6,21 @@
 	height: 100vh
 	min-height: 600px
 	max-height: 1080px
+	padding-top: 80px
 	background: url('../images/hero.png') bottom right no-repeat
 
 	h1
 		padding-left: 0
 		transform: translateX(-4px)
+
+.width-lt-1280
+	.hero-section
+		padding-top: 60px
+
+.width-lt-980
+	.hero-section
+		height: calc(100vh - 60px)
+		padding-top: 0
 
 .width-lt-640
 	.hero-section
@@ -39,10 +49,6 @@
 		cursor: pointer
 		transition: all .8s .8s
 
-		&.hide
-			opacity: 0
-			pointer-events: none
-
 	.scroll-down-arrow
 		animation: bounce 1s infinite alternate
 
@@ -53,7 +59,7 @@
 			top: 20px
 			width: 30px
 			height: 1px
-			background: rgba(0, 0, 0, .2)
+			background: rgba(0, 0, 0, .35)
 			pointer-events: none
 			transition: all .4s
 
@@ -66,10 +72,10 @@
 
 	@keyframes bounce
 		0%
-			transform: translateY(0)
+			transform: translateY(45px)
 
 		100%
-			transform: translateY(30px)
+			transform: translateY(15px)
 
 	.scroll-down-arrow-cont
 		&:hover
@@ -77,6 +83,15 @@
 				&::before,&::after
 					background: rgba(0, 0, 0, .5)
 
+.width-lt-1280
+	.scroll-down-arrow-cont
+		transform: none
+		left: auto
+		right: 0
+
+.width-lt-640
+	.scroll-down-arrow-cont
+		display: none
 
 /* HERO SECTION END */
 

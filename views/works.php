@@ -36,6 +36,7 @@
 			<h1><span class="first-word">Designer</span> <br> Front-end developer</h1>
 
 			<p>Hi, I'm Andrej Cibík. 23 year old designer and front-end developer based in Púchov, Slovakia.</p>
+			<p>Currently not for hire.</p>
 
 			<div class="separator small"></div>
 

@@ -554,11 +554,10 @@ $(document).ready(function() {
 		var scrollDownArrow = $('.scroll-down-arrow-cont');
 
 		scrollDownArrow.click(function(){
-			var scrollLength = $(this).offset().top;
+			var scrollLength = $(this).offset().top + 100;
 			$("html, body").animate({ scrollTop: scrollLength }, 800);
-			$(this).addClass('hide');
 		});
 
 	// SCROLL DOWN ARROW -
-	
+
 });
