@@ -43,9 +43,13 @@
 		</div>
 	</div>
 
+	<div class="scroll-down-arrow-cont rippleHover">
+		<div class="scroll-down-arrow"></div>
+	</div>
+
 </section>
 
-<div class="separator small"></div>
+<div class="separator"></div>
 
 <h2 class="h1 centered">Works</h2>
 

@@ -6,7 +6,7 @@
 
 <header class="header">
 
-	<a href="works" class="logo">
+	<a href="/" class="logo">
 		<img src="assets/images/logo.svg" alt="Andrej Cibík, Designer & Developer">
 	</a>
 

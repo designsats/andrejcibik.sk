@@ -87,9 +87,9 @@ RewriteEngine on
 
   # JavaScript
 
-    ExpiresByType application/javascript                "access plus 1 seconds"
-    ExpiresByType application/x-javascript              "access plus 1 seconds"
-    ExpiresByType text/javascript                       "access plus 1 seconds"
+    ExpiresByType application/javascript                "access plus 1 hour"
+    ExpiresByType application/x-javascript              "access plus 1 hour"
+    ExpiresByType text/javascript                       "access plus 1 hour"
 
 
   # Manifest files

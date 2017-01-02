@@ -2,6 +2,7 @@
 /* HERO SECTION START */
 
 .hero-section
+	position: relative
 	height: 100vh
 	min-height: 600px
 	max-height: 1080px
@@ -9,7 +10,7 @@
 
 	h1
 		padding-left: 0
-		transform: translateX(-7px)
+		transform: translateX(-4px)
 
 .width-lt-640
 	.hero-section
@@ -19,11 +20,63 @@
 		h1
 			padding: 0
 			text-align: center
+			transform: none
 
 		.button
 			position: relative
 			left: 50%
 			transform: translateX(-50%)
+
+
+.hero-section
+	.scroll-down-arrow-cont
+		position: absolute
+		bottom: 0
+		left: 50%
+		transform: translateX(-50%)
+		width: 100px
+		height: 100px
+		cursor: pointer
+		transition: all .8s .8s
+
+		&.hide
+			opacity: 0
+			pointer-events: none
+
+	.scroll-down-arrow
+		animation: bounce 1s infinite alternate
+
+		&::before,&::after
+			content: ''
+			position: absolute
+			left: 24px
+			top: 20px
+			width: 30px
+			height: 1px
+			background: rgba(0, 0, 0, .2)
+			pointer-events: none
+			transition: all .4s
+
+		&::before
+			transform: rotate(45deg)
+
+		&::after
+			left: 45px
+			transform: rotate(-45deg)
+
+	@keyframes bounce
+		0%
+			transform: translateY(0)
+
+		100%
+			transform: translateY(30px)
+
+	.scroll-down-arrow-cont
+		&:hover
+			.scroll-down-arrow
+				&::before,&::after
+					background: rgba(0, 0, 0, .5)
+
 
 /* HERO SECTION END */
 
