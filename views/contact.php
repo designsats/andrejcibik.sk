@@ -15,8 +15,8 @@
 				var mainCta = $('.main-cta');
 
 				title = 'Let\'s create something awesome';
-				text = 'andrejcibik@gmail.com';
-				link = "mailto:andrejcibik@gmail.com";
+				text = 'hello@andrejcibik.sk';
+				link = "mailto:hello@andrejcibik.sk";
 
 				mainCta.find('.title').html(title);
 				mainCta.find('.text').html(text);
@@ -30,7 +30,9 @@
 
 <div class="separator"></div>
 
-<h1 class="centered"><span class="first-word">About</span> Me</h1>
+<h1 class="centered">About me
+	<span class="ghost-title">Who am I</span>
+</h1>
 
 <div class="boxed">
 	<p class="about-text">
@@ -39,9 +41,16 @@
 </div>
 
 <div class="separator"></div>
+<div class="separator small"></div>
+
+<h2 class="h1 centered">Contact
+	<span class="ghost-title">Keep in touch</span>
+</h2>
+
+<div class="separator"></div>
 
 <div class="boxed centered social-links-contact">
-	<a href="mailto:andrejcibik@gmail.com" class="button rippleHover icon-mail" title="Email"></a>
+	<a href="mailto:hello@andrejcibik.sk" class="button rippleHover icon-mail" title="Email"></a>
 	<a href="https://www.facebook.com/CibikAndrej" class="button rippleHover icon-facebook" title="Facebook" target="_blank"></a>
 	<a href="https://www.behance.net/AndrejCibik" class="button rippleHover icon-behance" title="Behnace" target="_blank"></a>
 </div>

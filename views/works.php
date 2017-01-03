@@ -52,7 +52,9 @@
 
 <div class="separator"></div>
 
-<h2 class="h1 centered">Works</h2>
+<h2 class="h1 centered">Works
+	<span class="ghost-title">My passion</span>
+</h2>
 
 <div class="works-cont">
 

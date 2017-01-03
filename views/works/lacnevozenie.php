@@ -30,7 +30,9 @@
 
 <div class="separator"></div>
 
-<h1 class="centered">Lacne Vozenie</h1>
+<h1 class="centered">Lacne Vozenie
+	<span class="ghost-title">Website</span>
+</h1>
 
 <div class="centered">
 	<span class="project-detail"><strong>ROLE:</strong> Designer, Front-end</span>

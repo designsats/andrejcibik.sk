@@ -30,7 +30,9 @@
 
 <div class="separator"></div>
 
-<h1 class="centered">Personal branding</h1>
+<h1 class="centered">Personal branding
+	<span class="ghost-title">Logo design</span>
+</h1>
 
 <div class="centered">
 	<span class="project-detail"><strong>ROLE:</strong> Designer</span>

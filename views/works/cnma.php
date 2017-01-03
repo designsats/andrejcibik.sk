@@ -30,7 +30,10 @@
 
 <div class="separator"></div>
 
-<h1 class="centered">CNMA concept</h1>
+<h1 class="centered">
+	CNMA
+	<span class="ghost-title">Concept</span>
+</h1>
 
 <div class="centered">
 	<span class="project-detail"><strong>ROLE:</strong> Designer, Front-end</span>
