@@ -47,12 +47,14 @@
 	<span class="ghost-title">Keep in touch</span>
 </h2>
 
-<div class="separator"></div>
+<div class="separator small"></div>
 
-<div class="boxed centered social-links-contact">
+<div class="centered social-links-contact">
 	<a href="mailto:hello@andrejcibik.sk" class="button rippleHover icon-mail" title="Email"></a>
 	<a href="https://www.facebook.com/CibikAndrej" class="button rippleHover icon-facebook" title="Facebook" target="_blank"></a>
 	<a href="https://www.behance.net/AndrejCibik" class="button rippleHover icon-behance" title="Behnace" target="_blank"></a>
+	<a href="https://www.linkedin.com/in/andrejcibik" class="button rippleHover icon-linkedin" title="LinkedIn" target="_blank"></a>
+
 </div>
 
 <div class="separator"></div>

@@ -88,6 +88,11 @@ $(document).ready(function() {
 			$('body').toggleClass('open-menu');
 		});
 
+		$(window).resize(function(){
+			if ($(this).width() >= 980)
+				$('body').removeClass('open-menu');
+		});
+
 	// MOBILE MENU -
 
 
