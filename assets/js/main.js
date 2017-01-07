@@ -40,7 +40,7 @@ $(document).ready(function() {
 				hash = hash.substring(1, hash.length -1);
 
 		if (hash == 'works') {
-			$("html, body").animate({ scrollTop: $(window).height()}, 800);
+			$("html, body").animate({ scrollTop: $(window).height() + 30 }, 800);
 		}
 
 		menuItem.each(function(){

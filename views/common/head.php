@@ -27,10 +27,10 @@
 	<link rel="apple-touch-icon" href="assets/images/favicon.png?v=1"/>
 
 
-	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+	<link defer href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700&amp;subset=latin-ext" rel="stylesheet">
 
-	<link rel="stylesheet" type="text/css" href="assets/font/icon-font.css" />
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css?v=15" />
+	<link defer rel="stylesheet" type="text/css" href="assets/font/icon-font.css" />
+  <link defer rel="stylesheet" type="text/css" href="assets/css/main.css?v=15" />
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script defer src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
