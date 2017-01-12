@@ -43,21 +43,19 @@
 <div class="separator"></div>
 
 <div class="section">
-	<div class="growImg" style="background-image: url(data/me03.jpg);">
+	<div class="growImg awards-section" style="background-image: url(data/me03.jpg);">
 
 		<div class="separator"></div>
 
 		<div class="row ease-item ease-left">
 			<div class="small-6 medium-4 large-3 large-offset-1">
 				<h2>Awards and <br>mentions</h2>
-
-				<a href="http://cssdesignawards.com/sites/andrej-cibik-personal-portfolio/29846/" target="_blank">cssdesignawards.com - nominee</a>
 				<br>
-				<a href="http://cssfox.co/personal-portfolio---andrej-cibik" target="_blank">cssfox.com - nominee</a>
+				<a href="http://cssdesignawards.com/sites/andrej-cibik-personal-portfolio/29846/" class="item" target="_blank"><strong>cssdesignawards.com</strong> - nominee</a>
 				<br>
-				<a href="http://www.csswinner.com/details/personal-portfolio-andrejcibiksk/11160" target="_blank">csswinner.com - star</a>
+				<a href="http://cssfox.co/personal-portfolio---andrej-cibik" class="item" target="_blank"><strong>cssfox.com</strong> - nominee</a>
 				<br>
-				<a href="http://www.boostlizer.com/list/f2lgxrx9/personal-portfolio-andrejcibiksk" target="_blank">boostlizer.com - site of the day</a>
+				<a href="http://www.csswinner.com/details/personal-portfolio-andrejcibiksk/11160" class="item" target="_blank"><strong>csswinner.com</strong> - star</a>
 				<br>
 			</div>
 		</div>

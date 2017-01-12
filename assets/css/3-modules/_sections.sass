@@ -13,6 +13,10 @@
 		padding-left: 0
 		transform: translateX(-4px)
 
+@media screen and (max-height: 800px)
+	.hero-section
+		padding-top: 40px
+
 .width-lt-1280
 	.hero-section
 		padding-top: 60px
@@ -157,6 +161,20 @@
 	.growImg
 		height: 80vh
 		min-height: 500px
+
+		&.awards-section
+			&::after
+				content: ''
+				position: absolute
+				top: 0
+				bottom: 0
+				left: 0
+				right: 0
+				background: linear-gradient(to right, rgba(255,255,255,.8) 0%, rgba(255,255,255,.1) 100%)
+
+			& .row
+				position: relative
+				z-index: 1
 
 	.growSide
 		display: none
