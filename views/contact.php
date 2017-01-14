@@ -51,11 +51,11 @@
 			<div class="small-6 medium-4 large-3 large-offset-1">
 				<h2>Awards and <br>mentions</h2>
 				<br>
-				<a href="http://cssdesignawards.com/sites/andrej-cibik-personal-portfolio/29846/" class="item" target="_blank"><strong>cssdesignawards.com</strong> - nominee</a>
+				<a href="http://cssdesignawards.com/sites/andrej-cibik-personal-portfolio/29846/" class="item" target="_blank"><strong>CSS Design Awards </strong> - nominee</a>
 				<br>
-				<a href="http://cssfox.co/personal-portfolio---andrej-cibik" class="item" target="_blank"><strong>cssfox.com</strong> - nominee</a>
+				<a href="http://www.csswinner.com/details/personal-portfolio-andrejcibiksk/11160" class="item" target="_blank"><strong>CSS winner</strong> - star</a>
 				<br>
-				<a href="http://www.csswinner.com/details/personal-portfolio-andrejcibiksk/11160" class="item" target="_blank"><strong>csswinner.com</strong> - star</a>
+				<a href="http://cssfox.co/personal-portfolio---andrej-cibik" class="item" target="_blank"><strong>CSSfox</strong> - nominee</a>
 				<br>
 			</div>
 		</div>
@@ -81,9 +81,9 @@
 <div class="separator small"></div>
 
 <div class="centered social-links-contact">
-	<a href="mailto:hello@andrejcibik.sk" class="button rippleHover icon-mail" title="Email"></a>
-	<a href="https://www.facebook.com/CibikAndrej" class="button rippleHover icon-facebook" title="Facebook" target="_blank"></a>
+	<a href="https://www.facebook.com/AndrejCibikDesign/" class="button rippleHover icon-facebook" title="FB page"></a>
 	<a href="https://www.behance.net/AndrejCibik" class="button rippleHover icon-behance" title="Behnace" target="_blank"></a>
+	<a href="https://dribbble.com/AndrejCibik" class="button rippleHover icon-dribbble" title="Dribbble" target="_blank"></a>
 	<a href="https://www.linkedin.com/in/andrejcibik" class="button rippleHover icon-linkedin" title="LinkedIn" target="_blank"></a>
 
 </div>

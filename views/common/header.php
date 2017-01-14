@@ -32,8 +32,8 @@
 
 	<div class="social-links">
 		<a href="mailto:hello@andrejcibik.sk" class="item icon-mail" title="Email"></a>
-		<a href="https://www.facebook.com/CibikAndrej" class="item icon-facebook" title="Facebook" target="_blank"></a>
 		<a href="https://www.behance.net/AndrejCibik" class="item icon-behance" title="Behnace" target="_blank"></a>
+		<a href="https://dribbble.com/AndrejCibik" class="item icon-dribbble" title="Dribbble" target="_blank"></a>
 		<a href="https://www.linkedin.com/in/andrejcibik" class="item icon-linkedin" title="LinkedIn" target="_blank"></a>
 	</div>
 

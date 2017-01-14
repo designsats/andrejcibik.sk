@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'icon-font';
   src:
-    url('icon-font.ttf?laa2zf') format('truetype'),
-    url('icon-font.woff?laa2zf') format('woff'),
-    url('icon-font.svg?laa2zf#icon-font') format('svg');
+    url('icon-font.ttf?s0su5o') format('truetype'),
+    url('icon-font.woff?s0su5o') format('woff'),
+    url('icon-font.svg?s0su5o#icon-font') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,23 +23,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-mail:before {
-  content: "\e159";
+.icon-angle-double-up:before {
+  content: "\f102";
 }
-.icon-send:before {
-  content: "\e163";
+.icon-angle-double-down:before {
+  content: "\f103";
 }
-.icon-facebook:before {
-  content: "\f09a";
-}
-.icon-linkedin:before {
-  content: "\f0e1";
-}
-.icon-youtube-play:before {
-  content: "\f16a";
-}
-.icon-behance:before {
-  content: "\f1b4";
+.icon-codepen:before {
+  content: "\f1cb";
 }
 .icon-search:before {
   content: "\f002";
@@ -64,4 +55,40 @@
 }
 .icon-angle-down:before {
   content: "\f107";
+}
+.icon-mail:before {
+  content: "\e159";
+}
+.icon-send:before {
+  content: "\e163";
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-linkedin:before {
+  content: "\f0e1";
+}
+.icon-youtube-play:before {
+  content: "\f16a";
+}
+.icon-behance:before {
+  content: "\f1b4";
+}
+.icon-google:before {
+  content: "\ea88";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-vimeo:before {
+  content: "\eaa0";
+}
+.icon-dribbble:before {
+  content: "\eaa7";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-skype:before {
+  content: "\eac5";
 }
