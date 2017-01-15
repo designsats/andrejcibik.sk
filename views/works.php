@@ -90,6 +90,20 @@
 		<div class="work-preview">
 			<div class="work-preview-image">
 				<div class="image-crop">
+					<a href="logos-2016" class="preview-image">
+						<img src="data/previews/logos-2016.jpg" alt="" class="image desktop-view" />
+						<img src="data/previews/logos-2016-mobile.jpg" alt="" class="image mobile-view" />
+					</a>
+				</div>
+			</div>
+			<a href="logos-2016" class="ajaxLink button button-preview rippleHover">View project</a>
+		</div>
+	</div>
+
+	<div class="section boxed centered">
+		<div class="work-preview">
+			<div class="work-preview-image">
+				<div class="image-crop">
 					<a href="personal-branding" class="preview-image">
 						<img src="data/previews/personalbranding.jpg" alt="Personal branding Andrej Cibík" class="image desktop-view" />
 						<img src="data/previews/personalbranding-mobile.jpg" alt="Personal branding Andrej Cibík" class="image mobile-view" />

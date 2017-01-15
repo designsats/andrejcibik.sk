@@ -37,7 +37,7 @@
 <div class="centered">
 	<span class="project-detail"><strong>ROLE:</strong> Designer</span>
 	<span class="project-detail"><strong>DATE:</strong> December 2016</span>
-	<span class="project-detail"><strong>CONTEXT:</strong> Logo desing</span>
+	<span class="project-detail"><strong>CONTEXT:</strong> Logo design</span>
 </div>
 
 <div class="separator small"></div>

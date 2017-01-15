@@ -127,7 +127,7 @@
 
 <div class="boxed ease-item ease-bottom next-project-cont multiple">
 	<a href="lacnevozenie" class="button rippleHover prevProject"><span class="arrow"></span> Prev project</a>
-	<a href="personal-branding" class="button rippleHover nextProject">Next project <span class="arrow"></span></a>
+	<a href="logos-2016" class="button rippleHover nextProject">Next project <span class="arrow"></span></a>
 </div>
 
 

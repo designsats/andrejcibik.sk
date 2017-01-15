@@ -26,6 +26,7 @@
 		'lacnevozenie' => '/works/lacnevozenie.php',
 		'cnma' => '/works/cnma.php',
 		'personal-branding' => '/works/personal-branding.php',
+		'logos-2016' => '/works/logos-2016.php',
 	);
 
 	$url = trim(@$_GET['route'], '/');
