@@ -16,7 +16,7 @@
 		</a>
 	</div>
 
-	<div class="mobile-menu-toggle ripple">
+	<div class="mobile-menu-toggle">
 		<span class="bar bar-1"></span>
 		<span class="bar bar-2"></span>
 	</div>

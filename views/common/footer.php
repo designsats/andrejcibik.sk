@@ -12,5 +12,5 @@
 </div>
 
 
-<script defer src="assets/js/functions.js" type="text/javascript"></script>
-<script defer src="assets/js/main.js?v=3" type="text/javascript"></script>
+<script src="assets/js/functions.js" type="text/javascript"></script>
+<script src="assets/js/main.js?v=19" type="text/javascript"></script>

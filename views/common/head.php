@@ -5,8 +5,6 @@
 	<meta name="description" content="23 year old designer and front-end developer based in Púchov, Slovakia. Let's create something awesome.">
 	<meta name="keywords" content="andrej cibik, cibik andrej, designer, front-end developer, developer, javascript developer, graphic designer" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="format-detection" content="telephone=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -32,8 +30,8 @@
 	<link defer rel="stylesheet" type="text/css" href="assets/font/icon-font.css?v=2" />
   <link defer rel="stylesheet" type="text/css" href="assets/css/main.css?v=21" />
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<script defer src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 
 	<script>
 		// Default Title - suffix
