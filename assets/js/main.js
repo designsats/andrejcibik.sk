@@ -399,8 +399,9 @@ $(document).ready(function() {
 		var workPreview = $('.work-preview-image');
 
 		function workPreviewResize() {
-			if ($(window).width() >= 640) {
+			if ($(window).width() >= 633) {
 				workPreview.css('height', workPreview.width() * 0.5925); // 16:9
+				console.log('desktop');
 			} else {
 				workPreview.css('height', workPreview.width() * 1.6417);
 			}

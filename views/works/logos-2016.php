@@ -46,7 +46,7 @@
 
 <div class="separator small"></div>
 
-<p class="centered"><a href="https://dribbble.com/shots/3217512-Logo-collection-2016" class="button rippleHover" target="_blank">Case study</a></p>
+<p class="centered"><a href="https://www.behance.net/gallery/47459255/Logo-collection-2016" class="button rippleHover" target="_blank">Case study</a></p>
 
 <div class="separator"></div>
 
