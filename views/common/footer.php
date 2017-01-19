@@ -13,4 +13,4 @@
 
 
 <script src="assets/js/functions.js" type="text/javascript"></script>
-<script src="assets/js/main.js?v=19" type="text/javascript"></script>
+<script src="assets/js/main.js?v=40" type="text/javascript"></script>

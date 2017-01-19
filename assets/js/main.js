@@ -482,7 +482,7 @@ $(document).ready(function() {
 
 
 	// MOUSE REACTION +
-
+		/*	
 		function mouseReaction(target) {
 
 			$("body").mousemove(function(e) {
@@ -497,7 +497,7 @@ $(document).ready(function() {
 			});
 		}
 		mouseReaction($(".mouse-reaction"));
-
+		*/
 	// MOUSE REACTION -
 
 
