@@ -39,9 +39,6 @@
 		<br><br><br>
 		<a href="works" class="button rippleHover">Back to start</a>
 
-		<br>
-		<br>
-		<a href="contact" onclick="$(this).hide();">About & Contact</a>
 	</p>
 
 	<div class="image"></div>
