@@ -8,7 +8,7 @@ $(function(){
 	// RESPONSIVE +
 		if (typeof $.responsive == "function") {
 			$.responsive({
-						width: [400, 640, 980, 1280],
+						width: [340, 400, 640, 980, 1280],
 						prefix: "width",
 						viewport: "width=device-width",
 					afterResize: function(opt) {
@@ -482,7 +482,7 @@ $(document).ready(function() {
 
 
 	// MOUSE REACTION +
-		/*	
+		/*
 		function mouseReaction(target) {
 
 			$("body").mousemove(function(e) {
