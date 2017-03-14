@@ -35,8 +35,9 @@
 </h1>
 
 <div class="centered">
+	<span class="project-detail"><strong>AGENCY:</strong> <a href="http://www.lemonlion.sk/" target="_blank">Lemon Lion</a></span>
 	<span class="project-detail"><strong>ROLE:</strong> Designer</span>
-	<span class="project-detail"><strong>DATE:</strong> January 2017</span>
+	<span class="project-detail"><strong>DATE:</strong> 2016-2017</span>
 	<span class="project-detail"><strong>CONTEXT:</strong> Logo design</span>
 </div>
 

@@ -36,7 +36,10 @@
 
 <div class="boxed">
 	<p class="about-text">
-		Hey, Thanks for stopping by. My name’s Andrej Cibík and I’m a designer and front-end developer at <a href="http://www.lemonlion.sk/" class="subtle-link" target="_blank">LemonLion</a> - a digital agency from Púchov, Slovakia. I’ve worked on over 100 projects. I’m at war against default grey and I love clean, striking design. Do you have a killer project which needs a kick-start?
+		Hey, Thanks for stopping by. My name’s Andrej Cibík and I’m a designer and front-end developer at <a href="http://www.lemonlion.sk/" class="subtle-link" target="_blank">LemonLion</a> - a digital agency from Púchov, Slovakia.
+		I’m at war against default grey and I love clean, striking design.
+		My goal is to be as good designer as I can, while not neglecting my front-end skills. 
+		Do you have a killer project which needs a kick-start?
 	</p>
 </div>
 
@@ -54,6 +57,8 @@
 				<a href="http://cssdesignawards.com/sites/andrej-cibik-personal-portfolio/29846/" class="item" target="_blank"><strong>CSS Design Awards </strong> - nominee</a>
 				<br>
 				<a href="http://www.csswinner.com/details/personal-portfolio-andrejcibiksk/11160" class="item" target="_blank"><strong>CSS winner</strong> - star</a>
+				<br>
+				<a href="http://www.designnominees.com/sites/andrejcibiksk-personal-portfolio" class="item" target="_blank"><strong>Design nominees</strong> - site of the day</a>
 				<br>
 				<a href="http://cssfox.co/personal-portfolio---andrej-cibik" class="item" target="_blank"><strong>CSSfox</strong> - nominee</a>
 				<br>
