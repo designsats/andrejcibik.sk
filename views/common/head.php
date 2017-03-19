@@ -2,6 +2,7 @@
 	<base href="<?php echo $base;?>">
 	<meta name="author" content="Andrej Cibík">
 	<meta charset="UTF-8">
+	<link rel="alternate" hreflang="sk" href="http://www.andrejcibik.sk/">
 	<meta name="description" content="23 year old designer and front-end developer based in Púchov, Slovakia. Let's create something awesome.">
 	<meta name="keywords" content="andrej cibik, cibik andrej, designer, front-end developer, developer, javascript developer, graphic designer" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
@@ -22,13 +23,13 @@
 	<!-- FavIcon -->
 	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico?v=1" />
 	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png?v=9" />
-	<link rel="apple-touch-icon" href="assets/images/favicon.png?v=1"/>
+	<link rel="apple-touch-icon" href="assets/images/favicon-touch.png?v=2"/>
 
 
 	<link defer href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700&amp;subset=latin-ext" rel="stylesheet">
 
 	<link defer rel="stylesheet" type="text/css" href="assets/font/icon-font.css?v=2" />
-  <link defer rel="stylesheet" type="text/css" href="assets/css/main.css?v=22" />
+  <link defer rel="stylesheet" type="text/css" href="assets/css/main.css?v=23" />
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>

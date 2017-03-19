@@ -61,6 +61,20 @@
 		<div class="work-preview">
 			<div class="work-preview-image">
 				<div class="image-crop">
+					<a href="bazos" class="preview-image">
+						<img src="data/previews/bazos.jpg" alt="Bazos redesign" class="image desktop-view" />
+						<img src="data/previews/bazos-mobile.jpg" alt="Bazos redesign mobile" class="image mobile-view" />
+					</a>
+				</div>
+			</div>
+			<a href="bazos" class="ajaxLink button button-preview rippleHover">View project</a>
+		</div>
+	</div>
+
+	<div class="section boxed centered">
+		<div class="work-preview">
+			<div class="work-preview-image">
+				<div class="image-crop">
 					<a href="lacnevozenie" class="preview-image">
 						<img src="data/previews/lacnevozenie.jpg" alt="Lacne Vozenie website" class="image desktop-view" />
 						<img src="data/previews/lacnevozenie-mobile.jpg" alt="Lacne Vozenie website mobile" class="image mobile-view" />
@@ -99,6 +113,7 @@
 		</div>
 	</div>
 
+	<?php /*
 	<div class="section boxed centered">
 		<div class="work-preview">
 			<div class="work-preview-image">
@@ -112,6 +127,7 @@
 			<a href="personal-branding" class="ajaxLink button button-preview rippleHover">View project</a>
 		</div>
 	</div>
+	*/ ?>
 
 </div>
 
