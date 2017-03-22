@@ -38,7 +38,7 @@
 	<p class="about-text">
 		Hey, Thanks for stopping by. My name’s Andrej Cibík and I’m a designer and front-end developer at <a href="http://www.lemonlion.sk/" class="subtle-link" target="_blank">LemonLion</a> - a digital agency from Púchov, Slovakia.
 		I’m at war against default grey and I love clean, striking design.
-		My goal is to be as good designer as I can, while not neglecting my front-end skills. 
+		My goal is to be as good designer as I can, while not neglecting my front-end skills.
 		Do you have a killer project which needs a kick-start?
 	</p>
 </div>
@@ -80,7 +80,23 @@
 	</div>
 </div>
 
+<div class="separator"></div>
+<div class="separator"></div>
+
+<h2 class="centered">What am I bad at.</h2>
+
 <div class="separator small"></div>
+
+<div class="boxed">
+	<p class="about-text">
+		I'm really messy. Do you see how clean this website is? Well. My room is the exact opposite.
+		Dealing with aggressive people isn't really my strong side. I'm not very good at creating nor defusing social conflicts.
+		I like to tell offensive jokes, but I don't always care about the consequences.
+		Is the sarcasm a bad thing? If so, that's my vice.
+	</p>
+</div>
+
+<div class="separator"></div>
 <div class="separator"></div>
 
 <h2 class="h1 centered">Contact

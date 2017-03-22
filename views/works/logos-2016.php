@@ -130,7 +130,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		5/10
-		<strong>Autoklinka Bosch Car Service</strong> - Car service
+		<strong>Autoklinika Bosch Car Service</strong> - Car service
 		<br><br><br>
 	</div>
 </div>
