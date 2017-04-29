@@ -18,6 +18,13 @@ $(function(){
 	// RESPONSIVE -
 
 
+	// LAYER UP +
+		$(window).load(function(){
+			$('.load-cont .layer').addClass('layerUp');
+		});
+	// LAYER UP -
+
+
 	// global scroll var +
 		var wScroll = $(this).scrollTop();
 
@@ -573,6 +580,24 @@ $(document).ready(function() {
 		});
 
 	// SCROLL DOWN ARROW -
+
+
+	// SCROLL UP +
+		var linkUpCont = $('.link-up-cont');
+
+		$(document).scroll(function(){
+			if (wScroll >= $(window).height() ) {
+				linkUpCont.addClass('show');
+			} else {
+				linkUpCont.removeClass('show');
+			}
+		});
+
+		linkUpCont.click(function(){
+			$("html, body").animate({ scrollTop: 0 }, 800);
+		});
+
+	// SCROLL UP-
 
 
 });

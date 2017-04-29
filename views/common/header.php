@@ -10,8 +10,14 @@
 		<img src="assets/images/logo.svg" alt="Andrej Cibík, Designer & Developer">
 	</a>
 
-	<div class="link-back-cont hidden">
+	<div class="arrow-link link-back-cont hidden">
 		<a href="works" class="link-back rippleHover">
+			<span class="arrow"></span>
+		</a>
+	</div>
+
+	<div class="arrow-link link-up-cont showing">
+		<a class="link-up rippleHover">
 			<span class="arrow"></span>
 		</a>
 	</div>
@@ -38,3 +44,7 @@
 	</div>
 
 </nav> <!-- NAVIGATION END -->
+
+<div class="mayOneReboot centered">
+	<h2><a href="https://twitter.com/AndrejCibik" target="_blank" title="My Twitter">#May1Reboot</a></h2>
+</div>

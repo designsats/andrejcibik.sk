@@ -89,10 +89,9 @@
 
 <div class="boxed">
 	<p class="about-text">
-		I'm really messy. Do you see how clean this website is? Well. My room is the exact opposite.
-		Dealing with aggressive people isn't really my strong side. I'm not very good at creating nor defusing social conflicts.
-		I like to tell offensive jokes, but I don't always care about the consequences.
-		Is the sarcasm a bad thing? If so, that's my vice.
+		In the future, I would like to improve my vector illustration and flat animation skills. Branding and logo design are fields I want to improve.
+		I would like to make some more complex logo designs. I don't know pretty much anything about photography or filmography.
+		Oh, and I suck at copywriting, both Slovak and English, but I'm already working on it.
 	</p>
 </div>
 

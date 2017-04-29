@@ -39,16 +39,16 @@
 		animation-fill-mode: forwards
 		box-shadow: 0 3px 40px rgba(0, 0, 0, .1)
 
+		&.layerUp
+			animation: layerUp 1.5s .6s
+			animation-fill-mode: forwards
+
 @keyframes layerUp
 	0%
 		transform: translate3d(0,0%,0)
 
 	100%
 		transform: translate3d(0,-100%,0)
-
-.width-lt-980
-	.load-cont
-		//display: none
 
 
 /* PAGE TRANSITION END */
@@ -100,7 +100,7 @@
 /* LINK BACK START */
 
 .width-gt-980
-	.link-back-cont
+	.arrow-link
 		&.hidden
 			pointer-events: none
 			animation: linkBackHidden .5s
@@ -129,10 +129,10 @@
 		opacity: 1
 
 .width-lt-980
-	.link-back-cont
+	.arrow-link
 		display: none
 
-.link-back-cont
+.arrow-link
 	position: fixed
 	top: 0
 	left: 0
@@ -151,7 +151,7 @@
 	width: 100px
 	height: 1px
 	pointer-events: none
-	background: rgba(0, 0, 0, .2)
+	background: rgba(0, 0, 0, .3)
 	transition: all .4s
 
 	&:before,&:after
@@ -182,3 +182,64 @@
 				background: rgba(0, 0, 0, .5)
 
 /* LINK BACK END */
+
+/* LINK UP START */
+
+.link-up-cont
+	position: fixed
+	top: auto
+	left: auto
+	bottom: -200px
+	right: 0px
+	width: 100px
+	min-width: 100px
+	height: 200px
+	transition: all .5s
+
+	&.show
+		bottom: 0
+
+	.arrow
+		transform: rotate(90deg)
+
+.link-up
+	position: relative
+	display: block
+	padding: 100%
+	cursor: pointer
+
+	.arrow
+		left: 0
+
+	&:hover
+		.arrow
+			background: rgba(0, 0, 0, .5)
+
+			&:before,&:after
+				background: rgba(0, 0, 0, .5)
+
+/* LINK UP END */
+
+/* MAY 1 REBOOT START */
+
+body
+	overflow: hidden
+
+.mayOneReboot
+	display: block
+	position: fixed
+	top: 0
+	bottom: 0
+	left: 0
+	right: 0
+	text-align: center
+	background: white
+	padding: 40vh 0
+	z-index: 99
+	transition: all 1s
+
+	&.hide
+		pointer-events: none
+		opacity: 0
+
+/* MAY 1 REBOOT END */

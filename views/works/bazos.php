@@ -172,7 +172,7 @@
 	<div class="small-6 medium-3 large-1 large-offset-2">
 		<span class="h4">Behance views</span>
 		<br><br>
-		<span class="h2">2.8k</span>
+		<span class="h2">3.3k</span>
 		<br><br><br><br>
 	</div>
 	<div class="small-6 medium-3 large-1">
@@ -184,7 +184,7 @@
 	<div class="small-6 medium-3 large-1">
 		<span class="h4">Job offers</span>
 		<br><br>
-		<span class="h2">3</span>
+		<span class="h2">4</span>
 		<br><br>
 	</div>
 </div>
