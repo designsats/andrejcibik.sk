@@ -165,7 +165,7 @@ $(document).ready(function() {
 
 			var $window = $(window);
 
-			var scrollTime = .5;
+			var scrollTime = .4;
 			var scrollDistance = 300;
 
 			$(window).on("mousewheel DOMMouseScroll touchstart", function(event){
@@ -599,5 +599,30 @@ $(document).ready(function() {
 
 	// SCROLL UP-
 
+	// DRIBBBLE +
 
+		$.jribbble.setToken('ddd8428533389ad55d4cce459953682a4d79fc228cd5b2668ca6e41dd77b612e');
+
+		$.jribbble.users('andrejcibik').shots({
+			'per_page': 12,
+		}).then(function(res) {
+			var html = [];
+
+			res.forEach(function(shot) {
+				
+				html.push('<li class="shots--shot ">');
+
+				html.push('<div class="overlay">');
+				html.push('<span class="title">' + shot.title + '</span>');
+				html.push('</div>');
+
+				html.push('<a href="' + shot.html_url + '" target="_blank">');
+				html.push('<img src="' + shot.images.normal + '">');
+				html.push('</a></li>');
+			});
+
+			$('.shots').html(html.join(''));
+		});
+
+	// DRIBBBLE -
 });

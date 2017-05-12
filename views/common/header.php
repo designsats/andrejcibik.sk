@@ -46,5 +46,10 @@
 </nav> <!-- NAVIGATION END -->
 
 <div class="mayOneReboot centered">
-	<h2><a href="https://twitter.com/AndrejCibik" target="_blank" title="My Twitter">#May1Reboot</a></h2>
+	<h2>
+		<a href="https://twitter.com/AndrejCibik" target="_blank" title="My Twitter">
+		Ready to re-launch
+		<br>
+		#May1Reboot</a>
+	</h2>
 </div>

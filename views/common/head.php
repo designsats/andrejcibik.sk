@@ -27,8 +27,8 @@
 
 	<link defer href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700&amp;subset=latin-ext" rel="stylesheet">
 
-	<link defer rel="stylesheet" type="text/css" href="assets/font/icon-font.css?v=2" />
-  <link defer rel="stylesheet" type="text/css" href="assets/css/main.css?v=25" />
+	<link defer rel="stylesheet" type="text/css" href="assets/font/icon-font.css?v=3" />
+  <link defer rel="stylesheet" type="text/css" href="assets/css/main.css?v=29" />
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>

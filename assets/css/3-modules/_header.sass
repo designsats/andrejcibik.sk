@@ -223,23 +223,34 @@
 /* MAY 1 REBOOT START */
 
 body
-	overflow: hidden
+	//overflow: hidden
 
 .mayOneReboot
-	display: block
+	display: none
 	position: fixed
 	top: 0
 	bottom: 0
 	left: 0
 	right: 0
 	text-align: center
-	background: white
+	background: white url('../images/launch.gif') center center no-repeat
+	background-size: cover
 	padding: 40vh 0
 	z-index: 99
 	transition: all 1s
 
-	&.hide
-		pointer-events: none
-		opacity: 0
+	&:after
+		content: ''
+		background: rgba(255, 255, 255, .7)
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 0
+		right: 0
+		z-index: 1
+
+	h2
+		position: relative
+		z-index: 2
 
 /* MAY 1 REBOOT END */

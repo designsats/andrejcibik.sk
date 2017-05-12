@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'icon-font';
   src:
-    url('icon-font.ttf?s0su5o') format('truetype'),
-    url('icon-font.woff?s0su5o') format('woff'),
-    url('icon-font.svg?s0su5o#icon-font') format('svg');
+    url('icon-font.ttf?5m3ixg') format('truetype'),
+    url('icon-font.woff?5m3ixg') format('woff'),
+    url('icon-font.svg?5m3ixg#icon-font') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,15 +23,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-angle-double-up:before {
-  content: "\f102";
-}
-.icon-angle-double-down:before {
-  content: "\f103";
-}
-.icon-codepen:before {
-  content: "\f1cb";
-}
 .icon-search:before {
   content: "\f002";
 }
@@ -91,4 +82,43 @@
 }
 .icon-skype:before {
   content: "\eac5";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-dropbox:before {
+  content: "\eaae";
+}
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-android:before {
+  content: "\eac0";
+}
+.icon-pinterest:before {
+  content: "\ead1";
+}
+.icon-codepen2:before {
+  content: "\eae8";
+}
+.icon-angle-double-up:before {
+  content: "\f102";
+}
+.icon-angle-double-down:before {
+  content: "\f103";
+}
+.icon-codepen:before {
+  content: "\f1cb";
 }

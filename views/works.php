@@ -35,7 +35,7 @@
 		<div class="small-6 medium-5 large-5 large-offset-1">
 			<h1><span class="first-word">Designer</span> <br> Front-end developer</h1>
 
-			<p>Hi, I'm Andrej Cibík. 23 year old designer and front-end developer based in Púchov, Slovakia.</p>
+			<p>Hi, I'm Andrej Cibík. 23 year old designer and front-end developer based in <a href="https://goo.gl/jt2J3i" target="_blank" title="My current location.">Púchov, Slovakia</a>.</p>
 
 			<div class="separator small"></div>
 
@@ -128,6 +128,27 @@
 		</div>
 	</div>
 	*/ ?>
+
+	<div class="separator"></div>
+	<div class="separator small"></div>
+
+	<div class="dribbble-shots">
+
+		<h2 class="h1 centered">Dribbble
+			<span class="ghost-title">latest shots</span>
+		</h2>
+
+		<div class="separator small"></div>
+
+		<ul class="shots"></ul>
+
+		<div class="separator small"></div>
+
+		<p class="centered"><a href="https://dribbble.com/AndrejCibik" class="button rippleHover" target="_blank" title="My Dribbble profile">Follow me</a></p>
+
+		<div class="separator small"></div>
+
+	</div>
 
 </div>
 

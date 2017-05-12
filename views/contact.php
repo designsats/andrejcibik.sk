@@ -36,7 +36,7 @@
 
 <div class="boxed">
 	<p class="about-text">
-		Hey, Thanks for stopping by. My name’s Andrej Cibík and I’m a designer and front-end developer at <a href="http://www.lemonlion.sk/" class="subtle-link" target="_blank">LemonLion</a> - a digital agency from Púchov, Slovakia.
+		Hey, Thanks for stopping by. My name’s Andrej Cibík and I’m a designer and front-end developer at <a href="http://www.lemonlion.sk/" class="subtle-link" target="_blank">LemonLion</a> - a digital agency from <a href="https://goo.gl/jt2J3i" target="_blank" title="My current location.">Púchov, Slovakia</a>.
 		I’m at war against default grey and I love clean, striking design.
 		My goal is to be as good designer as I can, while not neglecting my front-end skills.
 		Do you have a killer project which needs a kick-start?
@@ -105,12 +105,12 @@
 <div class="separator small"></div>
 
 <div class="centered social-links-contact">
-	<a href="https://www.facebook.com/AndrejCibikDesign/" class="button rippleHover icon-facebook" title="FB page"></a>
 	<a href="https://www.behance.net/AndrejCibik" class="button rippleHover icon-behance" title="Behnace" target="_blank"></a>
-	<a href="https://www.youtube.com/channel/UCwVEiFeuccoAzgwpAsSl7Tw" class="button rippleHover icon-youtube" title="Youtube" target="_blank"></a>
 	<a href="https://dribbble.com/AndrejCibik" class="button rippleHover icon-dribbble" title="Dribbble" target="_blank"></a>
+	<a href="https://www.facebook.com/AndrejCibikDesign/" class="button rippleHover icon-facebook" title="FB page"></a>
 	<a href="mailto:hello@andrejcibik.sk" class="button rippleHover icon-mail" title="Email" ></a>
-	<a href="https://www.linkedin.com/in/andrejcibik" class="button rippleHover icon-linkedin" title="LinkedIn" target="_blank"></a>
+	<a href="https://www.youtube.com/channel/UCwVEiFeuccoAzgwpAsSl7Tw" class="button rippleHover icon-youtube" title="Youtube" target="_blank"></a>
+	<a href="https://twitter.com/AndrejCibik" class="button rippleHover icon-twitter" title="Twitter" target="_blank"></a>
 
 </div>
 
