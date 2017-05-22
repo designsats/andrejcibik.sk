@@ -108,9 +108,9 @@
 	<a href="https://www.behance.net/AndrejCibik" class="button rippleHover icon-behance" title="Behnace" target="_blank"></a>
 	<a href="https://dribbble.com/AndrejCibik" class="button rippleHover icon-dribbble" title="Dribbble" target="_blank"></a>
 	<a href="https://www.facebook.com/AndrejCibikDesign/" class="button rippleHover icon-facebook" title="FB page"></a>
-	<a href="mailto:hello@andrejcibik.sk" class="button rippleHover icon-mail" title="Email" ></a>
+	<a href="https://www.instagram.com/andrejcibik/" class="button rippleHover icon-instagram" title="Instagram" target="_blank"></a>
 	<a href="https://www.youtube.com/channel/UCwVEiFeuccoAzgwpAsSl7Tw" class="button rippleHover icon-youtube" title="Youtube" target="_blank"></a>
-	<a href="https://twitter.com/AndrejCibik" class="button rippleHover icon-twitter" title="Twitter" target="_blank"></a>
+	<a href="mailto:hello@andrejcibik.sk" class="button rippleHover icon-mail" title="Email" ></a>
 
 </div>
 
