@@ -56,6 +56,22 @@
 </h2>
 
 <div class="works-cont">
+	
+	<?php /*
+	<div class="section boxed centered">
+		<div class="work-preview">
+			<div class="work-preview-image">
+				<div class="image-crop">
+					<a href="dailyui" class="preview-image">
+						<img src="data/previews/dailyui.jpg" alt="" class="image desktop-view" />
+						<img src="data/previews/dailyui-mobile.jpg" alt="" class="image mobile-view" />
+					</a>
+				</div>
+			</div>
+			<a href="dailyui" class="ajaxLink button button-preview rippleHover">View project</a>
+		</div>
+	</div>
+	*/ ?>
 
 	<div class="section boxed centered">
 		<div class="work-preview">
