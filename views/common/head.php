@@ -28,7 +28,7 @@
 	<link defer href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700&amp;subset=latin-ext" rel="stylesheet">
 
 	<link defer rel="stylesheet" type="text/css" href="assets/font/icon-font.css?v=3" />
-  <link defer rel="stylesheet" type="text/css" href="assets/css/main.css?v=32" />
+  <link defer rel="stylesheet" type="text/css" href="assets/css/main.css?v=33" />
 
 	<link type="text/css" media="screen" rel="stylesheet" href="assets/css/awwwards.css" />
 

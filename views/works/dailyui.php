@@ -43,7 +43,7 @@
 <div class="separator small"></div>
 
 <p class="project-pitch subtitle boxed">
-	20 days of design excercises. Just for fun and experiance.
+	20 days of design excercises. Just for fun and training.
 </p>
 
 <div class="separator small"></div>
@@ -155,7 +155,7 @@ Creating an app icon was actually pretty easy, since I alredy had an well design
 	<br>
 
 	<div class="centered ease-item ease-bottom">
-		<img src="data/projects/dailyui/08.jpg" alt="DailyUI #008 - 404">
+		<img src="data/projects/dailyui/08.gif" alt="DailyUI #008 - 404">
 	</div>
 
 	<div class="row ease-item ease-left">
@@ -196,7 +196,7 @@ A wild Travolta appeared on my website.
 	<br>
 
 	<div class="centered ease-item ease-bottom">
-		<img src="data/projects/dailyui/11.jpg" alt="DailyUI #011 - Flash message.">
+		<img src="data/projects/dailyui/11.gif" alt="DailyUI #011 - Flash message.">
 	</div>
 
 	<div class="row ease-item ease-left">
@@ -249,7 +249,7 @@ Death clock. The most important countdown of your life.
 	<br>
 
 	<div class="centered ease-item ease-bottom">
-		<img src="data/projects/dailyui/15.jpg" alt="DailyUI #015 - On/Off switch">
+		<img src="data/projects/dailyui/15.gif" alt="DailyUI #015 - On/Off switch">
 	</div>
 
 	<div class="row ease-item ease-left">
@@ -335,23 +335,15 @@ Design of the web application for tracking the location of lost or stolen phone.
 
 
 
-
-
-
-
-
 <div class="separator"></div>
 
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Results</h2>
-		<strong>Total time spend:</strong>
-		<br>
-		12 hours 46 minutes + sketching, thinking and video editing.
 	</div>
 </div>
 
-<div class="separator"></div>
+<div class="separator small"></div>
 
 <div class="row ease-item ease-left row-results">
 	<div class="small-6 medium-3 large-1 large-offset-2">
@@ -367,9 +359,9 @@ Design of the web application for tracking the location of lost or stolen phone.
 		<br><br><br><br>
 	</div>
 	<div class="small-6 medium-3 large-1">
-		<span class="h4">Fun</span>
+		<span class="h4">Time spend</span>
 		<br><br>
-		<span class="h2">a lot</span>
+		<span class="h2">13h</span>
 		<br><br>
 	</div>
 </div>

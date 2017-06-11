@@ -191,7 +191,8 @@
 
 <div class="separator small"></div>
 
-<div class="boxed ease-item ease-bottom next-project-cont">
+<div class="boxed ease-item ease-bottom next-project-cont multiple">
+	<a href="dailyui" class="button rippleHover prevProject"><span class="arrow"></span> Prev project</a>
 	<a href="lacnevozenie" class="button rippleHover nextProject">Next project <span class="arrow"></span></a>
 </div>
 
