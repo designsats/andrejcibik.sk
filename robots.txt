@@ -2,4 +2,6 @@
 User-Agent: *
 Allow: /
 
+Disallow: /addresses.php
+
 Sitemap: /sitemap.xml

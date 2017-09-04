@@ -609,7 +609,7 @@ $(document).ready(function() {
 			var html = [];
 
 			res.forEach(function(shot) {
-				
+
 				html.push('<li class="shots--shot ">');
 
 				html.push('<div class="overlay">');
@@ -625,4 +625,20 @@ $(document).ready(function() {
 		});
 
 	// DRIBBBLE -
+
+	// COPY +
+		$('.copy').click(function(){
+
+			var text = $(this).attr('data');
+			console.log(text);
+
+			var $temp = $("<input>");
+			$("body").append($temp);
+			$temp.val(text).select();
+			document.execCommand("copy");
+			$temp.remove();
+
+			$(this).html('Copied!');
+		});
+	// COPY -
 });
