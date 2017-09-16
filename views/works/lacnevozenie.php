@@ -217,7 +217,7 @@
 
 <div class="boxed ease-item ease-bottom next-project-cont multiple">
 	<a href="bazos" class="button rippleHover prevProject"><span class="arrow"></span> Prev project</a>
-	<a href="cnma" class="button rippleHover nextProject">Next project <span class="arrow"></span></a>
+	<a href="logos-2016" class="button rippleHover nextProject">Next project <span class="arrow"></span></a>
 </div>
 
 <div class="separator"></div>

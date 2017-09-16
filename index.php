@@ -29,6 +29,7 @@
 		'logos-2016' => '/works/logos-2016.php',
 		'bazos' => '/works/bazos.php',
 		'dailyui' => '/works/dailyui.php',
+		'pillar-wallet' => '/works/pillar-wallet.php',
 		'addresses' => '/addresses.php',
 	);
 

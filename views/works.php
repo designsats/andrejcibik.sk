@@ -103,20 +103,6 @@
 		<div class="work-preview">
 			<div class="work-preview-image">
 				<div class="image-crop">
-					<a href="cnma" class="preview-image">
-						<img src="data/previews/cnma.jpg" alt="CNMA website" class="image desktop-view" />
-						<img src="data/previews/cnma-mobile.jpg" alt="CNMA website mobile" class="image mobile-view" />
-					</a>
-				</div>
-			</div>
-			<a href="cnma" class="ajaxLink button button-preview rippleHover">View project</a>
-		</div>
-	</div>
-
-	<div class="section boxed centered">
-		<div class="work-preview">
-			<div class="work-preview-image">
-				<div class="image-crop">
 					<a href="logos-2016" class="preview-image">
 						<img src="data/previews/logos-2016.jpg" alt="" class="image desktop-view" />
 						<img src="data/previews/logos-2016-mobile.jpg" alt="" class="image mobile-view" />
@@ -128,6 +114,35 @@
 	</div>
 
 	<?php /*
+
+	<div class="section boxed centered">
+		<div class="work-preview">
+			<div class="work-preview-image">
+				<div class="image-crop">
+					<a href="pillar-wallet" class="preview-image">
+						<img src="data/previews/pillar.jpg" alt="" class="image desktop-view" />
+						<img src="data/previews/pillar-mobile.jpg" alt="" class="image mobile-view" />
+					</a>
+				</div>
+			</div>
+			<a href="pillar-wallet" class="ajaxLink button button-preview rippleHover">View project</a>
+		</div>
+	</div>
+
+	<div class="section boxed centered">
+		<div class="work-preview">
+			<div class="work-preview-image">
+				<div class="image-crop">
+					<a href="cnma" class="preview-image">
+						<img src="data/previews/cnma.jpg" alt="CNMA website" class="image desktop-view" />
+						<img src="data/previews/cnma-mobile.jpg" alt="CNMA website mobile" class="image mobile-view" />
+					</a>
+				</div>
+			</div>
+			<a href="cnma" class="ajaxLink button button-preview rippleHover">View project</a>
+		</div>
+	</div>
+
 	<div class="section boxed centered">
 		<div class="work-preview">
 			<div class="work-preview-image">
