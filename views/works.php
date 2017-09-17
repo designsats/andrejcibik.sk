@@ -61,6 +61,20 @@
 		<div class="work-preview">
 			<div class="work-preview-image">
 				<div class="image-crop">
+					<a href="pillar-wallet" class="preview-image">
+						<img src="data/previews/pillar.jpg" alt="" class="image desktop-view" />
+						<img src="data/previews/pillar-mobile.jpg" alt="" class="image mobile-view" />
+					</a>
+				</div>
+			</div>
+			<a href="pillar-wallet" class="ajaxLink button button-preview rippleHover">View project</a>
+		</div>
+	</div>
+
+	<div class="section boxed centered">
+		<div class="work-preview">
+			<div class="work-preview-image">
+				<div class="image-crop">
 					<a href="dailyui" class="preview-image">
 						<img src="data/previews/dailyui.jpg" alt="" class="image desktop-view" />
 						<img src="data/previews/dailyui-mobile.jpg" alt="" class="image mobile-view" />
@@ -114,20 +128,6 @@
 	</div>
 
 	<?php /*
-
-	<div class="section boxed centered">
-		<div class="work-preview">
-			<div class="work-preview-image">
-				<div class="image-crop">
-					<a href="pillar-wallet" class="preview-image">
-						<img src="data/previews/pillar.jpg" alt="" class="image desktop-view" />
-						<img src="data/previews/pillar-mobile.jpg" alt="" class="image mobile-view" />
-					</a>
-				</div>
-			</div>
-			<a href="pillar-wallet" class="ajaxLink button button-preview rippleHover">View project</a>
-		</div>
-	</div>
 
 	<div class="section boxed centered">
 		<div class="work-preview">

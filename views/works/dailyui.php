@@ -368,7 +368,8 @@ Design of the web application for tracking the location of lost or stolen phone.
 
 <div class="separator small"></div>
 
-<div class="boxed ease-item ease-bottom next-project-cont">
+<div class="boxed ease-item ease-bottom next-project-cont multiple">
+	<a href="pillar-wallet" class="button rippleHover prevProject"><span class="arrow"></span> Prev project</a>
 	<a href="bazos" class="button rippleHover nextProject">Next project <span class="arrow"></span></a>
 </div>
 

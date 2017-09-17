@@ -49,7 +49,7 @@
 <div class="separator small"></div>
 
 <p class="centered">
-	<a href="https://www.behance.net/AndrejCibik" class="button rippleHover" target="_blank">PDF presentation</a>
+	<a href="data/projects/pillar/Andrej Cibík - Pillar wallet design presentation.pdf" class="button rippleHover" target="_blank">PDF presentation</a>
 </p>
 
 <div class="separator"></div>
@@ -66,7 +66,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Introduction</h2>
-		PS: Excuse my terrible english and appearance in the video. I had sleeping deprivation and slight coffein overdose :)
+		My main goal with the Pillar wallet design was to ensure maximal possible security for the users, without unnecessary limitations. Furthermore, I have focused on the reduction of redundant steps, legibility and last but not least, ergonomy of control with one hand.
 	</div>
 </div>
 
@@ -78,7 +78,15 @@
 	</div>
 </div>
 
+<div class="row ease-item ease-left">
+	<div class="small-6 medium-4 large-3 large-offset-1">
+		<br><br>
+		Excuse my terrible english and appearance in the video. I had sleeping deprivation and slight coffein overdose :)
+	</div>
+</div>
+
 <div class="separator"></div>
+<div class="separator small"></div>
 
 <div class="boxed centered ease-item ease-bottom is-visible">
 	<h3>Typography and colors</h3>
@@ -118,8 +126,8 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h3>Home screen</h3>
-		I have focused on these 3 things while designing the home screen: perfect legibility of my current balance, ergonomic and intuitive placement of the buttons and room large enough for transaction history.
-		The graph under the balance info can be implemented in later versions. It can be the entry point to personal analytics section.
+		I have focused on these 3 things while designing the home screen: perfect legibility, ergonomic and intuitive placement of the buttons and enough room for the transaction history.
+		The graph under the balance can be implemented in later versions. It can be the entry point to personal analytics section.
 	</div>
 </div>
 
@@ -134,8 +142,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h3>Receive and send funds</h3>
-		I think giving the users options to change their fees should be implemented together with an estimation of confirmation time. Exodus requires users to use high fees to get fastest possible transactions.
-		Some people like, but some hate it. The speed is not always the priority for everyone.
+		I think giving the users an option to change their fees should be implemented together with an estimation of confirmation time. The speed is not always the priority for everyone. Sometimes you want the lowest possible fees.
 	</div>
 </div>
 
@@ -152,7 +159,7 @@
 		<h2>Pretotype</h2>
 		Do you want to know how the navigation works? Feel free to explore this simple pretotype. The design consists of 40 different screens you can browse just like the user.
 		<br><br>
-		For better understanding and feel for the design, send link to yourself and test in on your phone - <a href="https://marvelapp.com/ja31cbg" target="_blank">https://marvelapp.com/ja31cbg</a>
+		For better understanding and feel for the design, send link to yourself and test it on your phone - <a href="https://marvelapp.com/ja31cbg" target="_blank">https://marvelapp.com/ja31cbg</a>
 
 	</div>
 </div>
@@ -177,11 +184,11 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Dark theme</h2>
-		I propose a minimum of 2 themes people should be able to choose from. Ideally, Pillar can have more contests for designers to create many interesting styles and themes.
+		I propose a minimum of 2 themes for people to choose from. Ideally, Pillar should have more contests for designers to create many interesting styles and themes.
 		<br><br>
-		People on Twitter seemed to like the dark theme more. Many expressed their desire to have customizable themes.
+		People on Twitter seemed to like the dark theme more. Many expressed their desire to be able to switch themes.
 		<br><br><br>
-		<img src="data/projects/pillar/05.PNG" alt="">
+		<img src="data/projects/pillar/05.png" alt="">
 	</div>
 </div>
 
@@ -195,8 +202,8 @@
 
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
-		<h2>Extras and future</h2>
-		I did not stop at 0.1 version of the wallet. I have explored more possibilities for future wallet functionality.
+		<h2>Extras and the future</h2>
+		I did not stop at 0.1 version. I have explored more possibilities for future wallet functionality.
 	</div>
 </div>
 
@@ -205,7 +212,7 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h3>Onboarding</h3>
-		Guides and educates new user on core features and principles of crypto wallet.
+		Guides and educates new user on core features and principles of crypto wallet. This part will need much more attention once we focus on broader audience.
 	</div>
 </div>
 <br>
@@ -219,8 +226,8 @@
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h3>Multicurrency home screen</h3>
-		Survey shows, having many different coins / tokens, is something users desire. I was exploring how to show as many different currencies as possible, while maintaining simple layout.
-		Users should have an ability to customize their UI and dragging their most used coins to the top. They can be sorted by the fiat amounts stored in each of currency by default.
+		Survey showed, having many different coins / tokens, is something users desire. I was exploring the ways, how to show as many different currencies as possible, while maintaining a simple layout.
+		Users should have the ability to customize their UI and dragging their most used coins to the top. By default, coins can be sorted by their fiat value.
 	</div>
 </div>
 <br>
@@ -247,8 +254,19 @@
 
 <div class="separator"></div>
 
+<div class="row ease-item ease-left">
+	<div class="small-6 medium-4 large-3 large-offset-1">
+		<h2>Conclusion</h2>
+		I'm not sure if this is what you imagined for 0.1 version, but with your feedback and guidance, I'm sure we can get there. Take this work as a proof of my abilities, not as a final design.
+		<br>
+		I believe Pillar project has a decent chance to attack mobile wallet space head on!
+	</div>
+</div>
+
+<div class="separator"></div>
+
 <p class="centered">
-	<a href="https://www.behance.net/AndrejCibik" class="button rippleHover" target="_blank">Case study</a>
+	<a href="data/projects/pillar/Andrej Cibík - Pillar wallet design presentation.pdf" class="button rippleHover" target="_blank">PDF presentation</a>
 </p>
 
 <div class="separator"></div>

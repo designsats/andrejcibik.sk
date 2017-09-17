@@ -244,7 +244,7 @@
 
 <div class="boxed ease-item ease-bottom next-project-cont multiple">
 	<a href="lacnevozenie" class="button rippleHover prevProject"><span class="arrow"></span> Prev project</a>
-	<a href="dailyui" class="button rippleHover nextProject">Next project <span class="arrow"></span></a>
+	<a href="pillar-wallet" class="button rippleHover nextProject">Next project <span class="arrow"></span></a>
 </div>
 
 <div class="separator"></div>
