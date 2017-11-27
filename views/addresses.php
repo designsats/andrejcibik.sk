@@ -37,11 +37,11 @@
 
 		<div class="small-6 medium-6 large-3">
 			<h3>Bitcoin</h3>
-			<img src="data/btc.PNG" alt="BTC">
+			<img src="data/btc01.png" alt="BTC">
 			<br><br>
-			1KCmWmXsPAjqv72JkRzHsxURTsCpcPUxkE
+			3C9FHoCLnEov3rCzks13ukQbtYEpVxoh5t
 			<br><br>
-			<span class="button rippleHover copy" data="1KCmWmXsPAjqv72JkRzHsxURTsCpcPUxkE">Copy</span>
+			<span class="button rippleHover copy" data="3C9FHoCLnEov3rCzks13ukQbtYEpVxoh5t">Copy</span>
 
 			<br><br><br><br><br>
 		</div>
@@ -49,11 +49,11 @@
 		<div class="small-6 medium-6 large-3">
 			<h3>Ethereum</h3>
 
-			<img src="data/eth.PNG" alt="ETH">
+			<img src="data/eth01.png" alt="ETH">
 			<br><br>
-			0xF828Ddf7Ab60Bbee5862c22872d28C5e0218Ee89
+			0x270197f373ed282db70b36f70f10b2ef508326f8
 			<br><br>
-			<span class="button rippleHover copy" data="0xF828Ddf7Ab60Bbee5862c22872d28C5e0218Ee89">Copy</span>
+			<span class="button rippleHover copy" data="0x270197f373ed282db70b36f70f10b2ef508326f8">Copy</span>
 
 			<br><br><br><br><br>
 		</div>

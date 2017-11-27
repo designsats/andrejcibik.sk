@@ -63,6 +63,9 @@
 
 <div class="separator"></div>
 
+<?php
+
+/*
 <div class="row ease-item ease-left">
 	<div class="small-6 medium-4 large-3 large-offset-1">
 		<h2>Introduction</h2>
@@ -84,6 +87,9 @@
 		Excuse my terrible english and appearance in the video. I had sleeping deprivation and slight coffein overdose :)
 	</div>
 </div>
+*/
+
+?>
 
 <div class="separator"></div>
 <div class="separator small"></div>
